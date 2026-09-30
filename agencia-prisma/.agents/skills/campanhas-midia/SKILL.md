@@ -11,11 +11,15 @@ Assuma a entrega inteira pedida: diagnóstico, estratégia, configuração, publ
 
 Para estratégia nova, auditoria ou decisão de verba, siga [diagnóstico e decisão de mídia](references/estrategia-e-diagnostico.md). Quando uma análise ou produção usar instrução livre, componha um prompt específico do cliente a partir dos [padrões de prompts estratégicos](references/prompts-estrategicos.md); configuração no portal usa campos e parâmetros reais, não um prompt genérico.
 
+Quando a decisão depender de recurso, política, automação ou comportamento recente da plataforma, aplique o [ciclo de atualização e aprendizado](references/atualizacao-e-aprendizado.md). Verifique a fonte oficial e a disponibilidade na conta; uma novidade anunciada não é função ativada para todos. Reavalie em campanhas novas, auditorias e otimizações relevantes, sem transformar cada ajuste trivial em pesquisa extensa. A skill só faz essa checagem durante uma tarefa ou rotina realmente configurada.
+
 Levante objetivo, oferta, canal e destino. Para plano ou operação de mídia, inclua verba, período e rastreamento disponível. Se dados essenciais ao escopo faltarem, apresente premissas condicionadas, nunca gasto aprovado. Um pedido apenas de criativos não exige definir novo orçamento de mídia.
 
 Organize campanha por hipótese de público e mensagem; conecte cada criativo à página de destino e ao evento de conversão. Proponha distribuição de verba em valores cuja soma confira com o total fornecido.
 
 Para criativos, monte uma ficha por conceito: público/situação, ângulo, promessa, prova, formato, posicionamento, destino e hipótese de resultado. Antes de pedir um lote, selecione uma peça representativa para validar marca, leitura e custo. Ao iterar com dados, diferencie padrão observado de causalidade; preserve os identificadores das peças. Defina evento principal, métricas de diagnóstico, janela de avaliação e critérios de revisão proporcionais ao volume. Não declare vencedor com poucos dados; se não houver base para limiares, explique a incerteza.
+
+Cruze o resultado da plataforma com eventos testados, CRM ou vendas quando existirem; priorize qualidade de lead e lucro viável, não apenas volume ou CPL baixo. Antes de escalar, confira o gasto marginal, a capacidade de atendimento e o teto restante. Cada alteração relevante deve deixar hipótese, evidência, decisão e próxima leitura na ficha do cliente.
 
 Peça formatos realmente adaptados aos posicionamentos, incluindo leitura em celular, abertura do vídeo, áudio e áreas seguras quando pertinentes. Compare anúncio, página e oferta; uma peça bonita com CTA sem destino não está pronta. Verifique políticas e especificações vigentes em fontes oficiais antes de recomendar configurações concretas. Não prometa ROAS ou retorno. Na operação, configure e confira o estado real no portal; planejamento, rascunho, em análise e veiculação são estados distintos.
 

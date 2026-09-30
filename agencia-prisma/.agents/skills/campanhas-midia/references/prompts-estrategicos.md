@@ -25,3 +25,7 @@ São moldes internos de raciocínio, não comandos fixos enviados a toda ferrame
 ## Revisão crítica antes da publicação
 
 > Confronte a configuração preparada de [campanha/IDs] com o pedido e a ficha aprovada: conta, identidade, objetivo, público, exclusões, posicionamentos, anúncio, URL, evento, período, moeda e teto projetado. Classifique cada item como confirmado, pendente ou divergente, com evidência observada no portal. Corrija divergências autorizadas e só descreva como publicado/ativo o estado relido depois da ação.
+
+## Mudança de plataforma ou oportunidade de teste
+
+> Para [cliente, conta e decisão], compare [recurso ou recomendação] com [documentação oficial, data] e com a configuração observada em [portal, data]. Classifique se foi anunciado, se está disponível e se serve ao objetivo. Identifique impacto em marca, criativo, público, mensuração, qualidade e orçamento. Recomende usar, testar, adiar ou ignorar com hipótese, métrica principal, métricas de proteção, limite de gasto autorizado e condição de parar. Separe afirmações da plataforma de evidência do cliente e registre o próximo ponto de leitura.

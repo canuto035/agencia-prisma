@@ -14,6 +14,8 @@ Quando houver dados, calcule o limite com a economia do cliente. Para venda dire
 
 Trate orçamento como restrição: teto autorizado, gasto já realizado no período, saldo, ritmo necessário até o fim e custo de produção separado. Distribuição entre aquisição, remarketing e testes depende do volume disponível e da hipótese; não imponha um funil de três campanhas nem percentuais fixos. Se o orçamento não sustentar aprendizado de muitos conjuntos, simplifique a estrutura.
 
+Antes de ampliar verba, estime o custo e o retorno **marginais** da próxima faixa de gasto, não apenas a média passada. Compare cenário conservador, base e favorável com capacidade comercial, estoque e prazo de retorno; se a qualidade de leads cair ao aumentar volume, volte à etapa que perdeu qualidade. Não trate projeção como receita garantida.
+
 ## 3. Comparar caminhos de aquisição
 
 Formule pelo menos duas alternativas materiais quando a escolha for estratégica: por exemplo, público amplo com criativos distintos versus segmento específico comprovado; site versus formulário nativo; oferta direta versus geração de demanda. Para cada alternativa, explicite mecanismo, dado necessário, custo/complexidade, risco e sinal que a faria preferível. Público semelhante, interesses e expansões automáticas são opções a avaliar na conta atual, não comandos obrigatórios. Conhecimento do público também orienta ganchos, prova, imagens e objeções dos criativos.
@@ -29,6 +31,8 @@ Cada conjunto ou variante deve responder uma pergunta. Defina hipótese, variáv
 Localize primeiro o estágio com perda: **entrega → atenção → clique → página/formulário → lead qualificado → venda → retenção**. Um CPM alto, CTR baixo ou CPA ruim isolado não identifica a causa. Cruze alcance, frequência, distribuição, criativo, carregamento da página, evento, qualidade do lead e capacidade comercial. Liste explicações concorrentes e a evidência que as diferencia. Escolha a menor intervenção capaz de testar a hipótese, dentro do mandato e do teto; registre antes/depois e próxima leitura.
 
 Não declare fadiga apenas por frequência, nem escale só porque o CPA caiu por alguns dias. Compare volume, qualidade, variação, atraso de atribuição e gasto marginal. Quando a plataforma atribuir vendas, confronte com CRM/pedidos sem somar as duas fontes como receita adicional. Para afirmar ganho incremental, prefira desenho de experimento/holdout viável; comparação simples antes/depois é indício.
+
+Se a qualidade do sinal estiver em dúvida, confira evento disparado, deduplicação quando aplicável, UTMs, origem do lead, registro no CRM e venda final com `rastreamento-conversoes`. Separe mudança real no funil de mudança de atribuição ou instrumentação. Uma recomendação de automação ou IA da plataforma entra como hipótese a testar conforme [atualização e aprendizado](atualizacao-e-aprendizado.md), não como correção presumida.
 
 ## Saída operacional
 

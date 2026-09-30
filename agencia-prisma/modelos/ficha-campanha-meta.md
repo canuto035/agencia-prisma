@@ -35,6 +35,13 @@ Fontes de remarketing existentes e consentimento/uso permitido:
 Campanha, conjuntos e anúncios: IDs/links:  
 Prévia visual, link e UTMs conferidos em:  
 Estado após publicação ou edição, observado em:  
+Automações/variações criativas habilitadas e prévias conferidas:
+
+## Atualizações e experimentos
+
+| Data | Mudança ou recurso e fonte oficial | Disponibilidade nesta conta | Decisão e hipótese | Métrica principal e proteção | Condição de parada/revisão | Resultado observado |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
 
 ## Leituras e decisões
 
