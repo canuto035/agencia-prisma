@@ -26,6 +26,8 @@ Quem usa uma cópia local precisa atualizar essa cópia para receber versões no
 
 **30/09/2026 — criação de marca e conteúdo:** revisão de DNA, direção de arte, logos, design, imagens, carrosséis, Stories, prompts e checagem final. A nova referência de criação humana e distintiva orienta o uso de cenas, falas e provas reais do cliente, evita fórmulas intercambiáveis e exige conferir os arquivos finais. Projetos e instalações anteriores precisam receber esta versão para aplicar as mudanças.
 
+**30/09/2026 — referências por tarefa:** a coordenação agora verifica o mapa de apoios em cada pedido e retomada, consulta fontes pertinentes em entregas substantivas e repassa à especialidade a decisão concreta aproveitada. A revisão confere seu efeito no resultado; fontes sem ganho são descartadas. Isso não instala nem executa código dos repositórios consultados.
+
 ## Estrutura
 
 - `agencia-prisma/SKILL.md`: comando único.

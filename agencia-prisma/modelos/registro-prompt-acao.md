@@ -6,6 +6,8 @@ Objetivo, público, canal e resultado esperado:
 Skill produtora e apoiadoras:  
 Ferramenta/modelo/preset realmente usado:  
 Referências e papel de cada uma (identidade, estilo, conteúdo, prova), com arquivo/ID e versão:  
+Referência metodológica externa consultada, revisão/data e princípio aplicado (se houver):
+Mudança concreta esperada na peça e como conferir (se houver):
 Kit de marca deste cliente, quando aplicável:  
 Fatos e textos exatos confirmados:  
 Mudanças permitidas e características a preservar:  
@@ -23,6 +25,7 @@ Cole a instrução final efetivamente enviada à ferramenta, sem senhas, tokens 
 Job/design/arquivo e estado real:  
 Custo observado, se houver:  
 Critério de aceitação e resultado observado:  
+Efeito observado do princípio externo aplicado, ou motivo para descartá-lo:
 Decisão por saída (aceita/rejeitada) e defeito concreto:  
 Problema encontrado e única causa ajustada na próxima tentativa:  
 Versão final ou pendência:  
