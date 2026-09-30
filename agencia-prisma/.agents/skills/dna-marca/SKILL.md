@@ -5,6 +5,8 @@ description: "Crie ou revise posicionamento, promessa, voz, mensagens e direçã
 
 # DNA de marca
 
+Em identidade nova ou revisão de voz e posicionamento, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). O DNA precisa explicar de onde vem a singularidade da marca, não apenas listar atributos desejáveis.
+
 ## Como trabalhar
 
 Leia o briefing, materiais e feedback disponíveis. Extraia tensões do público, situações de compra, alternativas e provas reais antes de propor posicionamento. Se o cliente ainda não tiver evidências, apresente o DNA como hipótese a validar.
@@ -17,6 +19,8 @@ Escreva o posicionamento como: para [público em situação], a marca oferece [b
 
 Mostre três pares de exemplos “a marca diria / evitaria”, com motivo. Traduza a direção visual em cor, tipografia, fotografia, composição e acessibilidade; explique a relação com o posicionamento. Não apresente direção visual como logo ou manual gráfico final.
 
+Inclua linguagem real do público e da equipe quando existir, com origem e contexto, sem fabricar citações. Identifique cenas recorrentes, gestos, objetos, lugares e provas que possam virar repertório visual e editorial. Diferencie uma voz própria de um tom genérico “próximo e humano”: defina o que a marca observa, como explica, quando silencia e quais clichês do setor evita. Preserve regionalidade autêntica sem caricatura.
+
 Finalize com uma ficha de consulta para orientar peças e critérios de consistência. Preserve decisões aprovadas; apresente mudanças estratégicas explicitamente.
 
 ## Critérios específicos
@@ -24,6 +28,8 @@ Finalize com uma ficha de consulta para orientar peças e critérios de consist�
 Diferencie o DNA observado do DNA recomendado. Para cada decisão central, mostre evidência do cliente ou marque hipótese. Não trate a comunicação atual como estratégia aprovada.
 
 Inclua uma matriz curta de mensagens por situação de compra: necessidade, mensagem, prova disponível e ação. Traduza valores em escolhas editoriais e exemplos do nicho; use arquétipos somente se ajudarem a decidir, nunca como diagnóstico obrigatório. Identifique a versão do DNA usada nas peças.
+
+Teste o DNA em uma capa, um Story e uma resposta a dúvida real ou plausível identificada como hipótese. Se a mesma redação e direção servirem a um concorrente com apenas a troca do logo, volte à tensão, prova e comportamento da marca antes de aprovar. Entregue também limites de representação: o que pode ser documentado, o que é simulação e o que não deve ser encenado como fato.
 
 ## Contexto e entrega
 Trabalhe em português brasileiro, salvo pedido diferente. No projeto Agência Prisma, consulte o briefing e o DNA do cliente quando existirem. Não bloqueie tarefas independentes por documentos ausentes: use hipóteses identificadas e pergunte apenas pelo que muda a entrega.

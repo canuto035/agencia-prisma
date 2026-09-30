@@ -5,6 +5,8 @@ description: "Pesquise, gere ou trate imagens de marketing sem descaracterizar p
 
 # Imagens para marketing
 
+Para uma imagem que represente pessoas, operação, bastidor ou produto real do cliente, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Prefira fotografia fornecida ou captação viável quando a autenticidade factual for parte da mensagem; geração não deve se passar por documentação.
+
 ## Entrada e seleção
 
 Ative esta especialidade ao receber pedidos de tratamento, criação ou pesquisa de imagens, ou na produção de artes de carrossel que usem fotos. Consulte a pasta indicada pelo usuário e o DNA disponível. Diferencie cada arquivo como foto a editar, referência de estilo, logotipo ou ativo de composição. Se essa distinção for ambígua e mudar a edição, esclareça-a antes de alterar a foto.
@@ -20,6 +22,8 @@ Quando o Google Drive for a fonte oficial, confirme cliente e pasta em `contexto
 Valorize as cores e a qualidade percebida de cada foto: corrija exposição e balanço de branco, recupere contraste com moderação, fortaleça cores seletivamente, reduza ruído e melhore nitidez quando necessário. Use o estilo das referências e o DNA para orientar a intensidade. Não aplique saturação máxima ou o mesmo ajuste a todas as fotos. Se a foto já estiver adequada, preserve o que funciona.
 
 Mantenha pele natural, textura, identidade, proporções, cor real de produtos, logotipos e textos. Não altere rosto, corpo, embalagem, cenário ou objetos como consequência implícita de “melhorar a qualidade”. Recorte para o formato pedido sem cortar informação essencial. Mudanças criativas de fundo ou composição entram quando solicitadas.
+
+Evite nivelar todas as fotos ao mesmo acabamento impecável. Preserve marcas visuais legítimas do lugar, material e luz quando ajudarem a reconhecer a situação. Não adicione grão, ruído, sombras ou imperfeições para fingir captura analógica. Se uma cena for criada ou composta, registre esse status e não a use como prova de experiência, presença física, cliente atendido ou resultado obtido.
 
 Explique limitações relevantes de origem: ampliar pixels não recupera com certeza detalhes ausentes. Em fotos muito desfocadas ou pequenas, não apresente detalhes reconstruídos por IA como recuperação fiel. Não use tratamento para falsificar evidência de resultado ou antes/depois de um serviço.
 

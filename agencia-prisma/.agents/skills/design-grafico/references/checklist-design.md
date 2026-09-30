@@ -12,6 +12,7 @@ Use somente os itens aplicáveis à entrega.
 - O ativo selecionado tem dimensão suficiente para o recorte previsto, área protegida identificada e licença adequada ao uso.
 - A necessidade de arquivo editável foi registrada.
 - O modo da tarefa foi escolhido: layout novo, adaptação, edição existente, ativo raster ou reconstrução em camadas.
+- Em criação nova, a observação, prova ou cena própria do cliente foi identificada; hipótese e registro factual não foram confundidos.
 - Se houver logo novo ou redesenho, nome, DNA, usos e formatos de mestre foram definidos; para aplicação, foi identificado o arquivo oficial.
 
 ## Composição
@@ -24,6 +25,7 @@ Use somente os itens aplicáveis à entrega.
 - Pessoas e personagens preservam sua identidade original.
 - Logotipo respeita proporção, margem e versão correta.
 - O CTA tem destaque proporcional e aponta para uma ação existente.
+- A composição ajuda a contar a ideia específica; textura, colagem ou assimetria têm função e não apenas simulam espontaneidade.
 - Em logo novo ou redesenho, as versões funcionam pequenas, em uma cor e sobre fundos claros e escuros, conforme o uso pedido.
 
 ## Arquivo final
@@ -36,6 +38,7 @@ Use somente os itens aplicáveis à entrega.
 - Para imagens informativas, o texto alternativo foi preparado quando o canal o aceitar; elementos decorativos não receberam descrição repetitiva.
 - Link ou ID da peça editável, versão e arquivos exportados estão identificados quando a ferramenta os fornecer.
 - Se houver kit de marca aprovado, a peça final foi comparada a cores, fontes, logotipo e usos permitidos; divergências foram corrigidas ou registradas.
+- Em criação nova, a peça foi comparada com o acervo recente da marca e passou no teste de substituição por concorrente, ou a limitação foi registrada para revisão.
 - O formato editável foi realmente gerado quando prometido.
 - Se uma arte achatada virou camadas, texto, logotipo e recortes foram conferidos no design resultante; não foi presumida fidelidade perfeita da conversão.
 - Origens, licenças e atribuições necessárias estão registradas.

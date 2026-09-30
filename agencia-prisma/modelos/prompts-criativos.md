@@ -4,6 +4,8 @@ Estes são **padrões reutilizáveis**, não comandos prontos nem um prompt fixo
 
 Antes de escrever, identifique o modo: **corrigir a foto**, **editar uma parte** ou **criar cena nova**. Aponte o arquivo/ID e a versão de cada entrada e seu papel (alvo, identidade, produto, estilo ou composição). Separe em frases curtas o que deve mudar e o que deve permanecer idêntico; não acrescente detalhes que o briefing não sustenta. Para uso em arte, informe enquadramento, área protegida do sujeito e espaço de texto. O texto final, logotipo e rótulo que exigirem exatidão devem permanecer em camada editável ou no ativo original sempre que possível. Após cada saída, compare com a referência principal e corrija somente o defeito observado.
 
+Em criação nova, acrescente ao prompt somente a matéria-prima comprovada que distingue o cliente: cena, fala autorizada, objeto, hábito ou pergunta real; origem da prova; tensão específica; linguagem que a marca usaria; e o que não pode ser encenado como fato. Se faltar material, marque a hipótese. “Humanizado”, “premium”, “autêntico” ou “fora do comum” sozinhos não especificam uma ação visual. Inclua um critério de rejeição observável: peça intercambiável com concorrente, pessoa/produto descaracterizado, prova inventada, texto genérico ou aparência sintética. Avalie o resultado renderizado, não só o texto do prompt.
+
 ## Tratar uma foto existente
 
 > Edite a foto principal [arquivo]. Corrija apenas [exposição/balanço de branco/contraste/ruído/nitidez] com intensidade [natural/moderada], para [uso e proporção]. Preserve sem mudanças: identidade, rosto, idade aparente, expressão, pose, roupa, acessórios, pele real, fundo, produto, rótulo, logo e texto. Use [arquivo] só como referência de cor/luz, sem copiar seu sujeito. Não adicione objetos. Depois compare com o original na mesma escala.
@@ -61,5 +63,13 @@ Esse texto é um briefing de design, não uma ordem para o gerador de imagens en
 ## Carrossel montado no Canva
 
 > Crie o carrossel [ID] do cliente [nome] no Canva com o kit [ID/nome vinculado a esse cliente], usando [template/design aprovado ou brief de criação]. Destino [canal/formato]. Monte [número] páginas na ordem do mapa aprovado: [slide → função → texto final → ativo → prova]. Preserve exatamente [termos, marca, preço e CTA confirmados]. Use [arquivos] como imagens de conteúdo e [referências] apenas para [estilo permitido]. Mantenha texto editável onde a ferramenta permitir. Antes de concluir, confira no design salvo número e ordem das páginas, acentuação, cortes, legibilidade em celular e identidade da marca; entregue link/ID e somente os arquivos realmente exportados.
+
+Acrescente ao briefing, quando houver: a cena ou pergunta concreta que originou a tese, a gramática visual escolhida para esta sequência, a mudança de ritmo prevista por slide e o ativo ou prova real que torna a peça própria do cliente. Peça à ferramenta composição, não “humanização” por filtros ou texturas. Se o resultado parecer um template intercambiável, revise conceito ou layout antes de exportar.
+
+## Sequência de Stories
+
+> Planeje [quantidade] Stories para [cliente], destinados a [público em situação]. Parta de [momento, pergunta ou detalhe real com fonte] e mostre [observação ou decisão que a marca pode sustentar]. Voz [exemplo aprovado]. Por tela, entregue fala ou texto literal, visual disponível ou captação simples, função da tela e transição. Use interação apenas se [equipe/responsável] puder responder; prepare a devolutiva. Não invente mensagem recebida, bastidor, depoimento ou resultado. Rejeite se a sequência soar como anúncio repetido, se a pergunta não tiver consequência ou se depender de ativo inexistente.
+
+Este padrão produz roteiro. Se o pedido for Story pronto, passe o texto e os ativos ao design, confira todas as telas exportadas e distinga arquivo pronto de publicação.
 
 Esses padrões não ordenam compra, publicação ou ativação de mídia. Após a execução, registre ferramenta, referências, versão, custo quando houver e rejeições relevantes.

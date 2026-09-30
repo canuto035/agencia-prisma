@@ -5,6 +5,8 @@ description: "Revise textos e peças finais quanto a marca, clareza, fatos, prom
 
 # Revisão de conteúdo
 
+Em identidade, arte nova, carrossel ou Stories, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md) e inclua originalidade situada na revisão. A peça deve ser reconhecível como trabalho desta marca e útil para o público concreto, além de tecnicamente correta.
+
 ## Como trabalhar
 
 Leia peça, briefing e DNA disponíveis. Verifique promessa, adequação ao público, voz, clareza, CTA, consistência de condições e evidências. Não invente um DNA para justificar preferências pessoais.
@@ -24,6 +26,8 @@ Entregue versão revisada e pendências objetivas. Informe o que foi efetivament
 Use critérios de aceite relativos à peça: adequação ao DNA usado, promessa entregue, sustentação factual, viabilidade e CTA funcional. Se houver uma pendência factual, retire ou reformule a afirmação na versão pronta e registre a pendência separadamente.
 
 Confira originalidade em relação às referências fornecidas, distinguindo mecanismo narrativo de cópia de expressão. Registre o resultado como pronto para avaliação do cliente, precisa de ajuste ou depende de informação, com motivo concreto. Se só o texto foi revisado, explicite essa cobertura.
+
+Faça os testes de substituição, realidade e origem: outra marca poderia assinar a peça sem mudar nada? O público reconheceria a situação? Falas, fotos e resultados têm fonte? Marque trechos que soem como frase pronta ou simulem autenticidade e proponha uma correção ancorada em material do cliente. Ausência de “cara de IA” não se prova por ferramenta usada; avalie especificidade, naturalidade, fidelidade visual e transparência do que é encenado ou gerado.
 
 ## Contexto e entrega
 Trabalhe em português brasileiro, salvo pedido diferente. No projeto Agência Prisma, consulte o briefing e o DNA do cliente quando existirem. Não bloqueie tarefas independentes por documentos ausentes: use hipóteses identificadas e pergunte apenas pelo que muda a entrega.

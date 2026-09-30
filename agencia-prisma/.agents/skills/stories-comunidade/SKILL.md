@@ -5,9 +5,13 @@ description: "Crie Stories, interações e respostas de comunidade no tom da mar
 
 # Stories e comunidade
 
+Para sequência nova, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Stories devem aproximar o público de uma situação ou decisão real da marca, com linguagem que ela possa sustentar em uma conversa.
+
 ## Como trabalhar
 
 Defina objetivo da sequência e contexto do público. Construa progressão entre contexto, valor e convite à participação, usando enquete ou caixa de perguntas apenas quando servirem ao objetivo.
+
+Parta de um momento do dia, pergunta recebida, bastidor verificável, detalhe de produto ou escolha da equipe. Se ainda não houver registros reais, proponha captação simples e um roteiro marcado como hipótese; não simule captura de tela, resposta de seguidor ou espontaneidade de fundador. Escreva fala curta, natural e específica, sem tom de anúncio em todas as telas. Planeje a devolutiva: o que a marca fará ou responderá com o que aprender na interação.
 
 Entregue por tela: texto, fala opcional, visual, interação e próxima ação. Inclua respostas-modelo quando a sequência pedir interação ou quando o usuário solicitar atendimento, sem inventar conversas ou prova social.
 
@@ -44,3 +48,5 @@ Considere a sequência pronta quando cada tela conduz à seguinte, a interação
 Para fila real, SLA, estados, envio, avaliações, moderação ou crise, trabalhe com `atendimento-reputacao`. Confira a conta, a conversa, a última resposta e a base autorizada antes de preparar ou enviar. Respeite autorização existente para o caso; não peça aprovação de novo para cada item já coberto. Envio incerto exige verificar o histórico antes de tentar outra vez. Monitoramento periódico só existe quando configurado e testado; uma aba aberta não garante acompanhamento contínuo.
 
 Para cada interação aberta, planeje os ramos mais prováveis, quem responde, em quanto tempo e o que exige encaminhamento. Calcule a carga de resposta antes de usar enquete, caixa ou chamada para direct em grande volume. Faça cada tela compreensível no tempo real de leitura e mantenha alternativa para quem não pode ouvir, tocar ou responder.
+
+Varie a apresentação conforme o conteúdo: rosto e voz reais quando disponíveis, detalhe filmado, foto anotada, texto sobre registro do dia ou tela mais silenciosa. Não aplique acabamento falso de câmera, textura analógica ou “erro humano” por rotina. Revise se uma pessoa do público teria motivo genuíno para responder e se a equipe tem condições de continuar a conversa.

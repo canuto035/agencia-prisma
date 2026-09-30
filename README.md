@@ -24,6 +24,8 @@ As funções de Canva, Higgsfield, Google Drive e demais serviços dependem das 
 
 Quem usa uma cópia local precisa atualizar essa cópia para receber versões novas. O utilitário [Atualizar-Projeto.ps1](agencia-prisma/scripts/Atualizar-Projeto.ps1) faz prévia, backup e validação em projetos baseados na Prisma, preservando dados de clientes. Instalações globais da skill também precisam ser atualizadas; o GitHub não muda automaticamente os arquivos já instalados em outra máquina.
 
+**30/09/2026 — criação de marca e conteúdo:** revisão de DNA, direção de arte, logos, design, imagens, carrosséis, Stories, prompts e checagem final. A nova referência de criação humana e distintiva orienta o uso de cenas, falas e provas reais do cliente, evita fórmulas intercambiáveis e exige conferir os arquivos finais. Projetos e instalações anteriores precisam receber esta versão para aplicar as mudanças.
+
 ## Estrutura
 
 - `agencia-prisma/SKILL.md`: comando único.

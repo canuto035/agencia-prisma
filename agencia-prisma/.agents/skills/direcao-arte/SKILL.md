@@ -5,6 +5,8 @@ description: "Defina direção visual de conteúdos e campanhas: paleta, tipogra
 
 # Direção de arte e sistema visual
 
+Para identidade ou campanha nova, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Escolha a linguagem visual a partir de matéria-prima e ponto de vista do cliente, não de uma tendência isolada.
+
 Leia DNA e ativos disponíveis. Diferencie identidade aprovada, referências e propostas. Preserve logotipo e cores oficiais salvo pedido de revisão; identifique arquivos ausentes sem fingir que foram examinados.
 
 Converta personalidade em escolhas justificadas de paleta, funções tipográficas, fotografia, ilustração, margens e hierarquia. Entregue valores de cor quando propuser paleta, pares de fontes com alternativas e regras aplicáveis a capa, conteúdo e CTA. Não presuma licença de fonte ou imagem; use ativos com origem conhecida e adequada ao uso pretendido.
@@ -14,6 +16,8 @@ Para produção multiformato, traduza a direção em regras que sobrevivam ao re
 Mostre aplicação em uma peça do formato solicitado quando houver ferramentas. Para imagens e apresentações, use as capacidades disponíveis e inspecione o resultado. Se a entrega for apenas textual, chame de especificação visual. Não trate imagens geradas contendo texto como substituto automático de layout editável.
 
 Confira leitura em tamanho de celular, contraste e reconhecimento de marca. Prefira poucos elementos com funções claras. Não aplique uma estética fixa a todos os clientes. Registre decisões aprovadas e o que ainda é proposta; a skill cuida do sistema visual, enquanto carrosseis conduz a narrativa por slide.
+
+Defina um repertório próprio de imagens e composição: quais detalhes reais fotografar, quais enquadramentos e imperfeições fazem sentido, quais elementos nunca devem parecer gerados ou encenados. Para carrosséis e Stories, proponha variações de ritmo visual por função narrativa — página silenciosa, close de prova, anotação, sequência de fotos, tipografia de impacto — sem repetir a mesma moldura em todas as telas. Teste cada variação com o kit aprovado e em tamanho de uso; expressão não justifica perda de legibilidade.
 
 Trabalhe no contexto do cliente e preserve versões e decisões aprovadas. Se faltar informação, avance com hipóteses explícitas no que for independente dela.
 

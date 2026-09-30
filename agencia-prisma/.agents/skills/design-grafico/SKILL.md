@@ -5,6 +5,8 @@ description: "Crie ou adapte artes, peças e logos pedidos; monte layouts, expor
 
 # Design gráfico
 
+Em criação nova de arte, carrossel, Story ou identidade, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). O design deve tornar visível uma observação própria da marca, não apenas decorar um texto genérico.
+
 ## Papel no projeto
 
 Transforme conteúdo, briefing e sistema visual em peças gráficas finalizadas. Consulte o DNA e a direção de arte disponíveis antes de criar. Se ainda não houver sistema visual, proponha somente as decisões mínimas necessárias à peça e marque-as como provisórias; não apresente isso como identidade aprovada.
@@ -48,6 +50,8 @@ Não invente logotipo, selo, certificação, preço, data ou condição comercia
 ## Construção do layout
 
 Defina primeiro a hierarquia: mensagem principal, apoio, prova, marca e CTA. Use grade, alinhamento, contraste, repetição e espaço em branco para tornar essa ordem evidente. Evite preencher todos os espaços, usar efeitos sem função ou depender apenas de cor para comunicar informação.
+
+Escolha uma ideia visual por peça: o ativo ou relação visual que carrega a mensagem. Quando houver acervo real, explore seus detalhes e enquadramentos antes de recorrer a banco, geração ou template. Em carrosséis, faça o ritmo visual acompanhar a narrativa; não replique a capa mudando apenas o texto. Em Stories, preserve uma linguagem próxima do registro e da conversa quando isso corresponder à marca. Textura, colagem, assimetria e acabamento manual são recursos possíveis, não sinais automáticos de humanidade.
 
 Trate tipografia como sistema: limite famílias e pesos, mantenha tamanhos coerentes, controle largura de linha e entrelinha e evite texto encostado em bordas. Garanta contraste e leitura no tamanho real de uso. Para séries, preserve posições, proporções e estilos recorrentes sem tornar todas as peças idênticas.
 
@@ -105,3 +109,5 @@ Considere a peça pronta quando a mensagem principal é compreendida rapidamente
 Antes de um lote extenso, resolva a composição de uma peça representativa e confira leitura; não exija uma aprovação extra quando a direção já estiver autorizada. Use tipografia editável sobre fotografia sempre que o formato permitir. Cada peça final precisa corresponder a um arquivo realmente exportado. Decisões de design devem explicar hierarquia e uso, não se apoiar em adjetivos como premium ou moderno.
 
 Faça três testes antes de ampliar: miniatura para reconhecer mensagem e marca, escala real para leitura e tons de cinza para verificar hierarquia sem depender da cor. Em séries, transforme as decisões aprovadas em regras reutilizáveis de grade, espaçamento, tipografia, cor e imagem; permita variação deliberada, mas não deriva acidental. Se uma peça falhar, corrija o sistema antes de replicar o erro no lote.
+
+Antes de aprovar uma criação nova, compare-a com o acervo recente do cliente: se parecer mais um template da categoria ou uma variação cosmética do lote, mude conceito, evidência visual ou composição. Confira se “mais humano” veio de situação, voz ou ativo real, e não de imperfeições fabricadas. Rejeite pele plastificada, iluminação impossível, mãos ou objetos incoerentes e tipografia gerada dentro de imagem quando a precisão importar. Registre o motivo da escolha e inspecione a versão final exportada.
