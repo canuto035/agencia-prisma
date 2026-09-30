@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agência Prisma"
+  short_description: "Coordenação de marketing por um comando"
+  default_prompt: "Use $agencia-prisma para coordenar e executar meu pedido de marketing com as especialidades necessárias."
+policy:
+  allow_implicit_invocation: true

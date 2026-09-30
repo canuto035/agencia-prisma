@@ -1,0 +1,6 @@
+interface:
+  display_name: "Financeiro e Rentabilidade"
+  short_description: "Controla custos, margem, capacidade e alertas"
+  default_prompt: "Use $financeiro-rentabilidade para apurar período, fontes, receita, custos, horas, margem e consumo do teto; separe mídia e créditos da receita da agência e recomende ações com premissas explícitas."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Roteiros de Reels"
+  short_description: "Cria roteiros curtos prontos para grava\u00e7\u00e3o"
+  default_prompt: "Use $roteiros-reels para criar o roteiro na quantidade e duração pedidas, com gancho, fala, cenas e CTA graváveis; inclua capa, legenda ou alternativas quando úteis ao pedido."
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Governança, Ativos e LGPD"
+  short_description: "Controla direitos, dados, acessos e retenção"
+  default_prompt: "Use $governanca-ativos-lgpd para verificar a evidência de uso, dados e acessos de cada item, classificar como liberado, condicionado ou bloqueado e indicar responsável e correção necessária."
+policy:
+  allow_implicit_invocation: true

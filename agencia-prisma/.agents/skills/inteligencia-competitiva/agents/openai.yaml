@@ -1,0 +1,6 @@
+interface:
+  display_name: "Inteligência Competitiva"
+  short_description: "Monitora concorrentes, tendências e oportunidades"
+  default_prompt: "Use $inteligencia-competitiva para reunir sinais com fonte e data, comparar alternativas, separar fato de inferência e propor uma decisão priorizada para o cliente."
+policy:
+  allow_implicit_invocation: true

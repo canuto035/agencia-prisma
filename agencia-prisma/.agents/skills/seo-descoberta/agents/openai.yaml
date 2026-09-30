@@ -1,0 +1,6 @@
+interface:
+  display_name: "SEO e Descoberta"
+  short_description: "Planeja busca orgânica, conteúdo e SEO técnico"
+  default_prompt: "Use $seo-descoberta para mapear intenções de busca, priorizar páginas e conteúdos e definir requisitos técnicos e métricas de descoberta orgânica."
+policy:
+  allow_implicit_invocation: true

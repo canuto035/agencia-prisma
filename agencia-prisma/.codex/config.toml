@@ -1,0 +1,5 @@
+# Padrão solicitado pelo usuário para a Agência Prisma.
+# Confirmado no catálogo local e no parser do Codex em 11/09/2026.
+# Escolhas explícitas da conversa e configurações administradas podem prevalecer.
+model = "gpt-6-astra"
+model_reasoning_effort = "ultra"

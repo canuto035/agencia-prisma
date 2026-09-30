@@ -1,0 +1,7 @@
+interface:
+  display_name: "Coordena\u00e7\u00e3o da Ag\u00eancia"
+  short_description: "Organiza o fluxo completo de cada cliente"
+  default_prompt: "Use $coordenacao-agencia para atender ou retomar a demanda correta, aplicar a matriz de ativa\u00e7\u00e3o e executar as especialidades necess\u00e1rias. Ap\u00f3s cada resultado relevante, confira a evid\u00eancia e acione a pr\u00f3xima etapa; antes de encerrar, reconcilie as entregas e mantenha bloqueios registrados para retomada."
+policy:
+  allow_implicit_invocation: true
+

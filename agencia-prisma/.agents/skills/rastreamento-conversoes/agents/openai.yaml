@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rastreamento e Conversões"
+  short_description: "Implanta e audita a mensuração de marketing"
+  default_prompt: "Use $rastreamento-conversoes para mapear evento de negócio, coleta e destino; configurar ou auditar conforme o pedido, testar ponta a ponta e informar o estado com evidência."
+policy:
+  allow_implicit_invocation: true

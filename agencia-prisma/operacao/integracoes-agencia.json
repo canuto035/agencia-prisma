@@ -1,0 +1,26 @@
+{
+  "versao": "2026-09-15",
+  "selecao": "automatica_pelo_coordenador",
+  "verificar_sob_demanda": true,
+  "armazenar_credenciais": false,
+  "integracoes": {
+    "google_drive": {
+      "instalado": true,
+      "conexao_verificada": true,
+      "finalidade": "arquivos, referências, documentos, planilhas e apresentações",
+      "regra": "consultar e alterar somente o cliente e o escopo pedidos; não excluir, mover ou compartilhar sem autorização correspondente"
+    },
+    "clickup": {
+      "instalado": true,
+      "conexao_verificada": true,
+      "finalidade": "tarefas, responsáveis, prazos, aprovações, SLA, tempo e operação",
+      "regra": "criar ou atualizar itens quando a demanda autorizar a operação; confirmar espaço, lista e cliente antes da escrita"
+    },
+    "canva": {
+      "instalado": true,
+      "conexao_verificada": true,
+      "finalidade": "criação, adaptação, revisão e organização de designs",
+      "regra": "usar DNA, kit e pasta corretos; preservar a versão aprovada e conferir o design final"
+    }
+  }
+}

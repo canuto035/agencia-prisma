@@ -1,0 +1,7 @@
+interface:
+  display_name: "Produ\u00e7\u00e3o de V\u00eddeo"
+  short_description: "Planeja, produz, edita e confere vídeos"
+  default_prompt: "Use $producao-video para planejar gravação ou editar e exportar este vídeo conforme o pedido, preservando narrativa aprovada e conferindo a mídia final."
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stories e Comunidade"
+  short_description: "Cria Stories e respostas para a audi\u00eancia"
+  default_prompt: "Use $stories-comunidade para criar uma sequ\u00eancia de Stories e respostas de comunidade alinhadas ao objetivo e \u00e0 capacidade de atendimento da marca."
+policy:
+  allow_implicit_invocation: true
+

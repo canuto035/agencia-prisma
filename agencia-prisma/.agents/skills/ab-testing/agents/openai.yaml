@@ -1,0 +1,6 @@
+interface:
+  display_name: "Experimentos de Marketing"
+  short_description: "Planejar testes e avaliar resultados com rigor"
+  default_prompt: "Use $ab-testing para definir a decisão, hipótese, variável, métrica principal e regra de leitura antes do teste; interprete dados reais com incerteza explícita."
+policy:
+  allow_implicit_invocation: true

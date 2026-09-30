@@ -1,0 +1,6 @@
+interface:
+  display_name: "Atendimento e Reputação"
+  short_description: "Organiza inbox, comentários, avaliações e crises"
+  default_prompt: "Use $atendimento-reputacao para classificar as interações do escopo, responder conforme fatos e autorização, registrar o estado de cada caso e escalar riscos ao responsável."
+policy:
+  allow_implicit_invocation: true

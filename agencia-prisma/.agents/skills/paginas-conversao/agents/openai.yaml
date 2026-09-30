@@ -1,0 +1,6 @@
+interface:
+  display_name: "Páginas de Conversão"
+  short_description: "Planeja páginas, formulários e conversão"
+  default_prompt: "Use $paginas-conversao para estruturar esta página, escrever as seções, definir o formulário, a experiência após o envio e os eventos de mensuração."
+policy:
+  allow_implicit_invocation: true

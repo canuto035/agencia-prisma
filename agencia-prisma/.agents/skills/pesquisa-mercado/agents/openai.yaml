@@ -1,0 +1,7 @@
+interface:
+  display_name: "Pesquisa de Mercado"
+  short_description: "Pesquisa p\u00fablico, concorrentes e oportunidades"
+  default_prompt: "Use $pesquisa-mercado para pesquisar este mercado, comparar concorrentes e alternativas e apontar oportunidades sustentadas por fontes."
+policy:
+  allow_implicit_invocation: true
+

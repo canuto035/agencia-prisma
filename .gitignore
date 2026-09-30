@@ -1,0 +1,16 @@
+# Nunca publicar dados de clientes ou estado local.
+**/clientes/**
+**/backups/**
+**/output/**
+**/outputs/**
+**/work/**
+**/.env
+**/.env.*
+**/*token*
+**/*credentials*
+**/*.key
+**/*.pem
+**/node_modules/**
+**/__pycache__/**
+**/.DS_Store
+**/Thumbs.db

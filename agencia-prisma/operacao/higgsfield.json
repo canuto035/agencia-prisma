@@ -1,0 +1,19 @@
+{
+  "integracao": "Higgsfield",
+  "verificar_ao_iniciar_projeto": true,
+  "armazenar_credenciais": false,
+  "espaco_preferido": "privado",
+  "estado_verificado_em": "2026-09-15",
+  "estado": "instalado e conectado",
+  "plano_observado": "starter",
+  "saldo_observado_creditos": 21.5,
+  "saldo_e_precos_devem_ser_reconsultados": true,
+  "orcamento": {
+    "teto_padrao_creditos": null,
+    "pedir_teto_antes_da_primeira_geracao_paga": true,
+    "estimar_antes_de_gerar": true,
+    "alertar_percentual_do_teto": 80,
+    "permitir_compra_ou_recarga_automatica": false,
+    "validar_amostra_antes_de_lote": true
+  }
+}

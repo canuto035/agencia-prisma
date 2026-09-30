@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sucesso do Cliente"
+  short_description: "Cuida da conta, aprovações, riscos e renovação"
+  default_prompt: "Use $sucesso-cliente para organizar o estado desta conta, preparar a próxima reunião, registrar decisões e priorizar riscos, pendências e oportunidades."
+policy:
+  allow_implicit_invocation: true

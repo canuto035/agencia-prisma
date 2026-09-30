@@ -1,0 +1,6 @@
+interface:
+  display_name: "Publicação e Distribuição"
+  short_description: "Prepara, agenda e confere publicações"
+  default_prompt: "Use $publicacao-distribuicao para confirmar canal, conta, versão aprovada e autorização; preparar ou executar a distribuição pedida e verificar URL, agendamento ou estado real."
+policy:
+  allow_implicit_invocation: true

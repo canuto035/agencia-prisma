@@ -1,0 +1,7 @@
+interface:
+  display_name: "Copy e Ofertas"
+  short_description: "Escreve mensagens comerciais coerentes"
+  default_prompt: "Use $copy-ofertas para escrever esta pe\u00e7a comercial com promessa respons\u00e1vel, obje\u00e7\u00f5es, provas dispon\u00edveis e um CTA coerente com o destino."
+policy:
+  allow_implicit_invocation: true
+

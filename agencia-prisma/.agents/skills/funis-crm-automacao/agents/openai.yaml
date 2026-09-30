@@ -1,0 +1,6 @@
+interface:
+  display_name: "Funis, CRM e Automação"
+  short_description: "Desenha jornadas, CRM e automações comerciais"
+  default_prompt: "Use $funis-crm-automacao para mapear esta jornada, definir etapas e campos do CRM e criar automações com gatilhos, paradas e mensuração."
+policy:
+  allow_implicit_invocation: true

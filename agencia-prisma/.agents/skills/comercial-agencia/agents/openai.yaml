@@ -1,0 +1,6 @@
+interface:
+  display_name: "Comercial da Agência"
+  short_description: "Organiza prospecção, qualificação e pipeline"
+  default_prompt: "Use $comercial-agencia para definir o ICP, qualificar oportunidades e criar um processo comercial coerente com os serviços e a capacidade da agência."
+policy:
+  allow_implicit_invocation: true

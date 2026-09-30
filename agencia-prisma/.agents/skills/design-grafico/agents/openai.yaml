@@ -1,0 +1,6 @@
+interface:
+  display_name: "Design Gráfico"
+  short_description: "Cria peças visuais e logos quando pedidos"
+  default_prompt: "Use $design-grafico com conteúdo e kit deste cliente; escolha entre layout novo, adaptação, edição existente ou ativo raster, use as funções pertinentes da ferramenta pedida e confira design salvo, editabilidade e saída final."
+policy:
+  allow_implicit_invocation: true

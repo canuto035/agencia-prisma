@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pesquisa com Clientes"
+  short_description: "Analisar relatos e orientar entrevistas úteis"
+  default_prompt: "Use $customer-research para analisar a fonte, a amostra e as falas dos clientes, separar observação de inferência e indicar a decisão apoiada e as lacunas de pesquisa."
+policy:
+  allow_implicit_invocation: true

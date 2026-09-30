@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ensaios Fotográficos"
+  short_description: "Cria ensaios realistas com identidade preservada"
+  default_prompt: "Use $ensaios-fotograficos para produzir um ensaio realista a partir destas referências, preservando o modelo ou produto em todos os cenários."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,11 @@
+interface:
+  display_name: "Produção com Higgsfield"
+  short_description: "Criação visual com orçamento controlado"
+  default_prompt: "Use $higgsfield-producao para verificar conexão, saldo e teto, escolher a ferramenta adequada e estimar custo; produza somente o que o pedido autoriza e confira a saída e o gasto real."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "higgsfield"
+      description: "Ferramentas conectadas do Higgsfield"
+policy:
+  allow_implicit_invocation: true

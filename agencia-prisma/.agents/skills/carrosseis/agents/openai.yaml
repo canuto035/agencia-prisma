@@ -1,0 +1,7 @@
+interface:
+  display_name: "Carross\u00e9is"
+  short_description: "Cria narrativa e arte para carross\u00e9is"
+  default_prompt: "Use $carrosseis para criar a narrativa slide a slide na quantidade pedida; quando houver pedido de arte final, coordene imagem, design, montagem, exportação e revisão no kit do cliente."
+policy:
+  allow_implicit_invocation: true
+

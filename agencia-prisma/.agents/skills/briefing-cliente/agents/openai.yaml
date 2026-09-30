@@ -1,0 +1,7 @@
+interface:
+  display_name: "Briefing do Cliente"
+  short_description: "Organiza diagn\u00f3stico e briefing do cliente"
+  default_prompt: "Use $briefing-cliente para organizar as informa\u00e7\u00f5es deste cliente, separar fatos de hip\u00f3teses e indicar as perguntas e prioridades que ainda faltam."
+policy:
+  allow_implicit_invocation: true
+

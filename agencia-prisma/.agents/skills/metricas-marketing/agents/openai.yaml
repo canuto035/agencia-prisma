@@ -1,0 +1,7 @@
+interface:
+  display_name: "M\u00e9tricas de Marketing"
+  short_description: "Analisa desempenho e orienta pr\u00f3ximos testes"
+  default_prompt: "Use $metricas-marketing para conferir estes dados, calcular as m\u00e9tricas adequadas e recomendar os pr\u00f3ximos testes com limita\u00e7\u00f5es expl\u00edcitas."
+policy:
+  allow_implicit_invocation: true
+

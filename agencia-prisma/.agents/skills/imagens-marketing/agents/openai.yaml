@@ -1,0 +1,7 @@
+interface:
+  display_name: "Imagens de Marketing"
+  short_description: "Pesquisa, cria e trata imagens com fidelidade"
+  default_prompt: "Use $imagens-marketing para distinguir alvo de edição, identidade, produto e estilo; escolha correção, edição localizada ou cena nova e confira cada resultado com os originais antes de repassar ao design."
+policy:
+  allow_implicit_invocation: true
+

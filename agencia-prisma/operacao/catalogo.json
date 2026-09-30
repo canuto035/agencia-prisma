@@ -1,0 +1,204 @@
+{
+  "versao": "2026-09-27",
+  "coordenador": "coordenacao-agencia",
+  "skills": [
+    {
+      "nome": "ab-testing",
+      "titulo": "Experimentos de Marketing",
+      "descricao": "Planeje e avalie testes A/B de anúncios, páginas e mensagens com hipótese, métrica e regra de decisão.",
+      "automatica": true
+    },
+    {
+      "nome": "atendimento-reputacao",
+      "titulo": "Atendimento e Reputação",
+      "descricao": "Opere inbox, comentários, avaliações e crises da marca: triagem, resposta, encaminhamento e estado dos casos.",
+      "automatica": true
+    },
+    {
+      "nome": "briefing-cliente",
+      "titulo": "Briefing do Cliente",
+      "descricao": "Consolide briefing de um cliente novo ou atualizado: negócio, oferta, público, objetivos, canais e pendências.",
+      "automatica": true
+    },
+    {
+      "nome": "campanhas-midia",
+      "titulo": "Campanhas e Mídia",
+      "descricao": "Planeje, configure e otimize tráfego pago, inclusive Meta Ads, públicos, remarketing, funil e orçamento.",
+      "automatica": true
+    },
+    {
+      "nome": "carrosseis",
+      "titulo": "Carrosséis",
+      "descricao": "Crie carrosséis de redes sociais: conceito, narrativa por slide, legenda e arte final quando pedida.",
+      "automatica": true
+    },
+    {
+      "nome": "comercial-agencia",
+      "titulo": "Comercial da Agência",
+      "descricao": "Estruture prospecção, qualificação, propostas e follow-up para vender os serviços da agência.",
+      "automatica": true
+    },
+    {
+      "nome": "coordenacao-agencia",
+      "titulo": "Coordenação da Agência",
+      "descricao": "Coordene pedidos e continuações da Prisma: selecione skills, execute etapas, confira evidências e retome pendências.",
+      "automatica": true
+    },
+    {
+      "nome": "copy-ofertas",
+      "titulo": "Copy e Ofertas",
+      "descricao": "Escreva ofertas e copy de conversão para anúncios, páginas, campanhas e mensagens comerciais.",
+      "automatica": true
+    },
+    {
+      "nome": "customer-research",
+      "titulo": "Pesquisa com Clientes",
+      "descricao": "Analise entrevistas, avaliações e pesquisas para extrair linguagem, objeções e critérios de compra dos clientes.",
+      "automatica": true
+    },
+    {
+      "nome": "design-grafico",
+      "titulo": "Design Gráfico",
+      "descricao": "Crie ou adapte artes, peças e logos pedidos; monte layouts, exporte arquivos e confira o resultado visual.",
+      "automatica": true
+    },
+    {
+      "nome": "direcao-arte",
+      "titulo": "Direção de Arte",
+      "descricao": "Defina direção visual de conteúdos e campanhas: paleta, tipografia, fotografia, composição e regras de uso.",
+      "automatica": true
+    },
+    {
+      "nome": "dna-marca",
+      "titulo": "DNA de Marca",
+      "descricao": "Crie ou revise posicionamento, promessa, voz, mensagens e direção visual estratégica de uma marca.",
+      "automatica": true
+    },
+    {
+      "nome": "ensaios-fotograficos",
+      "titulo": "Ensaios Fotográficos",
+      "descricao": "Produza séries fotográficas realistas de pessoas ou produtos em cenários, preservando identidade e características originais.",
+      "automatica": true
+    },
+    {
+      "nome": "financeiro-rentabilidade",
+      "titulo": "Financeiro e Rentabilidade",
+      "descricao": "Analise receita, custos, horas, mídia, créditos, margem e capacidade de clientes e projetos da agência.",
+      "automatica": true
+    },
+    {
+      "nome": "funis-crm-automacao",
+      "titulo": "Funis, CRM e Automação",
+      "descricao": "Desenhe funis, captura e qualificação de leads, CRM, nutrição e automações de e-mail ou WhatsApp.",
+      "automatica": true
+    },
+    {
+      "nome": "governanca-ativos-lgpd",
+      "titulo": "Governança, Ativos e LGPD",
+      "descricao": "Controle direitos de uso, autorizações, licenças, dados pessoais, acessos e riscos de ativos dos clientes.",
+      "automatica": true
+    },
+    {
+      "nome": "higgsfield-producao",
+      "titulo": "Produção com Higgsfield",
+      "descricao": "Use Higgsfield para analisar, gerar ou editar mídia quando contribuir para a entrega, com controle de créditos.",
+      "automatica": true
+    },
+    {
+      "nome": "imagens-marketing",
+      "titulo": "Imagens de Marketing",
+      "descricao": "Pesquise, gere ou trate imagens de marketing sem descaracterizar pessoas, personagens, produtos ou marcas.",
+      "automatica": true
+    },
+    {
+      "nome": "inteligencia-competitiva",
+      "titulo": "Inteligência Competitiva",
+      "descricao": "Acompanhe concorrentes, anúncios, ofertas e tendências com fontes datadas e sinais úteis para decisões.",
+      "automatica": true
+    },
+    {
+      "nome": "metricas-marketing",
+      "titulo": "Métricas de Marketing",
+      "descricao": "Analise dados de conteúdo, campanhas e conversão para explicar resultados e orientar próximos testes.",
+      "automatica": true
+    },
+    {
+      "nome": "operacao-agencia",
+      "titulo": "Operação da Agência",
+      "descricao": "Estruture serviços, pacotes, propostas, capacidade, onboarding e fluxo interno da agência.",
+      "automatica": true
+    },
+    {
+      "nome": "paginas-conversao",
+      "titulo": "Páginas de Conversão",
+      "descricao": "Planeje ou implemente landing pages e páginas de serviço com oferta, CTA, formulário e mensuração.",
+      "automatica": true
+    },
+    {
+      "nome": "pesquisa-mercado",
+      "titulo": "Pesquisa de Mercado",
+      "descricao": "Pesquise público, mercado, alternativas e concorrentes para embasar diagnóstico e posicionamento.",
+      "automatica": true
+    },
+    {
+      "nome": "planejamento-editorial",
+      "titulo": "Planejamento Editorial",
+      "descricao": "Planeje pautas, calendário e lotes de conteúdo ligados a objetivos, funil e capacidade de produção.",
+      "automatica": true
+    },
+    {
+      "nome": "producao-video",
+      "titulo": "Produção de Vídeo",
+      "descricao": "Planeje captação, edite ou produza vídeos e confira cortes, áudio, legendas e exportação final.",
+      "automatica": true
+    },
+    {
+      "nome": "publicacao-distribuicao",
+      "titulo": "Publicação e Distribuição",
+      "descricao": "Adapte, programe, publique ou confira conteúdos nos canais e registre o estado real de cada peça.",
+      "automatica": true
+    },
+    {
+      "nome": "referencias-conteudo",
+      "titulo": "Referências de Conteúdo",
+      "descricao": "Analise links, vídeos, perfis e peças de referência antes de criar ideias, roteiros ou campanhas.",
+      "automatica": true
+    },
+    {
+      "nome": "rastreamento-conversoes",
+      "titulo": "Rastreamento e Conversões",
+      "descricao": "Planeje, implemente ou audite UTMs, eventos, pixels, tags e conversões entre site, anúncios e CRM.",
+      "automatica": true
+    },
+    {
+      "nome": "revisao-conteudo",
+      "titulo": "Revisão de Conteúdo",
+      "descricao": "Revise textos e peças finais quanto a marca, clareza, fatos, promessa, acessibilidade e CTA.",
+      "automatica": true
+    },
+    {
+      "nome": "roteiros-reels",
+      "titulo": "Roteiros de Reels",
+      "descricao": "Crie roteiros originais de Reels e vídeos curtos com gancho, fala, cenas, texto na tela e CTA.",
+      "automatica": true
+    },
+    {
+      "nome": "seo-descoberta",
+      "titulo": "SEO e Descoberta",
+      "descricao": "Planeje SEO e descoberta orgânica em busca, YouTube e presença local por intenção e conteúdo.",
+      "automatica": true
+    },
+    {
+      "nome": "stories-comunidade",
+      "titulo": "Stories e Comunidade",
+      "descricao": "Crie Stories, interações e respostas de comunidade no tom da marca para dúvidas e objeções.",
+      "automatica": true
+    },
+    {
+      "nome": "sucesso-cliente",
+      "titulo": "Sucesso do Cliente",
+      "descricao": "Organize reuniões, aprovações, feedback, saúde da conta, renovação e encerramento de clientes.",
+      "automatica": true
+    }
+  ]
+}

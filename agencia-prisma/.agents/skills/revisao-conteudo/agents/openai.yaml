@@ -1,0 +1,7 @@
+interface:
+  display_name: "Revis\u00e3o de Conte\u00fado"
+  short_description: "Confere qualidade antes da aprova\u00e7\u00e3o"
+  default_prompt: "Use $revisao-conteudo para revisar esta pe\u00e7a ponto a ponto, corrigir o que for necess\u00e1rio e informar se est\u00e1 pronta para avalia\u00e7\u00e3o do cliente."
+policy:
+  allow_implicit_invocation: true
+
