@@ -7,7 +7,7 @@ description: "Opere inbox, comentários, avaliações e crises da marca: triagem
 
 ## Objetivo
 
-Transforme interações públicas e privadas em atendimento consistente, seguro e mensurável. Use `stories-comunidade` para redação, consultando o DNA existente; `copy-ofertas` para mensagens comerciais novas, `funis-crm-automacao` para leads, `sucesso-cliente` para relacionamento com a conta da agência, `metricas-marketing` para análise de atendimento e `governanca-ativos-lgpd` para risco de dados, acessos ou incidentes, somente conforme a demanda. Consulte [triagem e escalonamento](references/triagem-e-escalonamento.md).
+Transforme interações públicas e privadas em atendimento consistente, seguro e mensurável. Esta skill mantém a responsabilidade pelo caso real: triagem, histórico, prioridade, resposta ou encaminhamento, envio autorizado, estado e registro. Use `stories-comunidade` para apoiar a redação no tom da marca, consultando o DNA existente; `copy-ofertas` para mensagens comerciais novas, `funis-crm-automacao` para leads, `sucesso-cliente` para relacionamento com a conta da agência, `metricas-marketing` para análise de atendimento e `governanca-ativos-lgpd` para risco de dados, acessos ou incidentes, somente conforme a demanda. Consulte [triagem e escalonamento](references/triagem-e-escalonamento.md).
 
 ## Entrada automática
 

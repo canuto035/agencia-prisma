@@ -22,7 +22,7 @@ O projeto possui 33 skills elegíveis para seleção implícita. O `AGENTS.md` a
 | `roteiros-reels` | Criar roteiros curtos graváveis | Referências, planejamento e produção de vídeo |
 | `producao-video` | Planejar gravação, tomadas e edição | Roteiros e revisão |
 | `carrosseis` | Construir narrativa por slides | Planejamento, design e revisão |
-| `stories-comunidade` | Criar Stories e respostas | DNA, oferta e capacidade de atendimento |
+| `stories-comunidade` | Criar Stories e redigir respostas-modelo | DNA, oferta e capacidade de atendimento; casos reais ficam com atendimento |
 | `copy-ofertas` | Escrever mensagens de conversão | Oferta, público, página e campanha |
 
 ## Visual
@@ -39,7 +39,7 @@ O projeto possui 33 skills elegíveis para seleção implícita. O `AGENTS.md` a
 
 | Skill | Responsabilidade | Conexão |
 |---|---|---|
-| `campanhas-midia` | Planejar mídia paga e testes | Criativos → página → evento |
+| `campanhas-midia` | Diagnosticar, configurar, operar e otimizar mídia paga no escopo pedido | Criativos → página → evento → resultado e orçamento |
 | `seo-descoberta` | Planejar busca orgânica, YouTube e local | Intenção → ativo → conversão |
 | `paginas-conversao` | Estruturar e implementar páginas | Oferta → formulário → pós-conversão |
 | `funis-crm-automacao` | Organizar jornada, CRM e mensagens | Entrada → qualificação → venda → retenção |
@@ -51,7 +51,7 @@ O projeto possui 33 skills elegíveis para seleção implícita. O `AGENTS.md` a
 | Skill | Responsabilidade | Limite |
 |---|---|---|
 | `comercial-agencia` | Prospectar, qualificar e gerir pipeline | Não envia mensagens sem autorização |
-| `operacao-agencia` | Definir escopo, preço, capacidade e processo | Não substitui contrato jurídico |
+| `operacao-agencia` | Definir escopo, capacidade, processo e proposta | Preço final passa por conferência financeira; não substitui contrato jurídico |
 | `sucesso-cliente` | Gerir reuniões, aprovações, saúde e renovação | Não inventa aprovação ou satisfação |
 | `revisao-conteudo` | Conferir conteúdo e arquivos antes da entrega | Revisão interna não é aprovação do cliente |
 | `atendimento-reputacao` | Operar inbox, comentários, avaliações, SLA e crise | Interação → triagem → resposta/escala → resolução |
@@ -65,7 +65,7 @@ O projeto possui 33 skills elegíveis para seleção implícita. O `AGENTS.md` a
 - Campanha: oferta → copy/criativo → página → rastreamento → CRM/atendimento → mídia → métricas → rentabilidade.
 - Produção Higgsfield: conexão e saldo → estimativa → teto → amostra → validação → lote → registro do custo.
 - Orgânico: pesquisa de intenção → SEO/planejamento → conteúdo → página/conversão → métricas.
-- Agência: ICP → prospecção → diagnóstico → operação/proposta → onboarding → sucesso do cliente.
+- Agência: ICP → prospecção → diagnóstico → escopo/capacidade → conferência financeira → proposta → onboarding → sucesso do cliente.
 - Inteligência: pergunta → fontes → sinais datados → hipóteses → ações/testes → revisão.
 - Governança: ativo/dado/acesso → permissão e finalidade → uso → retenção ou revogação.
 
@@ -73,9 +73,10 @@ O projeto possui 33 skills elegíveis para seleção implícita. O `AGENTS.md` a
 
 Use: rascunho, revisão interna, avaliação do cliente, ajustes, aprovado, programado, publicado/ativado, medido e arquivado. Nunca pule de rascunho para publicado sem uma ação real.
 
-## Apoios adicionados em 11/09/2026
+## Limites entre especialidades próximas
 
-- `customer-research`: pesquisa com clientes, ligada a pesquisa de mercado, DNA e copy.
-- `ab-testing`: experimentos de marketing, ligados a métricas, campanhas e páginas.
+- `stories-comunidade` cria sequências e linguagem de resposta; `atendimento-reputacao` conduz interações reais, histórico, prioridade, envio autorizado, estado e encaminhamento.
+- `operacao-agencia` define o que será entregue e a capacidade necessária; `financeiro-rentabilidade` confere preço, custos, margem e cenários antes da proposta final.
+- `carrosseis` conduz narrativa por página; `design-grafico` monta e exporta a peça; `imagens-marketing` fornece e confere os ativos; `revisao-conteudo` verifica o final.
 
-Os dois apoios foram adaptados de uma versão fixa do GitHub, com licença preservada e instruções revisadas. A 27ª especialidade controla a integração Higgsfield. As quatro áreas operacionais fecham mensuração, distribuição, relacionamento e margem. Todas são selecionadas pela coordenação.
+O roteiro de [cenários de ativação](.agents/skills/coordenacao-agencia/references/cenarios-ativacao.md) ajuda a conferir essas passagens. Ele é um teste de instruções, não prova que uma sessão futura usará automaticamente cada skill.

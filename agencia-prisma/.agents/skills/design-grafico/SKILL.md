@@ -19,17 +19,7 @@ Não execute a skill de design gráfico isoladamente. Em toda tarefa, combine-a 
 
 Reutilize texto, DNA, direção e ativos aprovados. Consultar a origem do conteúdo não exige recriá-lo: numa correção ou adaptação, design e revisão podem resolver a entrega. As combinações de criação abaixo aplicam-se às etapas ainda necessárias.
 
-Selecione automaticamente as combinações pertinentes:
-
-- Carrossel: `carrosseis` define narrativa e texto; `design-grafico` monta e exporta; `revisao-conteudo` confere. Acrescente `direcao-arte` para definir ou revisar o sistema visual e `imagens-marketing` para selecionar, pesquisar, criar, tratar ou conferir ativos necessários; reutilize materiais aprovados.
-- Post estático: `planejamento-editorial` ou `copy-ofertas` define mensagem e CTA; `design-grafico` executa; `revisao-conteudo` confere.
-- Capa ou thumbnail: `roteiros-reels`, `producao-video` ou `copy-ofertas` fornece a promessa; `design-grafico` cria a capa; `revisao-conteudo` confere legibilidade e coerência.
-- Criativo de anúncio: `campanhas-midia` define hipótese e objetivo, `copy-ofertas` escreve a mensagem, `design-grafico` monta e `revisao-conteudo` confere.
-- Peça institucional: `dna-marca` e `direcao-arte` orientam identidade e mensagem; `design-grafico` produz e `revisao-conteudo` confere.
-- Peça com fotos ou personagens: `imagens-marketing` seleciona e trata os ativos preservando a identidade; `design-grafico` os integra ao layout.
-- Campanha baseada em ensaio: `ensaios-fotograficos` cria a série consistente, `imagens-marketing` confere os ativos, `design-grafico` aplica as fotografias e `revisao-conteudo` valida a peça final.
-- Logo novo ou redesenho explicitamente pedido: `dna-marca` orienta o posicionamento, `direcao-arte` define critérios visuais, `design-grafico` constrói e testa a marca e `revisao-conteudo` confere nome, grafia e aplicações. Leia [logos e aplicações](references/logos-e-aplicacoes.md). Para apenas aplicar um logo existente, use o arquivo oficial sem reabrir a identidade.
-- Redimensionamento ou adaptação de peça pronta: `design-grafico` adapta e `revisao-conteudo` verifica cortes, hierarquia, texto e formato.
+Selecione a combinação pertinente pelo formato e pelas etapas ainda necessárias. Em criação nova ou entrega com vários formatos, leia [roteamento por formato](references/roteamento-por-formato.md). Para logo novo ou redesenho explicitamente pedido, leia também [logos e aplicações](references/logos-e-aplicacoes.md); para apenas aplicar um logo existente, use o arquivo oficial sem reabrir a identidade.
 
 Se o conteúdo necessário ainda não existir, acione a skill adequada e produza-o antes de montar. Não peça ao usuário que escolha a combinação de skills; faça o roteamento com base no pedido e entregue um resultado consolidado.
 

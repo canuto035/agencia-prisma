@@ -1,6 +1,6 @@
 ---
 name: stories-comunidade
-description: "Crie Stories, interações e respostas de comunidade no tom da marca para dúvidas e objeções."
+description: "Crie Stories e redija respostas de comunidade no tom da marca; encaminhe casos reais de inbox, comentários e crise ao atendimento."
 ---
 
 # Stories e comunidade
@@ -15,7 +15,7 @@ Parta de um momento do dia, pergunta recebida, bastidor verificável, detalhe de
 
 Entregue por tela: texto, fala opcional, visual, interação e próxima ação. Inclua respostas-modelo quando a sequência pedir interação ou quando o usuário solicitar atendimento, sem inventar conversas ou prova social.
 
-Em respostas a comentários, diferencie dúvida, objeção, reclamação e abuso. Para reclamações, reconheça o fato relatado e indique um próximo passo possível, sem expor dados pessoais nem prometer solução fora da autoridade da marca.
+Ao redigir respostas-modelo para comentários, diferencie dúvida, objeção, reclamação e abuso. Para reclamações, reconheça o fato relatado e indique um próximo passo possível, sem expor dados pessoais nem prometer solução fora da autoridade da marca. Quando houver interação real a tratar, `atendimento-reputacao` assume o caso, confere histórico e fatos, decide prioridade e estado, envia se autorizado e registra o resultado; esta skill fornece a linguagem, sem assumir a fila.
 
 Distinga sequência orgânica, Story de campanha e resposta de comunidade: a primeira depende da progressão entre telas, o segundo também de oferta, destino e formato de anúncio, e a terceira de fatos confirmados e estado de envio. Para pedido textual, entregue os rascunhos. Para Stories com arte final, trabalhe com `design-grafico` e `revisao-conteudo`, acrescentando `imagens-marketing` ou `producao-video` conforme os ativos, e confira os arquivos exportados. Publicação e contato direto dependem do pedido do usuário. Assuntos médicos, jurídicos ou financeiros exigem verificação apropriada e respeito aos limites da marca.
 

@@ -44,7 +44,7 @@ As combinações abaixo dependem do trabalho que ainda falta. Reutilize entradas
 | Cortar, legendar ou editar vídeo existente | producao-video + revisão pertinente; roteiros-reels apenas se faltar narrativa nova, design para capa solicitada |
 | Foto existente a corrigir | imagens-marketing; preserve identidade; ensaios somente se houver uma série fotográfica a produzir |
 | Ensaio de pessoas ou produtos | ensaios-fotograficos + imagens-marketing; direcao-arte quando faltar direção visual; design se fotos entrarem em peças |
-| Stories finais | stories-comunidade + design-grafico + revisao-conteudo; imagens ou vídeo conforme formato; texto somente dispensa montagem |
+| Stories finais ou respostas-modelo sem fila real | stories-comunidade lidera narrativa ou linguagem + design-grafico e revisao-conteudo para arte final; imagens ou vídeo conforme formato; texto somente dispensa montagem |
 | Campanha paga nova, Meta ou Google Ads, públicos, remarketing ou pedido para operar tráfego | campanhas-midia lidera diagnóstico, estratégia, configuração, publicação e acompanhamento dentro do escopo pedido e lê o fluxo da plataforma; pesquisa-mercado/inteligencia-competitiva quando setor ou concorrência afetarem a decisão; copy-ofertas e design/vídeo para criativos novos, rastreamento-conversoes para coleta, funis-crm-automacao para jornada e leads, metricas-marketing para indicadores e leitura, financeiro-rentabilidade para teto e margem. Conferir conta, gasto existente, limite real e evidência do estado no portal |
 | Analisar campanha já realizada | metricas-marketing + campanhas-midia para diagnóstico e decisões de mídia; rastreamento-conversoes se houver problema de coleta; executar alterações somente quando pedidas ou cobertas pela regra operacional aprovada do cliente |
 | Variações de anúncio | campanhas-midia + produtor do formato; ab-testing somente quando houver desenho ou avaliação de experimento, não pela mera existência de versões |
@@ -53,8 +53,8 @@ As combinações abaixo dependem do trabalho que ainda falta. Reutilize entradas
 | Jornada e automação | funis-crm-automacao; copy-ofertas para mensagens; rastreamento-conversoes para eventos; atendimento-reputacao para transferência humana; governança para dados |
 | SEO e descoberta | seo-descoberta; pesquisa, produtor de conteúdo e implementação técnica conforme diagnóstico e pedido |
 | Publicar conteúdo aprovado | publicacao-distribuicao + revisão da versão destinada ao canal; produtor somente se faltar adaptação; rastreamento para links medidos quando necessário |
-| Inbox, comentários, crise | atendimento-reputacao; stories-comunidade para redigir respostas, funis-crm-automacao para leads e governança para risco de dados |
-| Vender serviços da agência | comercial-agencia; operacao-agencia para escopo/capacidade; financeiro-rentabilidade para preço e margem; design e ferramenta de documento se houver proposta final |
+| Inbox, comentários reais, avaliações ou crise | atendimento-reputacao mantém caso, triagem, histórico, envio autorizado e estado; stories-comunidade apoia somente a redação, funis-crm-automacao os leads e governança o risco de dados |
+| Vender serviços da agência | comercial-agencia conduz negociação; operacao-agencia define escopo, horas e capacidade; financeiro-rentabilidade confere preço, margem e cenários antes da proposta final; design e ferramenta de documento conforme formato |
 | Rotina, capacidade e produção interna | operacao-agencia; sucesso-cliente para decisões e aprovações do cliente; financeiro-rentabilidade para custos e margem |
 | Relacionamento, renovação ou encerramento | sucesso-cliente; operação, financeiro e governança conforme contratos, ativos, acessos e pendências envolvidos |
 | Implantar ou corrigir coleta | rastreamento-conversoes; integração técnica e CRM conforme origem/destino; metricas-marketing interpreta dados depois |

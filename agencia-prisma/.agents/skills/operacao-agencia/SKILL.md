@@ -9,7 +9,7 @@ description: "Estruture serviços, pacotes, propostas, capacidade, onboarding e 
 
 Transforme necessidades do cliente em entregáveis com quantidade, formato, prazo, dependências e responsável. Diferencie atividades recorrentes de projetos pontuais.
 
-Ao propor preço, use horas, custos diretos, tributos informados, capacidade e margem desejada. Declare estimativas e não invente preço de mercado. Diferencie margem de markup.
+Ao propor preço, defina primeiro escopo, horas, custos diretos, tributos informados, capacidade e margem desejada. Passe essas premissas a `financeiro-rentabilidade` para validar cálculo, margem e cenários antes de fechar o investimento na proposta. Declare estimativas e não invente preço de mercado. Diferencie margem de markup.
 
 Entregue proposta com objetivo, escopo, exclusões pertinentes, cronograma, investimento proposto, condições, revisões e critérios de aceite. Não apresente proposta como contrato jurídico validado.
 
@@ -44,7 +44,7 @@ Quando o gatilho da demanda corresponder, a coordenação consulta automaticamen
 
 Inclua, conforme o escopo do pedido: necessidade atendida; entregáveis e limites; recorrência e volume; matriz de responsabilidades; dependências; cronograma e prazos de resposta; revisões e controle de versão; capacidade em horas e reserva; custos e premissas; investimento proposto; condições; critérios de aceite; fluxo do briefing à análise; riscos de escopo. Sinalize itens fora do escopo que sejam prováveis fontes de retrabalho.
 
-Considere a operação viável quando o volume cabe na capacidade incluindo atendimento e revisão, responsabilidades estão claras e o preço usa premissas visíveis. Envio, contratação ou compromisso externo dependem do pedido do usuário.
+Considere a operação viável quando o volume cabe na capacidade incluindo atendimento e revisão, responsabilidades estão claras e o preço foi conferido por `financeiro-rentabilidade` com premissas visíveis. Envio, contratação ou compromisso externo dependem do pedido do usuário.
 
 
 ## Decisões de qualidade e execução

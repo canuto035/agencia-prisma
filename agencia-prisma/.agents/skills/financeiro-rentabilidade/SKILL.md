@@ -7,7 +7,7 @@ description: "Analise receita, custos, horas, mídia, créditos, margem e capaci
 
 ## Objetivo
 
-Mostre o custo real de entregar, a margem por cliente e os desvios que exigem decisão. Trabalhe com `operacao-agencia`, `comercial-agencia`, `sucesso-cliente`, `campanhas-midia`, `higgsfield-producao` e `metricas-marketing`. Consulte [cálculos e alertas](references/calculos-e-alertas.md).
+Mostre o custo real de entregar, a margem por cliente e os desvios que exigem decisão. Em propostas, receba de `operacao-agencia` escopo, capacidade, horas e custos; valide preço, margem e cenários, devolvendo as premissas ou correções antes da versão final. Não redefina sozinho o escopo operacional. Trabalhe com `comercial-agencia`, `sucesso-cliente`, `campanhas-midia`, `higgsfield-producao` e `metricas-marketing` conforme a demanda. Consulte [cálculos e alertas](references/calculos-e-alertas.md).
 
 ## Entrada automática
 
