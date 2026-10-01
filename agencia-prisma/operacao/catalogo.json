@@ -1,5 +1,5 @@
 {
-  "versao": "2026-09-27",
+  "versao": "2026-09-30",
   "coordenador": "coordenacao-agencia",
   "skills": [
     {
@@ -23,7 +23,7 @@
     {
       "nome": "campanhas-midia",
       "titulo": "Campanhas e Mídia",
-      "descricao": "Planeje, configure e otimize tráfego pago, inclusive Meta Ads, públicos, remarketing, funil e orçamento.",
+      "descricao": "Planeje e opere tráfego pago em Meta e Google Ads: pesquisa, públicos, remarketing, funil e orçamento.",
       "automatica": true
     },
     {

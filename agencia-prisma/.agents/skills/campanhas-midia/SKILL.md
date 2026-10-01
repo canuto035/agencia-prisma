@@ -1,15 +1,17 @@
 ---
 name: campanhas-midia
-description: "Planeje, configure e otimize tráfego pago, inclusive Meta Ads, públicos, remarketing, funil e orçamento."
+description: "Planeje e opere tráfego pago em Meta e Google Ads: pesquisa, públicos, remarketing, funil e orçamento."
 ---
 
 # Campanhas e mídia paga
 
 ## Como trabalhar
 
-Assuma a entrega inteira pedida: diagnóstico, estratégia, configuração, publicação, leitura e otimização quando fizerem parte do comando. Não encerre uma solicitação de execução com um plano se houver acesso e parâmetros para agir. Leia [operação no Meta Ads](references/operacao-meta-ads.md) quando houver criação, edição, remarketing, publicação ou análise dentro do Gerenciador de Anúncios.
+Assuma a entrega inteira pedida: diagnóstico, estratégia, configuração, publicação, leitura e otimização quando fizerem parte do comando. Não encerre uma solicitação de execução com um plano se houver acesso e parâmetros para agir. Para operar uma conta, leia o fluxo da plataforma: [Meta Ads](references/operacao-meta-ads.md) ou [Google Ads](references/operacao-google-ads.md). Para outra plataforma, consulte as instruções oficiais atuais antes de configurar; não adapte campos de Meta ou Google por analogia.
 
 Para estratégia nova, auditoria ou decisão de verba, siga [diagnóstico e decisão de mídia](references/estrategia-e-diagnostico.md). Quando uma análise ou produção usar instrução livre, componha um prompt específico do cliente a partir dos [padrões de prompts estratégicos](references/prompts-estrategicos.md); configuração no portal usa campos e parâmetros reais, não um prompt genérico.
+
+Quando mercado, jornada, concorrência ou restrições setoriais puderem mudar a estratégia, a coordenação aciona `pesquisa-mercado` e, para mudanças ao longo do tempo, `inteligencia-competitiva`; passe os achados com fonte, data, região e confiança à decisão de mídia. Desenhe o funil junto de `funis-crm-automacao`, incluindo quem atende, quando e como o lead é qualificado. Não presuma que toda campanha precise de remarketing ou de todas as etapas do funil.
 
 Quando a decisão depender de recurso, política, automação ou comportamento recente da plataforma, aplique o [ciclo de atualização e aprendizado](references/atualizacao-e-aprendizado.md). Verifique a fonte oficial e a disponibilidade na conta; uma novidade anunciada não é função ativada para todos. Reavalie em campanhas novas, auditorias e otimizações relevantes, sem transformar cada ajuste trivial em pesquisa extensa. A skill só faz essa checagem durante uma tarefa ou rotina realmente configurada.
 
@@ -22,6 +24,8 @@ Para criativos, monte uma ficha por conceito: público/situação, ângulo, prom
 Cruze o resultado da plataforma com eventos testados, CRM ou vendas quando existirem; priorize qualidade de lead e lucro viável, não apenas volume ou CPL baixo. Antes de escalar, confira o gasto marginal, a capacidade de atendimento e o teto restante. Cada alteração relevante deve deixar hipótese, evidência, decisão e próxima leitura na ficha do cliente.
 
 Peça formatos realmente adaptados aos posicionamentos, incluindo leitura em celular, abertura do vídeo, áudio e áreas seguras quando pertinentes. Compare anúncio, página e oferta; uma peça bonita com CTA sem destino não está pronta. Verifique políticas e especificações vigentes em fontes oficiais antes de recomendar configurações concretas. Não prometa ROAS ou retorno. Na operação, configure e confira o estado real no portal; planejamento, rascunho, em análise e veiculação são estados distintos.
+
+Antes de apresentar um plano como pronto ou publicar, aplique os [critérios de aceite da campanha](references/criterios-de-aceite.md). Separe lacunas estratégicas que podem virar hipótese de bloqueios operacionais que impedem gasto seguro.
 
 ## Critérios específicos
 

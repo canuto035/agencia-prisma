@@ -8,6 +8,8 @@ Comece pelo resultado de negócio e caminho até ele: compra, contrato, lead qua
 
 Leia oferta, diferenciais comprovados, estoque/capacidade, praça, sazonalidade, prazo de resposta e objeções. Para conta existente, compare campanhas e anúncios no mesmo período, moeda, janela de atribuição e estágio de maturação. Registre mudanças anteriores de objetivo, criativo, orçamento ou rastreamento que tornem períodos incomparáveis. Não extrapole resultado antigo para promessa futura.
 
+Se a jornada ou o setor forem pouco conhecidos, peça à coordenação `pesquisa-mercado` e, se mudanças competitivas afetarem a decisão, `inteligencia-competitiva`. Receba um resumo utilizável: necessidades e linguagem observadas, alternativas, sazonalidade, região, tipo de demanda (procura ativa ou descoberta), provas disponíveis, restrições de oferta e lacunas. Não infira segmentação, verba ou conversão de anúncios vistos de concorrentes. Confira políticas e exigências atuais do setor, canal e país antes de recomendar público, promessa ou destino.
+
 ## 2. Definir o espaço econômico
 
 Quando houver dados, calcule o limite com a economia do cliente. Para venda direta, use contribuição por pedido e prazo de retorno aceitável; inclua recorrência somente se for medida e pertinente. Para geração de leads, **CPL suportável ≈ CAC suportável × taxa de leads que viram clientes**, ajustando por qualidade e custos comerciais. Documente unidade, período, fonte e hipótese. Se margem, taxa de fechamento ou prazo forem desconhecidos, mostre cenários condicionais e indique qual medida destrava a decisão. Nunca use um CPA, ROAS ou porcentagem de escala universal.
@@ -21,6 +23,8 @@ Antes de ampliar verba, estime o custo e o retorno **marginais** da próxima fai
 Formule pelo menos duas alternativas materiais quando a escolha for estratégica: por exemplo, público amplo com criativos distintos versus segmento específico comprovado; site versus formulário nativo; oferta direta versus geração de demanda. Para cada alternativa, explicite mecanismo, dado necessário, custo/complexidade, risco e sinal que a faria preferível. Público semelhante, interesses e expansões automáticas são opções a avaliar na conta atual, não comandos obrigatórios. Conhecimento do público também orienta ganchos, prova, imagens e objeções dos criativos.
 
 Para remarketing, inventarie fontes de fato disponíveis, tamanho/recência, exclusões possíveis na interface, etapa do funil e mensagem incremental. Um público pequeno ou sem dados confiáveis pode tornar o plano inviável; não invente audiência. Observe direitos de uso de listas e consentimento. Não confunda exclusões sugeridas à plataforma com garantia de entrega exata: confirme as opções e limitações exibidas no portal.
+
+Desenhe o funil a partir da ação real do comprador, com `funis-crm-automacao` quando houver lead ou acompanhamento: sinal de entrada, dúvida a resolver, próximo passo, responsável, prazo de resposta, evento e saída/supressão após conversão. Compare o caminho direto com um caminho de nutrição somente se o ciclo de decisão justificar. Remarketing precisa trazer informação ou prova nova; repetir o mesmo anúncio para todo visitante não constitui estratégia. Se fonte, volume, permissão ou ganho incremental forem insuficientes, concentre esforço na aquisição, no destino ou no atendimento.
 
 ## 4. Plano de aprendizado
 

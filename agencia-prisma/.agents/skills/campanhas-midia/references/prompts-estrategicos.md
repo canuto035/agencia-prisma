@@ -14,6 +14,10 @@ São moldes internos de raciocínio, não comandos fixos enviados a toda ferrame
 
 > Inventarie os públicos realmente disponíveis de [conta/cliente]: fonte, janela, recência, tamanho visível, permissões, finalidade e exclusões configuráveis. Relacione cada público a uma objeção ou próxima ação do funil. Compare aquisição ampla, segmentação específica e remarketing somente onde houver dados e volume; proponha a mensagem e o criativo distintos por hipótese. Marque como pendente qualquer fonte, janela ou exclusão não verificada no portal. Não envie lista de clientes nem presuma consentimento.
 
+## Pesquisa setorial e desenho do funil
+
+> Para [cliente, setor, praça e oferta], use [fontes com data, pesquisa de público e decisões do cliente] para distinguir procura ativa de descoberta, mapear alternativas, perguntas e restrições setoriais verificadas. Proponha o menor caminho anúncio → destino → evento → atendimento/CRM → resultado; em cada etapa indique sinal de entrada, mensagem/prova, responsável, prazo, saída e métrica. Compare caminho direto e nutrição apenas se o ciclo de compra justificar. Separe fatos, hipóteses e lacunas; não crie remarketing sem fonte, volume e finalidade de uso confirmados.
+
 ## Brief criativo de anúncios
 
 > Gere [quantidade] conceitos para [etapa/público em situação concreta] que levem à ação [destino]. Use as palavras e objeções documentadas em [fontes], a oferta e provas confirmadas em [arquivos] e o DNA/kit de [cliente]. Para cada conceito: gancho, promessa limitada à prova, demonstração, CTA, formato/posicionamento, ativo necessário e hipótese testada. Dê um ID e uma variável dominante a cada versão. Rejeite alegações inventadas, repetição cosmética e descompasso com a página.

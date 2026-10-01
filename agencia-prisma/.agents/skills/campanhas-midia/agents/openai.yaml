@@ -1,6 +1,6 @@
 interface:
   display_name: "Campanhas e M\u00eddia"
-  short_description: "Planeja e opera tr\u00e1fego pago no Meta Ads"
+  short_description: "Planeja e opera Meta e Google Ads"
   default_prompt: "Use $campanhas-midia para planejar ou operar a campanha na plataforma pedida, com objetivo, públicos, criativos, funil, rastreamento e regra de verba derivados do cliente; confirme conta, teto e estado real."
 policy:
   allow_implicit_invocation: true
