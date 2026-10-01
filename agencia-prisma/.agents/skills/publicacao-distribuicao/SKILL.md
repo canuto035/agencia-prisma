@@ -27,6 +27,8 @@ Localize cliente, canal, conta, peça aprovada, versão final, data, fuso, objet
 7. Atualize o estado como programado ou publicado somente após confirmação real. Em falha, preserve o rascunho, registre a mensagem e evite duplicar a publicação.
 8. Registre identificador e data; encaminhe a `metricas-marketing` e `rastreamento-conversoes` quando houver acompanhamento ou coleta no escopo.
 
+Na passagem para análise, preserve objetivo criativo, hipótese, versão e posicionamento da peça. Assim a equipe pode relacionar resultado ao que foi realmente publicado e devolver ao planejamento uma decisão sobre mensagem, formato ou ativo; não trate alcance isolado como aprovação da direção criativa.
+
 ## Operação contínua
 
 Uma aba aberta não cria monitoramento. Se o usuário pedir acompanhamento recorrente, use uma automação compatível com regras, frequência e política de notificações. Sessões expiradas, desafios de segurança e mudanças do canal exigem nova verificação.

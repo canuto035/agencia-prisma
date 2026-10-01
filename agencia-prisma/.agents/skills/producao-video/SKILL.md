@@ -5,6 +5,8 @@ description: "Planeje captação, edite ou produza vídeos e confira cortes, áu
 
 # Produção e edição de vídeos
 
+Para vídeo novo de campanha ou peça principal, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Planeje cobertura que mostre a tese ou prova visualmente; transição, filtro e ritmo só entram quando ajudam a narrativa.
+
 Para editar material existente, preserve a narrativa aprovada e execute as alterações pedidas; não exija um roteiro novo. Parta do roteiro, duração, canal, pessoas, equipamentos, locação e ativos disponíveis. Se o pedido for criar o roteiro do zero, desenvolva a narrativa antes de planejar tomadas; use roteiros-reels se disponível para vídeos curtos.
 
 Agrupe gravações por cenário, figurino ou equipamento para reduzir trocas. Entregue ordem de gravação, tomada, fala/ação, enquadramento, áudio, objetos, duração estimada e vínculo com o roteiro. Separe tomada essencial de opcional e ofereça alternativa simples quando faltar recurso.

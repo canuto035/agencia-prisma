@@ -5,13 +5,15 @@ description: "Pesquise, gere ou trate imagens de marketing sem descaracterizar p
 
 # Imagens para marketing
 
-Para uma imagem que represente pessoas, operação, bastidor ou produto real do cliente, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Prefira fotografia fornecida ou captação viável quando a autenticidade factual for parte da mensagem; geração não deve se passar por documentação.
+Para imagem nova de campanha ou imagem que represente pessoas, operação, bastidor ou produto real do cliente, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Prefira fotografia fornecida ou captação viável quando a autenticidade factual for parte da mensagem; geração não deve se passar por documentação.
 
 ## Entrada e seleção
 
 Ative esta especialidade ao receber pedidos de tratamento, criação ou pesquisa de imagens, ou na produção de artes de carrossel que usem fotos. Consulte a pasta indicada pelo usuário e o DNA disponível. Diferencie cada arquivo como foto a editar, referência de estilo, logotipo ou ativo de composição. Se essa distinção for ambígua e mudar a edição, esclareça-a antes de alterar a foto.
 
 Liste os arquivos pertinentes e inspecione visualmente cada foto selecionada e suas referências antes de editar. Não analise toda a máquina. Se o usuário pedir um lote, processe o lote definido e informe eventuais arquivos ilegíveis; se pedir uma peça, selecione apenas os ativos necessários. Consulte o registro de tratamento para não reeditar arquivos já entregues sem necessidade.
+
+Antes de gerar uma imagem nova, identifique a função que ela não pode cumprir com um ativo existente: mostrar uma prova, explicar um mecanismo, criar atmosfera ou abrir espaço para a mensagem. Separe imagem factual, ilustração conceitual e simulação; a legenda e a peça não devem atribuir à imagem gerada um fato que ela não documenta. Em série, escolha uma imagem de controle e confira fidelidade, utilidade no layout e custo antes de multiplicar variações.
 
 Leia [o fluxo de arquivos e conferência](references/fluxo-imagens.md) quando houver fotos locais, downloads ou entrega de arquivos. As pastas sugeridas são uma convenção, não uma dependência: preserve a organização existente e respeite o destino indicado.
 

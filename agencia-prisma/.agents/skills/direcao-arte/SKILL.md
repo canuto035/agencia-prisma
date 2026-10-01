@@ -13,6 +13,8 @@ Converta personalidade em escolhas justificadas de paleta, funções tipográfic
 
 Para produção multiformato, traduza a direção em regras que sobrevivam ao recorte: elementos fixos da marca, áreas de respiro para texto, contraste sobre fotografia, tratamento de pele e produto, uso de logo e variação entre Feed, Stories, capa e anúncio. Entregue essas regras ao design e à produção de imagem/vídeo como instruções verificáveis, evitando adjetivos vagos e aparência sintética repetida.
 
+Quando a marca pedir uma linguagem nova, desenhe a **gramática visual** antes do template: que tipo de imagem carrega prova, como a tipografia reage à mensagem, onde a composição respira ou cria tensão, qual elemento retorna para gerar reconhecimento e o que muda entre informação, emoção e conversão. Em campanha importante, compare direções por uma amostra difícil de cada uma; não escolha só pelo mockup mais bonito. Para identidade aprovada, varie o ritmo sem trocar os sinais distintivos.
+
 Mostre aplicação em uma peça do formato solicitado quando houver ferramentas. Para imagens e apresentações, use as capacidades disponíveis e inspecione o resultado. Se a entrega for apenas textual, chame de especificação visual. Não trate imagens geradas contendo texto como substituto automático de layout editável.
 
 Confira leitura em tamanho de celular, contraste e reconhecimento de marca. Prefira poucos elementos com funções claras. Não aplique uma estética fixa a todos os clientes. Registre decisões aprovadas e o que ainda é proposta; a skill cuida do sistema visual, enquanto carrosseis conduz a narrativa por slide.

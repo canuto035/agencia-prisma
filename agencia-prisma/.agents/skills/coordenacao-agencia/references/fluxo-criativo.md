@@ -12,7 +12,7 @@ Para produção nova, use o briefing e DNA existentes e reúna apenas o necessá
 
 Se o trabalho envolver várias peças ou repasses, use [o modelo de briefing criativo](../../../../modelos/brief-criativo.md) como registro enxuto no cliente. Para lote de anúncios, use [a ficha de criativos](../../../../modelos/ficha-criativos-campanha.md) para acompanhar hipóteses, versões, arquivos, destino e leitura dos resultados. Em peça pontual, aplique esses campos mentalmente sem gerar formulários.
 
-Escolha um conceito por peça e defina mensagem, prova e ação antes do acabamento. Para campanha ou lote, varie ângulo, situação, prova ou formato de forma deliberada; trocar sinônimos não gera ideias novas. Vincule cada proposta a fonte, dado do cliente ou hipótese. A peça deve continuar clara para quem vê apenas a capa, primeiro quadro ou slide isolado.
+Escolha um conceito por peça e defina mensagem, prova e ação antes do acabamento. Em identidade, campanha, série ou peça principal, aplique a barra de [criação humana e distintiva](criacao-humana-distintiva.md): compare poucas direções que mudem o ponto de vista ou a prova, selecione uma pela adequação à marca e prototipe antes do lote. Para campanha ou lote, varie ângulo, situação, prova ou formato de forma deliberada; trocar sinônimos não gera ideias novas. Vincule cada proposta a fonte, dado do cliente ou hipótese. A peça deve continuar clara para quem vê apenas a capa, primeiro quadro ou slide isolado.
 
 Quando a intenção for conexão humana, procure uma observação específica no acervo ou nas falas autorizadas antes de selecionar template, banco de imagem ou gerador. Se a peça representar bastidor, depoimento ou resultado, confirme que houve registro real. Um recurso gerado pode ilustrar uma ideia, mas não comprova o fato ilustrado.
 
@@ -24,6 +24,7 @@ Quando a intenção for conexão humana, procure uma observação específica no
 - Carrossel entrega mapa slide → texto → função → imagem → prova → arquivo. Design monta/exporta todas as páginas. Para vídeo, produção converte roteiro ou mídia existente em timeline, captação/edição e exportação.
 - Campanha entrega matriz público → ângulo → promessa → prova → formato → canal → destino → medição. Variações exploratórias diferem de teste controlado; acione ab-testing somente para desenho ou leitura do experimento.
 - Revisão verifica a saída real e devolve bloqueio, correção ou liberação para avaliação. A coordenação reconcilia quantidade, versões e arquivos.
+- Depois de publicação ou teste com dados acessíveis, métricas devolve ao planejamento e à criação o objetivo, resultado, comparação apropriada, hipótese e próximo ajuste. Não converta um indicador isolado em prova de causalidade criativa.
 
 ## Escolha de ferramentas
 

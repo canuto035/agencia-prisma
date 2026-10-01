@@ -43,6 +43,8 @@ Defina primeiro a hierarquia: mensagem principal, apoio, prova, marca e CTA. Use
 
 Escolha uma ideia visual por peça: o ativo ou relação visual que carrega a mensagem. Quando houver acervo real, explore seus detalhes e enquadramentos antes de recorrer a banco, geração ou template. Em carrosséis, faça o ritmo visual acompanhar a narrativa; não replique a capa mudando apenas o texto. Em Stories, preserve uma linguagem próxima do registro e da conversa quando isso corresponder à marca. Textura, colagem, assimetria e acabamento manual são recursos possíveis, não sinais automáticos de humanidade.
 
+Em campanha, identidade ou peça principal nova, esboce composições que expressem direções conceituais diferentes antes de investir no acabamento. Escolha pela força da ideia, leitura no canal, ativo distintivo, prova e viabilidade; registre por que a escolhida vence. Uma alternativa que só troca fonte ou cor não é outra direção. Para peça rotineira, execute o sistema aprovado sem criar uma rodada artificial de conceitos.
+
 Trate tipografia como sistema: limite famílias e pesos, mantenha tamanhos coerentes, controle largura de linha e entrelinha e evite texto encostado em bordas. Garanta contraste e leitura no tamanho real de uso. Para séries, preserve posições, proporções e estilos recorrentes sem tornar todas as peças idênticas.
 
 Use imagens no tamanho necessário e sem deformação. Recorte com intenção, preserve rostos, personagens, produtos, logotipos e áreas importantes. Quando houver pessoa, mascote ou personagem, a identidade original é obrigatória; trabalhe em conjunto com `imagens-marketing` e confira o resultado antes da composição.

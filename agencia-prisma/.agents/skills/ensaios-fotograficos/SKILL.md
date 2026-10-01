@@ -9,6 +9,8 @@ description: "Produza séries fotográficas realistas de pessoas ou produtos em 
 
 Crie séries de imagens com linguagem fotográfica coerente para campanhas, conteúdo, catálogo, marca pessoal e apresentação de produtos. Trabalhe em conjunto com `imagens-marketing` para organizar e inspecionar as referências, com `direcao-arte` quando precisar definir ou revisar a estética e com `design-grafico` quando as fotografias forem aplicadas em peças. Use `revisao-conteudo` na conferência final da entrega.
 
+Em ensaio novo de campanha, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md): cada cena precisa mostrar uma faceta da ideia ou uma prova diferente. Uma troca de fundo sem mudança de função não justifica outra fotografia.
+
 Esta skill cria novas fotografias ou composições a partir das referências. Para corrigir luz, cor, ruído e nitidez sem criar um novo ensaio, use `imagens-marketing`.
 
 ## Inspeção obrigatória das referências

@@ -6,6 +6,8 @@ Antes de escrever, identifique o modo: **corrigir a foto**, **editar uma parte**
 
 Em criação nova, acrescente ao prompt somente a matéria-prima comprovada que distingue o cliente: cena, fala autorizada, objeto, hábito ou pergunta real; origem da prova; tensão específica; linguagem que a marca usaria; e o que não pode ser encenado como fato. Se faltar material, marque a hipótese. “Humanizado”, “premium”, “autêntico” ou “fora do comum” sozinhos não especificam uma ação visual. Inclua um critério de rejeição observável: peça intercambiável com concorrente, pessoa/produto descaracterizado, prova inventada, texto genérico ou aparência sintética. Avalie o resultado renderizado, não só o texto do prompt.
 
+Para campanha, identidade, série ou peça principal, escolha primeiro uma direção pelo problema, prova e linguagem visual. Teste a direção em uma amostra antes de escrever prompts de lote. No prompt de cada item, descreva a função daquela peça, o ativo distintivo, a relação entre texto e imagem e o defeito que a faria falhar; não use a palavra “extraordinário” como substituto dessas decisões. Em variações exploratórias, mude o conceito; em teste controlado, preserve as invariantes e altere apenas a variável do experimento.
+
 ## Tratar uma foto existente
 
 > Edite a foto principal [arquivo]. Corrija apenas [exposição/balanço de branco/contraste/ruído/nitidez] com intensidade [natural/moderada], para [uso e proporção]. Preserve sem mudanças: identidade, rosto, idade aparente, expressão, pose, roupa, acessórios, pele real, fundo, produto, rótulo, logo e texto. Use [arquivo] só como referência de cor/luz, sem copiar seu sujeito. Não adicione objetos. Depois compare com o original na mesma escala.

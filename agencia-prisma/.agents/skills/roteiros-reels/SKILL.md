@@ -5,6 +5,8 @@ description: "Crie roteiros originais de Reels e vídeos curtos com gancho, fala
 
 # Roteiros de Reels
 
+Para Reel novo de campanha, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). O vídeo precisa de uma cena, fala ou demonstração própria da marca; velocidade de corte ou efeito não substitui a ideia.
+
 ## Como trabalhar
 
 Use DNA da marca, objetivo da peça, público, oferta, duração e condições de gravação. Consulte análises de referências apenas quando disponíveis. Quando a duração não vier no pedido, estime o tempo necessário para entregar a ideia e confirme o limite atual do formato se isso afetar a produção. Declare a suposição.

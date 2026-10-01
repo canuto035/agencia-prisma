@@ -13,6 +13,7 @@ Use somente os itens aplicáveis à entrega.
 - A necessidade de arquivo editável foi registrada.
 - O modo da tarefa foi escolhido: layout novo, adaptação, edição existente, ativo raster ou reconstrução em camadas.
 - Em criação nova, a observação, prova ou cena própria do cliente foi identificada; hipótese e registro factual não foram confundidos.
+- Para campanha, identidade ou peça principal, foram comparadas direções que mudam ideia ou prova; a escolha foi feita antes de polir o layout.
 - Se houver logo novo ou redesenho, nome, DNA, usos e formatos de mestre foram definidos; para aplicação, foi identificado o arquivo oficial.
 
 ## Composição
@@ -21,6 +22,7 @@ Use somente os itens aplicáveis à entrega.
 - Hierarquia, alinhamento, espaçamento e grade são consistentes.
 - O texto cabe sem compressão, viúvas incômodas ou redução excessiva de fonte.
 - Contraste e leitura funcionam no tamanho real.
+- Se for possível medir cores planas, confira o contraste do texto conforme a orientação [WCAG 2.2 de contraste mínimo](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html): 4,5:1 para texto comum e 3:1 para texto grande; em foto ou gradiente, inspecione também o pior trecho do fundo. Não declare conformidade WCAG de uma peça inteira por essa checagem isolada.
 - Imagens não estão deformadas, pixeladas ou cortadas em áreas importantes.
 - Pessoas e personagens preservam sua identidade original.
 - Logotipo respeita proporção, margem e versão correta.
@@ -39,6 +41,7 @@ Use somente os itens aplicáveis à entrega.
 - Link ou ID da peça editável, versão e arquivos exportados estão identificados quando a ferramenta os fornecer.
 - Se houver kit de marca aprovado, a peça final foi comparada a cores, fontes, logotipo e usos permitidos; divergências foram corrigidas ou registradas.
 - Em criação nova, a peça foi comparada com o acervo recente da marca e passou no teste de substituição por concorrente, ou a limitação foi registrada para revisão.
+- Texto e imagem contribuem informações complementares; o visual não é só uma frase renderizada com efeitos, salvo escolha tipográfica intencional.
 - O formato editável foi realmente gerado quando prometido.
 - Se uma arte achatada virou camadas, texto, logotipo e recortes foram conferidos no design resultante; não foi presumida fidelidade perfeita da conversão.
 - Origens, licenças e atribuições necessárias estão registradas.

@@ -11,6 +11,8 @@ Para sequência nova, leia [criação humana e distintiva](../coordenacao-agenci
 
 Defina objetivo da sequência e contexto do público. Construa progressão entre contexto, valor e convite à participação, usando enquete ou caixa de perguntas apenas quando servirem ao objetivo.
 
+Para sequência nova relevante, encontre uma razão específica para alguém responder ou continuar vendo: uma decisão em aberto, demonstração, dúvida concreta ou consequência do dia. Se a interação só coleta cliques sem mudar o próximo conteúdo ou atendimento, troque-a por uma tela que entregue valor diretamente. Preserve a espontaneidade de um registro real sem fabricar urgência ou bastidor.
+
 Parta de um momento do dia, pergunta recebida, bastidor verificável, detalhe de produto ou escolha da equipe. Se ainda não houver registros reais, proponha captação simples e um roteiro marcado como hipótese; não simule captura de tela, resposta de seguidor ou espontaneidade de fundador. Escreva fala curta, natural e específica, sem tom de anúncio em todas as telas. Planeje a devolutiva: o que a marca fará ou responderá com o que aprender na interação.
 
 Entregue por tela: texto, fala opcional, visual, interação e próxima ação. Inclua respostas-modelo quando a sequência pedir interação ou quando o usuário solicitar atendimento, sem inventar conversas ou prova social.

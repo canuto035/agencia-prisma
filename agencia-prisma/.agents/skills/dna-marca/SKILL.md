@@ -21,6 +21,8 @@ Mostre três pares de exemplos “a marca diria / evitaria”, com motivo. Tradu
 
 Inclua linguagem real do público e da equipe quando existir, com origem e contexto, sem fabricar citações. Identifique cenas recorrentes, gestos, objetos, lugares e provas que possam virar repertório visual e editorial. Diferencie uma voz própria de um tom genérico “próximo e humano”: defina o que a marca observa, como explica, quando silencia e quais clichês do setor evita. Preserve regionalidade autêntica sem caricatura.
 
+Monte um inventário curto de **ativos distintivos**: sinais já reconhecíveis da marca, elementos que podem ser desenvolvidos e códigos comuns da categoria que convém evitar ou reinterpretar. Para cada sinal, anote origem, permissão de uso, função e formatos em que continua reconhecível. Não declare uma cor ou símbolo como distintivo só porque foi proposto; reconhecimento depende de uso consistente e, quando possível, evidência do público.
+
 Finalize com uma ficha de consulta para orientar peças e critérios de consistência. Preserve decisões aprovadas; apresente mudanças estratégicas explicitamente.
 
 ## Critérios específicos
@@ -30,6 +32,7 @@ Diferencie o DNA observado do DNA recomendado. Para cada decisão central, mostr
 Inclua uma matriz curta de mensagens por situação de compra: necessidade, mensagem, prova disponível e ação. Traduza valores em escolhas editoriais e exemplos do nicho; use arquétipos somente se ajudarem a decidir, nunca como diagnóstico obrigatório. Identifique a versão do DNA usada nas peças.
 
 Teste o DNA em uma capa, um Story e uma resposta a dúvida real ou plausível identificada como hipótese. Se a mesma redação e direção servirem a um concorrente com apenas a troca do logo, volte à tensão, prova e comportamento da marca antes de aprovar. Entregue também limites de representação: o que pode ser documentado, o que é simulação e o que não deve ser encenado como fato.
+Teste também uma situação difícil: uma objeção, reclamação ou limite da oferta. Uma voz que só funciona em peça aspiracional não orienta atendimento nem copy de conversão. Passe à direção de arte e ao planejamento os sinais distintivos, as provas permitidas e os códigos genéricos a evitar.
 
 ## Contexto e entrega
 Trabalhe em português brasileiro, salvo pedido diferente. No projeto Agência Prisma, consulte o briefing e o DNA do cliente quando existirem. Não bloqueie tarefas independentes por documentos ausentes: use hipóteses identificadas e pergunte apenas pelo que muda a entrega.

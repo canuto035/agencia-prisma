@@ -15,6 +15,8 @@ Antes do roteiro, eleja um detalhe concreto do cliente ou do público que susten
 
 Entregue slide a slide: função narrativa, título, texto final, elemento visual e orientação de composição. A capa deve especificar assunto e benefício; os slides centrais devem explicar com exemplos; o fechamento deve propor uma única ação coerente.
 
+Defina o que cada imagem **mostra que o texto não consegue mostrar tão rápido**: detalhe, comparação, sequência, demonstração ou evidência. Se a página for tipográfica por escolha, a composição e o ritmo ainda precisam avançar a tese. Evite usar uma foto decorativa que pareça prova de um fato não documentado.
+
 Evite blocos de texto, suspense sem entrega e repetição da capa. Mantenha contraste, margem e hierarquia legíveis no celular. Inclua legenda e texto alternativo sugerido por slide.
 
 Quando o usuário pedir imagens, PDF ou apresentação, produza com a ferramenta e skill de formato disponíveis e inspecione o resultado renderizado. Se não houver ferramenta, entregue o conteúdo e informe que a arte ainda não foi produzida. Não chame briefing visual de arquivo final.

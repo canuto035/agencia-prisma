@@ -26,4 +26,4 @@ Quando pessoa e produto aparecem juntos, defina qual é o foco de cada cena. Pre
 
 Varie enquadramento, distância, ação e ambiente. Mantenha linguagem de luz, paleta, tratamento e identidade. Cada imagem deve acrescentar uma função ao conjunto; evite quatro fotos que mudam apenas o fundo.
 
-Quando o pedido não informar quantidade, proponha quatro finais: hero/retrato, contexto, ação/uso e detalhe. Ajuste quando o objetivo pedir catálogo, campanha ou uma sequência maior.
+Quando o pedido não informar quantidade, escolha o mínimo que cubra as funções necessárias ao destino e declare a suposição. Hero/retrato, contexto, ação/uso e detalhe são opções de cobertura, não quatro finais obrigatórios. Catálogo, campanha e carrossel podem exigir combinações diferentes; não amplie a série apenas para preencher modos.

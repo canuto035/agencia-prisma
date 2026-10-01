@@ -13,6 +13,8 @@ Leia peça, briefing e DNA disponíveis. Verifique promessa, adequação ao púb
 
 Separe problemas que impedem entrega de melhorias opcionais. Apresente trecho, problema e correção específica, preservando o conceito criativo quando possível.
 
+Em criação nova, revise em duas passagens: primeiro conceito, verdade da promessa e singularidade da marca; depois execução textual, visual e técnica no arquivo final. Uma peça impecável em acabamento, mas genérica ou sem prova, volta à etapa de conceito. Uma ideia forte com erro de identidade, leitura ou formato também não está pronta. Indique qual especialidade precisa corrigir cada defeito e reinspecione a versão corrigida.
+
 Em criativos de anúncio, confira correspondência anúncio → destino, prova da promessa, identificação da versão e especificações atuais do posicionamento. Em imagem e ensaio, compare original e final para identidade, produto, texto e sinais visíveis de geração. Em vídeo, confira duração estimada e viabilidade das cenas. Em carrossel, confira sequência, densidade e legibilidade quando houver arte. Em oferta, confira preço, prazo e prova. Verifique afirmações reguladas com fontes atuais quando necessário.
 
 Confira também origem e direito de uso de imagens, música, depoimentos, marcas e materiais de terceiros; presença de dados pessoais; acessibilidade pertinente ao formato; funcionamento do destino e consistência entre anúncio, página, formulário e oferta. Quando a revisão depender de regra atual de plataforma ou setor, consulte fonte oficial.

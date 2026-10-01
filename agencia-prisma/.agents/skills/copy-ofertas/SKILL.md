@@ -5,11 +5,15 @@ description: "Escreva ofertas e copy de conversão para anúncios, páginas, cam
 
 # Copy e ofertas
 
+Para campanha nova ou mensagem principal de marca, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). A copy deve carregar uma observação, mecanismo ou prova que outro anunciante não poderia reivindicar sem mudar o conteúdo.
+
 ## Como trabalhar
 
 Determine consciência do público, problema, benefício, mecanismo, prova, condições e ação desejada. Preserve preço, prazo e escopo fornecidos; sinalize condições ausentes.
 
 Construa promessa proporcional às provas. Use objeções específicas, exemplos e benefícios concretos. Não invente depoimentos, resultados, escassez, garantias ou descontos.
+
+Antes de intensificar a linguagem, confronte a frase principal com a evidência e com uma pergunta cética do público. Quando o produto for visual, indique qual parte da prova deve ser **vista** na peça e qual deve ser **dita** no texto; não repita a mesma afirmação em headline, imagem e legenda sem acrescentar entendimento.
 
 Para anúncio, entregue texto da mensagem, promessa, prova e CTA coerentes com a peça visual e com o destino. Quando houver versões, marque qual ângulo ou variável realmente mudou, mantendo as condições aprovadas. Entregue a peça final no formato pedido e, quando útil, até três variações com hipóteses distintas de mensagem. Para páginas, organize título, benefício, explicação, prova, objeções e CTA sem exigir seções desnecessárias.
 
