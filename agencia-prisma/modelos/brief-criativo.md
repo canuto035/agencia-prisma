@@ -3,6 +3,8 @@
 - Cliente e projeto:
 - Pedido, responsável e data:
 - Entrega exata, quantidade e formatos:
+- Intenção visual (reconstrução autorizada, original guiado por referências ou criação do zero):
+- Referência principal, origem/permissão, grau de fidelidade e elementos que podem mudar:
 - Canal, posicionamento e destino da ação:
 - Público e situação concreta:
 - Tensão ou observação própria da marca, com fonte:
@@ -14,6 +16,7 @@
 - Pessoa, personagem ou produto a preservar (referência principal e invariantes):
 - Área protegida e recortes viáveis de cada imagem selecionada:
 - Referências de estilo (o que aproveitar; o que não copiar):
+- Pesquisa necessária, fontes e decisão visual que ela mudou:
 - Texto obrigatório, restrições e informações não confirmadas:
 - Ferramenta adequada, necessidade de editável e orçamento/teto:
 - Critério de aceite (visual, audiovisual, formato e vínculo ao pedido):

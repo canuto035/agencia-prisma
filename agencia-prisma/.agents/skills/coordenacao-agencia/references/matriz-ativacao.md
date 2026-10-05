@@ -39,6 +39,8 @@ As combinações abaixo dependem do trabalho que ainda falta. Reutilize entradas
 | Pautas ou calendário | planejamento-editorial; referências e DNA existentes; produção só se também forem pedidas peças |
 | Carrossel textual | carrosseis + revisao-conteudo; design quando o pedido incluir arte |
 | Carrossel com arquivos finais | carrosseis + design-grafico + revisao-conteudo; imagens-marketing para criar/tratar/pesquisar ativos; direcao-arte para decisões visuais novas |
+| Recriar referência visual autorizada | design-grafico lidera reconstrução e comparação; skill de conteúdo confere texto e marca; imagens-marketing trata ativos; direcao-arte entra se o sistema visual precisar ser inferido ou adaptado. Verificar origem/permissão da referência e usar a bancada técnica nos arquivos acessíveis |
+| Criar arte original a partir de referências ou do zero | design-grafico lidera composição; skill de conteúdo fornece a mensagem; direcao-arte define linguagem nova; pesquisa-mercado/inteligencia-competitiva entram se público ou categoria mudarem a decisão; imagens-marketing produz ou trata ativos; revisao-conteudo confere o final. Usar a bancada técnica conforme os arquivos disponíveis |
 | Apenas corrigir texto de peça pronta | revisao-conteudo; design-grafico se precisar alterar e exportar o layout; sem recriar narrativa ou fotos |
 | Roteiro de Reel | roteiros-reels + revisao-conteudo; referencias-conteudo se houver referências a analisar |
 | Cortar, legendar ou editar vídeo existente | producao-video + revisão pertinente; roteiros-reels apenas se faltar narrativa nova, design para capa solicitada |

@@ -9,6 +9,8 @@ Para identidade ou campanha nova, leia [criação humana e distintiva](../coorde
 
 Leia DNA e ativos disponíveis. Diferencie identidade aprovada, referências e propostas. Preserve logotipo e cores oficiais salvo pedido de revisão; identifique arquivos ausentes sem fingir que foram examinados.
 
+Quando o design partir de uma referência ou de uma linguagem ainda indefinida, siga [pesquisa e reconstrução](../design-grafico/references/pesquisa-e-reconstrucao.md): distinga reprodução autorizada, inspiração para solução própria e criação do zero. Pesquise público e categoria quando a evidência puder mudar a direção; entregue ao design um mapa curto do que preservar, adaptar e evitar. Uma referência pública não autoriza copiar ativos distintivos de terceiros.
+
 Converta personalidade em escolhas justificadas de paleta, funções tipográficas, fotografia, ilustração, margens e hierarquia. Entregue valores de cor quando propuser paleta, pares de fontes com alternativas e regras aplicáveis a capa, conteúdo e CTA. Não presuma licença de fonte ou imagem; use ativos com origem conhecida e adequada ao uso pretendido.
 
 Para produção multiformato, traduza a direção em regras que sobrevivam ao recorte: elementos fixos da marca, áreas de respiro para texto, contraste sobre fotografia, tratamento de pele e produto, uso de logo e variação entre Feed, Stories, capa e anúncio. Entregue essas regras ao design e à produção de imagem/vídeo como instruções verificáveis, evitando adjetivos vagos e aparência sintética repetida.

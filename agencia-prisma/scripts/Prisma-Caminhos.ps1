@@ -26,8 +26,12 @@ function Get-PrismaFiles {
     param([string]$Path)
     $base = Assert-PrismaPath $Path
     $items = @(Get-ChildItem -LiteralPath $base -Recurse -Force -ErrorAction Stop)
+    $files = [Collections.Generic.List[object]]::new()
     foreach ($item in $items) {
+        # Dependencias instaladas localmente sao reconstruidas pelo lockfile, nunca distribuidas.
+        if ($item.FullName -match '(^|[\\/])node_modules([\\/]|$)') { continue }
         if ($item.Attributes -band [IO.FileAttributes]::ReparsePoint) { throw "Link encontrado: $($item.FullName)" }
+        if (-not $item.PSIsContainer) { $files.Add($item) }
     }
-    return @($items | Where-Object { -not $_.PSIsContainer })
+    return @($files)
 }

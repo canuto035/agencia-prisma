@@ -38,6 +38,18 @@ O especialista de design recebe a versão final escolhida, recorte viável e tex
 
 Use este briefing para a ferramenta que cria **layout**. Para uma imagem avulsa, use os padrões de imagem; não peça ao gerador raster uma arte com texto exato e depois a apresente como design editável.
 
+## Reconstruir uma referência autorizada
+
+> Reconstrua [arquivo/ID/versão] autorizado pelo cliente [nome] para [canal, formato e dimensões]. Preserve exatamente [texto, logo, hierarquia, paleta, tipografia disponível, proporções, espaçamentos, imagens e áreas protegidas]. Recrie em camadas editáveis quando solicitado e quando a ferramenta permitir. Mude apenas [lista explícita]. Use os ativos originais [arquivos/versões]. Compare saída e referência na mesma escala e em tamanho de uso; rejeite [diferenças observáveis]. Registre fontes ou elementos indisponíveis e entregue somente os formatos realmente produzidos.
+
+Se a referência não tiver permissão clara para reprodução fiel, não use este modo; descreva os princípios aproveitáveis e produza uma peça original da marca.
+
+## Criar do zero ou com referências de inspiração
+
+> Crie [peça] para [cliente/público/canal], com objetivo [resultado] e mensagem literal [texto]. Baseie a direção nas evidências [DNA, material real, pesquisa com fonte e data]; use [referências] somente para [ritmo, hierarquia ou técnica], evitando [ativos e composição distintivos de terceiros]. Conceito [tese/prova], papel de cada ativo [lista], hierarquia [ordem], formato [dimensão], kit do cliente [ID/versão]. Produza [direções distintas se peça principal] e escolha pela leitura, diferenciação e viabilidade. Rejeite se a peça for intercambiável com concorrente, genérica, ilegível ou incoerente com a marca. Confira renderização, arquivos salvos e exportações.
+
+Depois de montar, use a bancada de código aberto nas verificações técnicas pertinentes aos arquivos acessíveis e faça a inspeção visual. O resultado de código não aprova sozinho a peça.
+
 ## Editar ou adaptar um design existente
 
 > No design [ID/versão] do cliente [nome], altere somente [página/elemento] de [estado atual] para [resultado autorizado]. Preserve [texto, marca, fotografia, produto, demais páginas e elementos]. O destino é [canal e formato verificados]; se houver redimensionamento, recomponha [rosto/produto/logo/CTA/área segura] em vez de aceitar o recorte automático sem inspeção. A operação estará concluída quando [mudança observável] aparecer na prévia e no design salvo, sem perda dos elementos protegidos. Siga a transação e a confirmação exigidas pela ferramenta; rascunho não é arquivo salvo.

@@ -1,6 +1,6 @@
 ---
 name: design-grafico
-description: "Crie ou adapte artes, peças e logos pedidos; monte layouts, exporte arquivos e confira o resultado visual."
+description: "Pesquise, reconstrua referências autorizadas ou crie artes originais; monte, exporte e confira peças e logos pedidos."
 ---
 
 # Design gráfico
@@ -30,12 +30,14 @@ Identifique finalidade, público, canal, formato, dimensões, quantidade, texto 
 Diferencie claramente:
 
 - conteúdo e copy, que precisam estar aprovados ou identificados como provisórios;
-- referências visuais, que orientam sem serem copiadas;
+- referências visuais com papel definido: reconstrução fiel autorizada, inspiração para peça original ou comparação de categoria;
 - ativos oficiais, como logotipo, cores e fontes;
 - imagens que precisam de tratamento ou licença;
 - arquivo final para publicação e arquivo-fonte editável.
 
 Não invente logotipo, selo, certificação, preço, data ou condição comercial para preencher outra peça. Crie ou redesenhe um logo somente quando isso fizer parte do pedido explícito e siga [logos e aplicações](references/logos-e-aplicacoes.md).
+
+Escolha entre **reconstrução fiel de material autorizado**, **criação original guiada por referências** e **criação do zero**. Leia [pesquisa e reconstrução](references/pesquisa-e-reconstrucao.md) para decidir o grau de fidelidade, quando pesquisar e como comparar a peça final. A palavra “clonar” não dispensa conferir a origem e o uso permitido da referência. Se a referência de terceiro não puder ser reproduzida, transforme seus princípios de composição em uma peça própria do cliente.
 
 ## Construção do layout
 
@@ -55,7 +57,7 @@ Antes de posicionar um ativo, confira a versão selecionada por `imagens-marketi
 
 Escolha a ferramenta e o formato conforme a entrega disponível no ambiente. Para peças editáveis, prefira um formato que preserve texto e elementos separados quando a ferramenta permitir. Para publicação, exporte imagens ou PDF no formato solicitado. Não chame um PNG de editável e não prometa arquivo nativo de aplicativo que não foi produzido.
 
-Antes de gerar qualquer coisa, escolha o modo da peça: **layout novo editável**, **adaptação de layout aprovado**, **edição de design existente**, **imagem raster para inserir no layout**, **reconstrução de arte achatada em camadas** ou **logo/identidade explicitamente solicitados**. O modo determina a ferramenta e o prompt. Não tente corrigir uma fotografia com um gerador de layouts nem use uma imagem única para simular texto editável. Para arte achatada, tente separação em camadas somente quando a editabilidade for necessária e o recurso existir; confira cada camada, pois a conversão pode alterar texto, logo e recortes.
+Antes de gerar qualquer coisa, escolha a intenção: **reconstrução fiel autorizada**, **original guiado por referências** ou **criação do zero**. Em seguida escolha o meio: **layout novo editável**, **adaptação de layout aprovado**, **edição de design existente**, **imagem raster para inserir no layout**, **reconstrução de arte achatada em camadas** ou **logo/identidade explicitamente solicitados**. Essa dupla escolha determina a ferramenta e o prompt. Não tente corrigir uma fotografia com um gerador de layouts nem use uma imagem única para simular texto editável. Para arte achatada, tente separação em camadas somente quando a editabilidade for necessária e o recurso existir; confira cada camada, pois a conversão pode alterar texto, logo e recortes.
 
 Escolha entre composição editável, imagem raster e arte final exportada pelo requisito da entrega. Preserve texto, logotipo, preço e CTA como elementos controláveis na montagem quando a ferramenta permitir; use geração de imagem para ativos visuais, não para substituir texto exato ou identidade aprovada. Quando a peça tiver várias páginas ou exigir apresentação editável, use a capacidade de apresentações disponível. Para imagens raster novas ou editadas, use a capacidade de geração de imagens. Para PDF final, use a capacidade de PDF. Siga as skills de formato disponíveis e o fluxo de renderização e inspeção exigido por elas.
 
@@ -70,6 +72,8 @@ Quando o usuário pedir arte ou carrossel **no Canva**, use o Canva como ferrame
 Ao criar variações, adapte a composição a cada proporção; não se limite a esticar ou recortar automaticamente a peça principal. Preserve hierarquia, áreas seguras e legibilidade em cada versão.
 
 Leia [o checklist de produção](references/checklist-design.md) antes de entregar arquivos finais ou um lote de peças.
+
+Em toda tarefa visual, verifique também a [bancada de código aberto](references/bancada-codigo-aberto.md). Execute as rotinas pertinentes sobre os arquivos que estiverem acessíveis: dimensões e qualidade técnica de imagens, contraste de cores planas, prévia comparativa de reconstruções e otimização conservadora de SVG. Instale dependências fixadas pelo projeto quando o ambiente permitir. Se a peça existir só dentro de uma ferramenta conectada e não houver exportação local, use a conferência visual da ferramenta e registre que a checagem por código não foi aplicada. Código não substitui julgamento de composição, marca ou fidelidade.
 
 ## Conferência visual
 

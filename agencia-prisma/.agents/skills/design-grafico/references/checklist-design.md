@@ -12,6 +12,8 @@ Use somente os itens aplicáveis à entrega.
 - O ativo selecionado tem dimensão suficiente para o recorte previsto, área protegida identificada e licença adequada ao uso.
 - A necessidade de arquivo editável foi registrada.
 - O modo da tarefa foi escolhido: layout novo, adaptação, edição existente, ativo raster ou reconstrução em camadas.
+- A intenção foi escolhida: reconstrução fiel autorizada, original guiado por referências ou criação do zero; origem e grau de fidelidade foram registrados.
+- Pesquisa foi feita quando faltava evidência para público, categoria, conceito, ativo ou especificação mutável; fonte e data foram anotadas.
 - Em criação nova, a observação, prova ou cena própria do cliente foi identificada; hipótese e registro factual não foram confundidos.
 - Para campanha, identidade ou peça principal, foram comparadas direções que mudam ideia ou prova; a escolha foi feita antes de polir o layout.
 - Se houver logo novo ou redesenho, nome, DNA, usos e formatos de mestre foram definidos; para aplicação, foi identificado o arquivo oficial.
@@ -36,6 +38,8 @@ Use somente os itens aplicáveis à entrega.
 - Dimensões, proporção, páginas e ordem estão corretas.
 - Cada variação foi ajustada e inspecionada individualmente.
 - O arquivo foi aberto após a exportação.
+- A bancada de código aberto foi consultada; inspeção de dimensões, contraste de cor plana, comparação lado a lado e SVG foram executados quando pertinentes e com arquivos acessíveis, ou a indisponibilidade foi registrada.
+- Em reconstrução autorizada, a saída foi comparada à referência na mesma escala; diferenças materiais foram corrigidas ou informadas.
 - A foto aplicada foi comparada com o arquivo selecionado após a exportação: identidade, cor real, recorte e detalhes importantes continuam corretos.
 - Para imagens informativas, o texto alternativo foi preparado quando o canal o aceitar; elementos decorativos não receberam descrição repetitiva.
 - Link ou ID da peça editável, versão e arquivos exportados estão identificados quando a ferramenta os fornecer.

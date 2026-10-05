@@ -108,6 +108,18 @@ if($higgsUi -notmatch '(?ms)dependencies:.*value:\s*"higgsfield"'){$errors.Add('
 $integrationConfig=Get-Content -LiteralPath (Join-Path $base 'operacao/integracoes-agencia.json') -Raw -Encoding utf8 | ConvertFrom-Json
 if($integrationConfig.selecao -ne 'automatica_pelo_coordenador'){$errors.Add('Seleção automática das integrações operacionais ausente.')}
 if($integrationConfig.armazenar_credenciais -ne $false){$errors.Add('Credenciais não podem ser armazenadas no projeto.')}
+# A bancada visual é distribuída como código e dependências fixadas, sem node_modules.
+$designTools=Join-Path $base 'scripts/design-tools'
+foreach($relative in @('design-check.mjs','package.json','package-lock.json','README.md')){
+    if(-not(Test-Path -LiteralPath (Join-Path $designTools $relative) -PathType Leaf)){$errors.Add("Bancada de design ausente: $relative")}
+}
+if(Test-Path -LiteralPath (Join-Path $designTools 'package.json') -PathType Leaf){
+    $designPackage=Get-Content -LiteralPath (Join-Path $designTools 'package.json') -Raw -Encoding utf8 | ConvertFrom-Json
+    foreach($dependency in @('sharp','colorjs.io','svgo')){
+        if(-not $designPackage.dependencies.PSObject.Properties[$dependency]){$errors.Add("Dependência visual ausente: $dependency")}
+    }
+}
+if($coord -notmatch 'bancada-codigo-aberto\.md' -or $coord -notmatch 'pesquisa-e-reconstrucao\.md'){$errors.Add('Coordenação não ativa os novos fluxos de design.')}
 # Estados salvos de integrações são históricos. Confirme disponibilidade e conexão na sessão real.
 foreach($script in @(Get-ChildItem -LiteralPath (Join-Path $base 'scripts') -File -Filter '*.ps1')){
     $tokens=$null; $parseErrors=$null
