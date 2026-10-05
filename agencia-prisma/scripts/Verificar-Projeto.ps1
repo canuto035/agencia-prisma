@@ -120,6 +120,17 @@ if(Test-Path -LiteralPath (Join-Path $designTools 'package.json') -PathType Leaf
     }
 }
 if($coord -notmatch 'bancada-codigo-aberto\.md' -or $coord -notmatch 'pesquisa-e-reconstrucao\.md'){$errors.Add('Coordenação não ativa os novos fluxos de design.')}
+$strategyTools=Join-Path $base 'scripts/strategy-tools'
+foreach($relative in @('strategy-data.mjs','package.json','package-lock.json','README.md')){
+    if(-not(Test-Path -LiteralPath (Join-Path $strategyTools $relative) -PathType Leaf)){$errors.Add("Bancada estratégica ausente: $relative")}
+}
+if(Test-Path -LiteralPath (Join-Path $strategyTools 'package.json') -PathType Leaf){
+    $strategyPackage=Get-Content -LiteralPath (Join-Path $strategyTools 'package.json') -Raw -Encoding utf8 | ConvertFrom-Json
+    foreach($dependency in @('papaparse','simple-statistics')){
+        if(-not $strategyPackage.dependencies.PSObject.Properties[$dependency]){$errors.Add("Dependência estratégica ausente: $dependency")}
+    }
+}
+if($coord -notmatch 'bancada-dados-estrategicos\.md' -or $coord -notmatch 'obstáculo de negócio'){$errors.Add('Coordenação não encaminha a estratégia baseada em diagnóstico.')}
 # Estados salvos de integrações são históricos. Confirme disponibilidade e conexão na sessão real.
 foreach($script in @(Get-ChildItem -LiteralPath (Join-Path $base 'scripts') -File -Filter '*.ps1')){
     $tokens=$null; $parseErrors=$null

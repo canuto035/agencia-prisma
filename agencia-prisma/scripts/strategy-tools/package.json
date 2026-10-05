@@ -1,0 +1,14 @@
+{
+  "name": "agencia-prisma-strategy-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Auditoria local de CSV para decisões estratégicas da Agência Prisma",
+  "scripts": {
+    "check": "node --check strategy-data.mjs"
+  },
+  "dependencies": {
+    "papaparse": "5.7.0",
+    "simple-statistics": "7.12.1"
+  }
+}

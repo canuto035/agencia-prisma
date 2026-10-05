@@ -53,6 +53,7 @@ Respeite autorizações existentes. Criar conteúdo não autoriza enviar mensage
 - Links, início ou coordenação de cliente: `coordenacao-agencia`, com `briefing-cliente` e `referencias-conteudo` conforme o material.
 - Público, mercado e concorrentes: `pesquisa-mercado`.
 - Diagnóstico amplo ou reposicionamento: `coordenacao-agencia` integra briefing, referências, mercado, voz do cliente e sinais competitivos em uma síntese estratégica; `dna-marca` usa as decisões e hipóteses resultantes. Reaproveite evidências válidas e ative somente as especialidades necessárias.
+- Estratégia de marketing ou crescimento: a coordenação assume o papel de estrategista, identifica o obstáculo principal, escolhe prioridades executáveis, encaminha cada frente aos especialistas e define como revisar o resultado. Use dados reais quando existirem; uma peça isolada não exige diagnóstico amplo.
 - Acompanhamento de concorrentes, ofertas, anúncios, tendências e mudanças: `inteligencia-competitiva`, com fontes, datas e critérios de alerta.
 - Posicionamento, voz e identidade estratégica: `dna-marca`.
 - Ideias e calendário: `planejamento-editorial`, apoiado pelo DNA e pelas referências existentes.

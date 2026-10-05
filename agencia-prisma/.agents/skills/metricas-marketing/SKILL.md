@@ -17,6 +17,8 @@ Cada recomendação deve apontar dado de origem, hipótese, ação e critério p
 
 Ao planejar mensuração de campanhas ou produção recorrente, defina com `rastreamento-conversoes` um plano mínimo: objetivo, indicador principal, indicadores de diagnóstico, fonte, responsável, frequência, linha de base, meta quando aprovada e decisão que cada indicador pode provocar. Use nomes e parâmetros consistentes para relacionar conteúdo, campanha, página, lead e venda.
 
+Quando receber CSVs locais, consulte a [bancada de dados estratégicos](../coordenacao-agencia/references/bancada-dados-estrategicos.md) para auditar ausências, resumir colunas numéricas e calcular taxas a partir de totais compatíveis. Confira a definição de cada coluna antes de interpretar o resultado; a ferramenta não identifica sozinha conversões, clientes novos ou causalidade.
+
 ## Critérios específicos
 
 Ao exibir taxas em porcentagem, multiplique a razão por 100 e informe denominador. Não tire a média simples de taxas de grupos com volumes diferentes: use totais compatíveis. Deduplicate eventos quando houver identificador e método válido; não some alcance entre plataformas como pessoas únicas.
