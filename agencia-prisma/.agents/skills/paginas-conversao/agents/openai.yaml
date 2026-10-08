@@ -1,6 +1,6 @@
 interface:
   display_name: "Páginas de Conversão"
-  short_description: "Planeja páginas, formulários e conversão"
-  default_prompt: "Use $paginas-conversao para estruturar esta página, escrever as seções, definir o formulário, a experiência após o envio e os eventos de mensuração."
+  short_description: "Cria páginas e apresentações de diagnóstico"
+  default_prompt: "Use $paginas-conversao para entregar a página pedida. Se for apresentação de diagnóstico, organize evidências, antes/proposta e plano sem instalar captação ou mensuração por padrão; se for página comercial, defina a jornada e implemente o escopo de conversão solicitado. Confira os arquivos e o estado real."
 policy:
   allow_implicit_invocation: true

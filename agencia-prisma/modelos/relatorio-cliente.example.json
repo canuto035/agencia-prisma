@@ -1,0 +1,46 @@
+{
+  "demo": true,
+  "client": "Ateliê Horizonte · cliente fictício",
+  "title": "Uma presença que mostra por que escolher você.",
+  "date": "2026-10-08",
+  "summary": "Demonstração de como a Prisma transforma observações da página em propostas de mensagem, design e conteúdo. Os exemplos abaixo são fictícios e não representam uma auditoria real.",
+  "goal": "Ajudar quem chega ao perfil a entender o serviço, reconhecer o cuidado no processo e encontrar o próximo passo.",
+  "brand": { "accent": "#98482e" },
+  "coverage": [
+    {"area":"Perfil e apresentação", "state":"demonstração", "detail":"Bio e caminho de contato inventados para ilustrar a comparação de texto."},
+    {"area":"Conteúdo e direção visual", "state":"demonstração", "detail":"Exemplos de pauta, carrossel e Stories baseados no mesmo problema de clareza."},
+    {"area":"Resultados e audiência", "state":"indisponível", "detail":"Sem acesso a métricas. Não há estimativa de alcance, retenção, vendas ou aumento de conversão."}
+  ],
+  "limits": ["Nenhum site, perfil ou conteúdo real de cliente foi acessado nesta demonstração.", "As telas de conteúdo são amostras editoriais. As artes finais precisam de ativos, identidade e formato do cliente."],
+  "evidence": [
+    {"id":"E1", "label":"Bio fictícia", "kind":"demonstração", "date":"2026-10-08", "detail":"Exemplo criado para o teste: ‘Transformamos sonhos em realidade. Qualidade e excelência. Saiba mais.’ Não é uma citação de cliente."},
+    {"id":"E2", "label":"Amostra fictícia de pauta", "kind":"demonstração", "date":"2026-10-08", "detail":"Cenário ilustrativo: as publicações mostram somente projetos acabados; a proposta é explicar decisões do processo. Não afirma frequência ou desempenho real."},
+    {"id":"E3", "label":"Capacidade a confirmar", "kind":"hipótese", "date":"2026-10-08", "detail":"Supomos para o exemplo que a equipe pode captar detalhes de um trabalho autorizado. Disponibilidade, direitos e canal de contato precisam ser confirmados antes de produzir."}
+  ],
+  "improvements": [
+    {"id":"A1", "title":"De frase ampla a serviço reconhecível", "evidence":["E1"], "before":"A bio fictícia fala de qualidade, mas não explica o que o ateliê faz ou para quem.", "after":"Propor uma bio com serviço, situação atendida e um passo claro de contato, após confirmar o escopo do ateliê.", "reason":"Hipótese: deixar a proposta explícita pode facilitar a escolha de quem chega. Ainda precisa de verificação com o público.", "priority":"Agora", "effort":"Texto e revisão", "owner":"Estratégia e copy", "verify":"Pedir a leitores do público que expliquem o serviço e a próxima ação; depois acompanhar visitas e contatos com a fonte de dados disponível."},
+    {"id":"A2", "title":"Mostrar o raciocínio por trás da imagem", "evidence":["E2","E3"], "before":"O cenário fictício apresenta somente o resultado final.", "after":"Criar um carrossel sobre uma escolha concreta de projeto, com detalhe visual real e uma explicação útil.", "reason":"Hipótese: revelar uma decisão ajuda o público a reconhecer o cuidado e a competência da marca sem frases genéricas.", "priority":"Próximo", "effort":"Captação e montagem", "owner":"Planejamento, carrossel e design", "verify":"Conferir se a sequência responde uma dúvida real; quando publicada, analisar salvamentos por alcance e comentários pertinentes com período e dados disponíveis."},
+    {"id":"A3", "title":"Fazer a interação ter continuidade", "evidence":["E2","E3"], "before":"Pergunta ao público sem uma devolutiva definida no cenário de exemplo.", "after":"Sequência de Stories que apresenta uma decisão, faz uma pergunta objetiva e prepara a resposta possível para a equipe.", "reason":"Hipótese: uma pergunta com consequência abre uma conversa mais útil. Não há promessa de engajamento.", "priority":"Depois", "effort":"Equipe a confirmar", "owner":"Stories e atendimento", "verify":"Confirmar quem responde e quando; avaliar respostas relacionadas à questão e se receberam a devolutiva combinada."}
+  ],
+  "comparisons": [
+    {"title":"A mensagem de entrada", "evidence":["E1"], "status":"proposta", "before":{"eyebrow":"Texto fictício", "title":"Transformamos sonhos em realidade.", "body":"Qualidade e excelência para você. Conheça nosso trabalho.", "cta":"Saiba mais"}, "after":{"eyebrow":"Serviço a confirmar", "title":"Interiores pensados para a vida que acontece aí.", "body":"Proposta ilustrativa para um ateliê de interiores: projetos que começam pela sua rotina e explicam cada escolha de espaço, material e uso.", "cta":"Conversar sobre meu espaço"}, "changes":["Explicitar a categoria e a situação do público; confirmar se correspondem ao serviço real.", "Apresentar o processo em linguagem concreta, sem inventar prazo ou garantia.", "Vincular a chamada ao destino de contato confirmado; o botão aqui é apenas uma amostra visual."]}
+  ],
+  "content": [
+    {"format":"Carrossel", "title":"Antes da cor, vem a pergunta.", "insight":"Proposta ilustrativa: substituir ‘inspire-se’ por um raciocínio de projeto que o leitor pode usar. Na produção real, vincular a um caso e imagens autorizados.", "evidence":["E2","E3"], "status":"proposta", "frames":[
+      {"label":"01 · Situação", "text":"Uma sala bonita na foto. Mas como ela funciona numa terça-feira?", "visual":"Capa tipográfica com área livre e um detalhe do projeto real, se disponível."},
+      {"label":"02 · Decisão", "text":"Antes de escolher a paleta, pergunte: quem usa esse espaço, para quê e em que horário?", "visual":"Diagrama simples de circulação, criado a partir da planta autorizada."},
+      {"label":"03 · Recompensa", "text":"Leve sua rotina para a conversa. Ela ajuda a transformar preferência em decisão de projeto.", "visual":"Detalhe do mesmo projeto e uma chamada discreta para o canal confirmado."}
+    ]},
+    {"format":"Stories", "title":"Uma escolha, uma conversa.", "insight":"A sequência pede uma resposta útil e prevê a devolutiva. Captação, formato de interação e disponibilidade da equipe precisam ser confirmados.", "evidence":["E2","E3"], "status":"proposta", "frames":[
+      {"label":"01 · Contexto", "text":"Ao pensar numa sala, por onde você começa: pela aparência ou pelo uso?", "visual":"Imagem autorizada de um detalhe; interação nativa somente quando disponível."},
+      {"label":"02 · Explicação", "text":"A aparência importa. Entender o uso ajuda a escolher circulação, apoio e iluminação.", "visual":"Mostrar uma escolha verificável do projeto; nenhuma encenação de depoimento."},
+      {"label":"03 · Devolutiva", "text":"Que situação da sua rotina o espaço deveria resolver?", "visual":"Pergunta somente com equipe disponível; preparar resposta que indica o próximo passo real."}
+    ]}
+  ],
+  "roadmap": [
+    {"phase":"Primeiro", "action":"Confirmar serviço e mensagem", "owner":"Cliente, estratégia e copy", "check":"Bio, promessa e destino de contato correspondem à operação real."},
+    {"phase":"Em seguida", "action":"Produzir uma amostra completa", "owner":"Conteúdo, imagem e design", "check":"Texto, ativo autorizado, ritmo visual e leitura no celular; corrigir antes de ampliar a série."},
+    {"phase":"Após a publicação autorizada", "action":"Revisar a hipótese", "owner":"Métricas e coordenação", "check":"Fonte, período e comparação válida; decidir manter, ajustar ou interromper sem atribuir causalidade indevida."}
+  ],
+  "nextStep":"Em um cliente real, confirmar identidade e objetivo, receber a URL e analisar os materiais acessíveis. A Prisma prepara propostas específicas, monta a apresentação e confere tudo antes da entrega."
+}

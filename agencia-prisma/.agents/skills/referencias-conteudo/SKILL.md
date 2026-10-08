@@ -1,11 +1,13 @@
 ---
 name: referencias-conteudo
-description: "Analise links, vídeos, perfis e peças de referência antes de criar ideias, roteiros ou campanhas."
+description: "Pesquise sites, perfis, vídeos e peças do cliente; registre acesso e evidências para diagnóstico, melhorias e criação."
 ---
 
-# Análise de vídeos e referências
+# Análise de páginas, vídeos e referências
 
 ## Como trabalhar
+
+Quando o pedido trouxer uma página do cliente, um site ou perfil social para diagnóstico, leia [pesquisa de página do cliente](references/pesquisa-pagina-cliente.md). Identifique primeiro o canal: site e landing page pedem leitura de jornada e interface; Instagram e outras redes pedem leitura de perfil e amostra de conteúdo. Um perfil social não prova a qualidade do site vinculado, e uma página não representa toda a presença digital.
 
 Confirme quais arquivos ou URLs estão acessíveis. Use transcrição para analisar fala; só descreva enquadramento, edição ou linguagem corporal quando houver acesso visual. Declare limites do material. Nunca alegue ter assistido a um vídeo indisponível.
 
@@ -14,6 +16,8 @@ Registre origem, trecho ou timestamp quando disponível, gancho, promessa, progr
 Para pedidos que tragam links de vídeo do cliente, faça uma ficha de acesso por URL e destaque quadro, fala ou trecho que sustenta cada achado. Se o player não abrir, trabalhe com transcrição ou metadados acessíveis e identifique essa limitação antes de sugerir cenas ou edição. Extraia mecanismos transferíveis, como abrir com uma objeção concreta, sem copiar frases distintivas, personagem ou identidade do criador. Proponha adaptações originais coerentes com a marca e seus recursos de gravação.
 
 Entregue ficha por referência, padrões recorrentes, o que testar e exemplos de aplicação. Salve aprendizados verificáveis junto ao contexto do cliente, mantendo a origem de cada observação.
+
+Em pedido de pesquisa → antes/depois → apresentação em LP, esta skill entrega a evidência do **antes** e os achados rastreáveis; `paginas-conversao` estrutura a LP de diagnóstico com o **depois proposto**, apoiada pelas especialidades necessárias. Preserve URL, data, amostra, trechos e capturas originais; nunca transforme uma hipótese em observação ou um mockup em captura do estado atual. Se a URL ainda não foi fornecida nem estiver confirmada no contexto, prepare o modelo e a coleta, sem afirmar diagnóstico real do cliente.
 
 ## Critérios específicos
 

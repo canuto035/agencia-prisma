@@ -87,3 +87,9 @@ Acrescente ao briefing, quando houver: a cena ou pergunta concreta que originou 
 Este padrão produz roteiro. Se o pedido for Story pronto, passe o texto e os ativos ao design, confira todas as telas exportadas e distinga arquivo pronto de publicação.
 
 Esses padrões não ordenam compra, publicação ou ativação de mídia. Após a execução, registre ferramenta, referências, versão, custo quando houver e rejeições relevantes.
+
+## Diagnóstico da página e antes/proposta em LP
+
+> Analise [URL ou materiais do cliente] para [objetivo e ação]. Registre acesso real, data, amostra e IDs das evidências; separe o que foi observado de hipótese e o que não pôde ser examinado. Para cada prioridade, ligue [evidência] a [obstáculo da jornada] e produza uma mudança concreta de [copy/layout/conteúdo], preservando [DNA, kit e ativos confirmados]. Mostre [trecho/captura original] e [proposta correspondente] no mesmo recorte, com rótulos claros e razão da mudança. Crie [formatos e quantidade pedidos], baseados em [situação do público e prova disponível], e passe às especialidades de produção/revisão. Monte a apresentação em [HTML local ou destino pedido], com cobertura, fontes, comparações, critérios de validação e sequência executável. Não invente métricas nem ganho percentual. Confira arquivo e apresentação desktop/celular; não encerre enquanto faltar formato final autorizado e executável.
+
+O gerador local organiza dados e imagens selecionados; não faz a pesquisa ou a criação sozinho. Consulte [o diagnóstico](diagnostico-pagina.md) e [o esquema de apresentação](relatorio-cliente.example.json). O prompt de cada peça deve trazer sua evidência, intenção e relação entre texto e visual; “premium”, “viral” ou “humanizado” isolados não são instruções de produção suficientes.

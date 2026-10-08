@@ -5,48 +5,38 @@ description: "Planeje pautas, calendário e lotes de conteúdo ligados a objetiv
 
 # Planejamento editorial
 
-Para campanha editorial nova ou série visual, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Planeje uma tese e repertório próprios do cliente antes de distribuir formatos.
+Para campanha editorial nova ou série visual, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md). Para planos derivados da página do cliente, use [evidência em pauta](references/evidencia-em-pauta.md).
 
-## Como trabalhar
+## Escolha editorial
 
-Derive pilares do DNA e das dúvidas reais do público. Distribua descoberta, consideração, decisão e relacionamento conforme o estágio do negócio; não imponha proporções fixas.
+Recupere briefing, DNA, decisões, histórico e diagnóstico existentes. Use perguntas, objeções, situações e linguagem reais, com origem, período e ID da evidência. Distinga observação, inferência e hipótese; a comunicação institucional não comprova o que todo o público pensa. Lacunas reversíveis permitem hipóteses marcadas e uma captação útil.
 
-Para cada pauta, registre data proposta, canal, formato, público/situação, ideia central, gancho, objetivo, CTA, evidência necessária, responsável e status. Varie ângulos, não apenas títulos.
+Escolha a prioridade pelo objetivo e pelo obstáculo documentado. Derive pilares das perguntas que a marca pode responder com autoridade. Para cada pauta principal, ligue **evidência → situação do público → tese/ângulo → função → formato/ativo → ação → sinal a observar**. Temas amplos precisam virar decisões concretas que a peça ajude a tomar.
 
-Considere dias disponíveis para gravação, aprovação e edição. Se a capacidade for desconhecida, proponha uma cadência inicial explicitamente ajustável. Separe ideias de calendário confirmado.
+Distribua descoberta, consideração, decisão e relacionamento pela intenção atendida, sem proporções fixas. Conecte peças quando uma preparar a próxima pergunta, mantendo cada uma compreensível sozinha; o público pode entrar em qualquer ordem. Varie problema, ponto de vista, prova e expressão. Consulte o acervo recente e marque reaproveitamentos; trocar título ou cor não cria outra pauta.
 
-Entregue calendário do período pedido, prioridades, oportunidades de reaproveitamento e hipóteses de teste. Verifique datas sazonais e tendências atuais antes de tratá-las como fatos.
+Confira se o destino acessível entrega o que o CTA promete. Encaminhe lacunas de página, oferta ou atendimento à coordenação. Para relatório de melhorias, passe IDs, decisões e amostras, distinguindo recomendação, peça produzida e mudança aplicada.
 
-## Critérios específicos
+## Produção executável
 
-Vincule pautas a identificadores estáveis, por exemplo IDEIA-001, preservados no roteiro e nos resultados. Antes de sugerir novas pautas, consulte o histórico disponível e sinalize reaproveitamentos intencionais.
+Use IDs estáveis, preservados no roteiro, arquivo e resultado. Monte o calendário de trás para frente: captação, texto, design/edição, revisão, aprovação e data proposta de publicação. Registre canal, formato, situação/intenção, tese, gancho, CTA, evidência/hipótese, ativo, esforço, dono, prazo e estado, conforme o escopo.
 
-Separe data de gravação, prazo de aprovação e data proposta de publicação. Passe itens aprovados para `publicacao-distribuicao`; não marque conteúdo como agendado sem confirmação real. Defina o que aprender com cada teste e a métrica compatível; uma pauta educativa não precisa ter venda imediata como único critério.
+Considere recursos e dias disponíveis. Se a capacidade for desconhecida, proponha cadência ajustável com premissas. Agrupe captação e reaproveitamento com função própria. Peças finais pedidas seguem à produtora do formato e retornam com arquivos conferidos; uma linha no calendário não comprova arte ou vídeo produzido. Mudança de capacidade volta à coordenação para priorização.
 
-## Contexto e entrega
-Trabalhe em português brasileiro, salvo pedido diferente. No projeto Agência Prisma, consulte o briefing e o DNA do cliente quando existirem. Não bloqueie tarefas independentes por documentos ausentes: use hipóteses identificadas e pergunte apenas pelo que muda a entrega.
-Quando o usuário pedir arquivos, salve na pasta do cliente com nome descritivo e preserve versões aprovadas. Para tarefas fora deste projeto, use os materiais e o destino disponíveis. Use as especialidades complementares somente quando contribuírem para a entrega; respeite a coordenação e as decisões existentes.
+Passe versões aprovadas a `publicacao-distribuicao`. Diferencie ideia, data proposta, produção, aprovação, agendamento confirmado e publicação verificada; avance o estado com evidência real.
 
-Quando o calendário incluir peças visuais ou vídeos finais, associe cada pauta a formato, ativo existente, responsável pela produção, esforço, destino e estado real; um item em calendário não equivale a arquivo exportado. Para lote, agrupe captação e reaproveitamento de forma viável.
+## Aprendizado e repertório
 
-## Inteligência ampliada
+Defina hipótese falsificável, variável, sinal acessível e janela de leitura. Compare com histórico e contexto de distribuição, sem prometer engajamento ou venda. Ausência de dados não prova desinteresse; conteúdo educativo pode ser avaliado pela dúvida resolvida.
 
-Quando o gatilho da demanda corresponder, a coordenação consulta automaticamente os apoios de `operacao/mapa-inteligencia-github.json`; carregue somente os complementos necessários e mantenha esta skill, o contexto aprovado e as instruções do usuário como autoridade.
+Com resultados, use `metricas-marketing`: observação → hipótese → manter, variar ou abandonar. Experimento controlado usa `ab-testing`. Uma métrica isolada não prova causalidade. Verifique datas sazonais e tendências mutáveis. A coordenação confere as rotas de `operacao/mapa-inteligencia-github.json` e consulta somente apoios que mudem uma decisão.
 
-- Organize os pilares necessários às perguntas do público e objetivos do negócio; três a cinco podem ser um ponto de partida, não uma obrigação. Priorize pautas por impacto no cliente, aderência à marca, potencial de descoberta ou compartilhamento, prova disponível e esforço real.
-- Planeje conteúdo como portfólio: base recorrente, apostas e experimentos. Para cada peça principal, desenhe um grafo de reaproveitamento por formato e canal, preservando contexto e evitando distribuição repetitiva.
+Priorize utilidade, aderência à marca, prova e esforço. Organize base recorrente, apostas e experimentos conforme o caso; descoberta e compartilhamento exigem sustentação, sem pesos universais.
 
 ## Formato padrão de entrega
 
-Inclua, conforme o escopo do pedido: período, objetivos, pilares e cadência; calendário com ID, data proposta, canal, formato, público/situação, ideia, gancho, CTA, evidência, responsável e status; dias de gravação; prazos de roteiro, aprovação e edição; reaproveitamentos; testes e métricas; dependências.
+Trabalhe em português brasileiro, salvo pedido diferente. Use a pasta oficial do cliente e preserve versões aprovadas; fora da agência, use o destino disponível.
 
-Considere o calendário executável quando a produção cabe nos recursos informados e cada pauta tem função, dono e próxima ação. Diferencie ideia, data proposta, conteúdo aprovado e publicação confirmada.
+Inclua conforme o pedido: período, objetivo, prioridades/pilares, calendário com IDs, captação/prazos, reaproveitamentos, hipóteses/sinais e dependências. Explique a relação entre temas e problema observado em plano estratégico.
 
-
-## Decisões de qualidade e execução
-
-Monte o calendário de trás para frente a partir dos prazos de produção e aprovação. Vincule cada pauta a objetivo, evidência ou hipótese e ativo necessário. Diversifique problema, prova, formato e estágio; não infle o volume com paráfrases. Se recursos caírem, proponha reduzir o lote priorizando peças mais úteis, preservando o escopo decidido pelo usuário.
-
-Avalie o conjunto como portfólio, cruzando objetivo, estágio da jornada, tema, formato, esforço e ativo disponível. Evite concentração acidental em um único assunto ou tipo de prova. Defina uma peça principal e reaproveitamentos com função própria quando isso reduzir produção; recortar o mesmo conteúdo sem adaptação ao canal não conta como nova pauta.
-
-Quando houver resultados, use `metricas-marketing` para relacionar cada peça ao objetivo que ela tinha, à resposta do público e ao contexto de distribuição. Registre um aprendizado acionável para o próximo ciclo — manter, variar ou abandonar um mecanismo criativo — sem atribuir causalidade a uma única métrica ou repetir visualmente a peça vencedora por inércia.
+Considere o calendário executável quando cada pauta tem fundamento ou hipótese visível, função, ativo, dono e próxima ação, e cabe nos recursos. Confira concentração acidental de assunto, estágio, prova ou formato. Datas definidas não concluem uma demanda que também peça arquivos finais.

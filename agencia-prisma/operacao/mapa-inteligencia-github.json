@@ -1,5 +1,5 @@
 {
-  "versao": "2026-09-26",
+  "versao": "2026-10-08",
   "modo": "consulta_sob_demanda_pelo_coordenador",
   "fonte": {
     "repositorio": "coreyhaines31/marketingskills",
@@ -449,11 +449,12 @@
       ]
     },
     "referencias-conteudo": {
-      "consultar_quando": "quando a referência vier de conteúdo social, vídeo ou concorrente",
+      "consultar_quando": "quando a pesquisa envolver site, página de conversão, conteúdo social, vídeo ou concorrente",
       "complementos": [
         "social",
         "video",
-        "competitor-profiling"
+        "competitor-profiling",
+        "cro"
       ]
     },
     "revisao-conteudo": {

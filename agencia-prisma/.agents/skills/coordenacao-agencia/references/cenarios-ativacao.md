@@ -5,6 +5,8 @@ Use estes pedidos de mesa para conferir se a matriz e as skills continuam indica
 | Pedido de exemplo | Responsável | Apoios e resultado esperado |
 |---|---|---|
 | “Cliente novo: analise estes links e monte a estratégia” | `coordenacao-agencia` | `briefing-cliente`, `referencias-conteudo`, pesquisa e `dna-marca` conforme lacunas; separar fatos de hipóteses e consolidar decisão |
+| “Analise meu Instagram e apresente melhorias com antes/depois em LP” | `coordenacao-agencia` | Referências registra a amostra e acesso; planejamento e copy criam propostas vinculadas aos achados; páginas e design montam apresentação local; revisão compara fontes e estados. Login bloqueado deixa limites visíveis, não uma auditoria completa inventada |
+| “Analise este site no celular; crie nova primeira dobra e um carrossel na apresentação” | `coordenacao-agencia` | Referências inspeciona página; páginas/copy/design criam proposta da dobra; carrosseis/design montam sequência quando arte final foi pedida; revisão abre LP e finais. Depois proposto não significa site alterado ou conversão medida |
 | “Crie um carrossel final no Canva com minhas fotos” | `carrosseis` pela narrativa e `design-grafico` pela peça | `imagens-marketing` confere fotos e fidelidade; `revisao-conteudo` confere páginas exportadas; kit do cliente, nunca kit global |
 | “Corrija só o texto desta arte pronta” | `revisao-conteudo` | `design-grafico` apenas se houver alteração e exportação do layout; não reabrir a campanha inteira |
 | “Crie uma sequência de Stories e sugestões de resposta” | `stories-comunidade` | `design-grafico` e revisão se houver arte final; respostas-modelo não são casos enviados |

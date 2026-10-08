@@ -1,13 +1,15 @@
 ---
 name: paginas-conversao
-description: "Planeje ou implemente landing pages e páginas de serviço com oferta, CTA, formulário e mensuração."
+description: "Crie páginas de conversão ou apresentações de diagnóstico em LP, com evidências, antes/proposta e plano de melhorias."
 ---
 
 # Páginas de conversão
 
 ## Como trabalhar
 
-Comece por oferta, público, origem do tráfego, estágio de consciência, ação principal e destino do lead. Uma página deve ter uma conversão principal. Ações secundárias só entram quando reduzem fricção sem competir com o objetivo.
+Primeiro diferencie a entrega: **LP de diagnóstico/apresentação** mostra pesquisa, estado atual e melhorias propostas ao cliente; **página comercial** conduz o visitante a uma conversão. Para pesquisa da página do cliente → antes/depois → apresentação em LP, leia [LP de diagnóstico e antes/depois](references/lp-diagnostico-antes-depois.md) e receba de `referencias-conteudo` o acesso e a evidência reais. Nesse modo, o objetivo principal é compreender e avaliar as recomendações; formulário, CRM, pixels, implantação do site do cliente e publicação só entram quando o pedido também os incluir.
+
+Para a página comercial, comece por oferta, público, origem do tráfego, estágio de consciência, ação principal e destino do lead. Uma página deve ter uma conversão principal. Ações secundárias só entram quando reduzem fricção sem competir com o objetivo.
 
 Crie a arquitetura da página antes do texto final: promessa responsável, contexto, problema, mecanismo, benefícios, prova, oferta, objeções, perguntas frequentes, CTA e rodapé. Ajuste a ordem ao nível de consciência e não aplique uma fórmula fixa quando o caso exigir outra sequência.
 
@@ -36,9 +38,11 @@ Quando o gatilho da demanda corresponder, a coordenação consulta automaticamen
 
 ## Formato padrão de entrega
 
+Para LP de diagnóstico, entregue síntese, cobertura real da pesquisa, evidências e fontes datadas, comparação entre antes original e depois proposto, recomendações priorizadas, conteúdo sugerido, roteiro de execução e pendências. Confira o HTML ou a prévia em celular e desktop. Se faltar a URL ou o original, identifique o arquivo como estrutura demonstrativa; uma demonstração não comprova análise de cliente.
+
 Inclua, conforme o escopo do pedido: objetivo e origem do tráfego; público e estágio; arquitetura da página; copy por seção; CTAs; prova e pendências; formulário e pós-conversão; eventos de mensuração; direção visual; requisitos de acessibilidade; arquivos ou endereço de prévia; resultado da conferência.
 
-Considere a página pronta para avaliação quando oferta, CTA, formulário, pós-conversão, eventos, acessibilidade e conteúdo verificável estiverem definidos. Uma estrutura textual não equivale a uma página implementada ou publicada.
+Considere a página comercial pronta para avaliação quando oferta, CTA, formulário, pós-conversão, eventos, acessibilidade e conteúdo verificável estiverem definidos. Uma estrutura textual não equivale a uma página implementada ou publicada. A LP de diagnóstico só fica pronta quando os achados podem ser rastreados, as propostas estão identificadas e o arquivo final foi inspecionado; publicar continua sendo um estado distinto.
 
 ## Decisões de qualidade e execução
 

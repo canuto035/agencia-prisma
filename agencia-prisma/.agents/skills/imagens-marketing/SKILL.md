@@ -15,6 +15,8 @@ Liste os arquivos pertinentes e inspecione visualmente cada foto selecionada e s
 
 Antes de gerar uma imagem nova, identifique a função que ela não pode cumprir com um ativo existente: mostrar uma prova, explicar um mecanismo, criar atmosfera ou abrir espaço para a mensagem. Separe imagem factual, ilustração conceitual e simulação; a legenda e a peça não devem atribuir à imagem gerada um fato que ela não documenta. Em série, escolha uma imagem de controle e confira fidelidade, utilidade no layout e custo antes de multiplicar variações.
 
+Em ativo novo para campanha, arte principal ou revisão visual, use [crítica criativa e comparação](../design-grafico/references/critica-criativa.md) com direção de arte e conteúdo. Reuse pesquisa válida do cliente; selecione uma cena, detalhe ou relação visual que sustente a ideia e o recorte final. Pesquisar “imagem bonita” ou aplicar estética da categoria não resolve uma prova ausente. Referências recebem arquivo/URL, versão, sujeito e papel: identidade, produto oficial, estilo/luz, composição ou reconstrução autorizada. Na instrução à ferramenta, indique qual alvo editar e qual referência controla cada requisito; referências de estilo não podem transferir pessoa, embalagem ou marca para o cliente.
+
 Leia [o fluxo de arquivos e conferência](references/fluxo-imagens.md) quando houver fotos locais, downloads ou entrega de arquivos. As pastas sugeridas são uma convenção, não uma dependência: preserve a organização existente e respeite o destino indicado.
 
 Quando o Google Drive for a fonte oficial, confirme cliente e pasta em `contexto/integracoes.md`, preserve IDs e versões e registre o destino do resultado. Use `governanca-ativos-lgpd` quando licença, autorização de pessoa, personagem, produto ou dado pessoal afetar o uso.
@@ -36,6 +38,8 @@ Sempre que a entrada mostrar uma pessoa, mascote ou personagem, trate a imagem o
 Referências de estilo orientam iluminação, cor e acabamento; nunca substituem a identidade pelo rosto, corpo ou desenho de outra referência. Melhorar qualidade não autoriza rejuvenescer, afinar o rosto ou corpo, alisar excessivamente a pele, mudar traços ou aplicar embelezamento que descaracterize o sujeito. Mudanças de cena solicitadas devem manter as características originais do personagem.
 
 Inclua explicitamente essas características a preservar em cada pedido à ferramenta e em cada tentativa de correção. Compare o resultado com o original, especialmente rosto, cabelo, marcas e proporções. Se houver descaracterização, não entregue a versão como final aprovada: corrija de forma direcionada e confira novamente. Se não conseguir preservar a identidade, mantenha o original e informe a limitação, sem garantir fidelidade absoluta da geração por IA.
+
+Para produto identificável, trate o ativo oficial como referência principal e preserve geometria, proporções, cor, material, acabamento, componentes, quantidade, embalagem, rótulo e logo. Verifique textos e detalhes em tamanho legível, além da silhueta geral; não invente conteúdo escondido ou ilegível. Se o cenário solicitado exigir uma face do produto ausente nas referências, use uma vista documentada ou informe a necessidade do ativo antes de afirmar fidelidade. Em interação com pessoas, confira contato, escala, pegada, apoio e oclusão para que produto e anatomia sejam coerentes.
 
 ## Ferramenta de criação e edição
 
@@ -62,6 +66,10 @@ Não contorne login, pagamento, bloqueios ou restrições de download e não rem
 ## Conferência e entrega
 
 Compare original e resultado visualmente: cores sem estouro, pele e produtos fiéis, sombras e luzes preservadas, ausência de halos e textura artificial, textos/logos corretos e recorte adequado. Se houver alteração indevida, faça uma correção direcionada; se persistir, informe o defeito e não rotule a versão como pronta.
+
+Compare na mesma escala e sob a mesma visualização, primeiro a cena inteira e depois detalhes em ampliação: face/cabelo, mãos e contato, bordas do recorte, rótulo/logo, material e cor do produto. Confira direção e continuidade da luz, sombra de contato, perspectiva, reflexos e textura compatível com a origem. Pele plastificada, duplicações de objetos, contornos derretidos ou sombras incompatíveis são defeitos observáveis; não use uma nota ou detector de “cara de IA” para garantir origem ou qualidade. Em ilustração conceitual, julgue coerência com a linguagem pedida e identificação como ilustração, sem exigir realismo fotográfico.
+
+Registre **original/referência → versão examinada → desvio específico → correção → versão selecionada**, incluindo as áreas que não puderam ser verificadas. Após corrigir, reabra o novo arquivo e compare outra vez; depois da montagem, confira também a exportação com design para detectar perda de identidade, recorte ou cor. Um painel antes/depois é comprovação de tratamento somente quando usa o original preservado, escala comparável e rótulos corretos; não crie um “antes” piorado nem apresente tratamento como resultado real de um serviço.
 
 Entregue os arquivos tratados ou gerados, uma prévia quando possível e um resumo dos ajustes. Para lote, relacione cada original ao resultado e informe pendências. Passe os ativos selecionados e a origem à skill de carrosséis ou direção de arte quando fizerem parte do pedido. A existência de arquivos na pasta não autoriza monitoramento contínuo: a leitura acontece durante uma tarefa iniciada pelo usuário.
 

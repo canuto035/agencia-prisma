@@ -9,6 +9,7 @@ Use PowerShell 7. O coordenador pode executar os utilitários a partir de um ped
 | Novo-Projeto.ps1 | Copia a base para pasta nova ou vazia, sem clientes ou históricos de outras marcas |
 | Atualizar-Projeto.ps1 | Mostra diferenças e atualiza uma cópia antiga com backup; preserva clientes e configuração local |
 | Verificar-Projeto.ps1 | Confere catálogo, seleção automática, referências e sintaxe dos scripts |
+| client-report/render-report.mjs | Monta HTML local de diagnóstico, antes/proposta e plano do cliente com fontes; não pesquisa nem publica |
 
 Prisma-Caminhos.ps1 é a biblioteca usada pelos quatro utilitários. Caminhos com links de sistema exigem revisão; nomes reservados do Windows são rejeitados. Inventariar metadados não equivale a abrir fotos, ouvir áudio ou verificar direitos de uso.
 
@@ -27,3 +28,5 @@ Para atualizar uma cópia em outro computador, entregue o ZIP atualizado da Agê
 ```
 
 Não substitua políticas de execução ou permissões para rodar um script; use o terminal autorizado do projeto.
+
+Para apresentação de melhorias em formato de LP, consulte [o gerador de relatório](client-report/README.md). A coordenação coleta evidências e as especialidades criam as propostas; o comando somente organiza esses dados num HTML. Para arquivos finais de carrossel/Stories, siga a criação e exportação do formato, além da apresentação.

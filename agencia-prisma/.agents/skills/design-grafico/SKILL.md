@@ -39,6 +39,14 @@ Não invente logotipo, selo, certificação, preço, data ou condição comercia
 
 Escolha entre **reconstrução fiel de material autorizado**, **criação original guiada por referências** e **criação do zero**. Leia [pesquisa e reconstrução](references/pesquisa-e-reconstrucao.md) para decidir o grau de fidelidade, quando pesquisar e como comparar a peça final. A palavra “clonar” não dispensa conferir a origem e o uso permitido da referência. Se a referência de terceiro não puder ser reproduzida, transforme seus princípios de composição em uma peça própria do cliente.
 
+## Pesquisa aplicada e conceito conjunto
+
+Em criação nova, campanha, peça principal ou revisão de uma arte, leia [crítica criativa e comparação](references/critica-criativa.md). Comece pelo site, redes, materiais, acervo e falas autorizadas **deste cliente** que estiverem disponíveis; observe mensagem, prova, códigos visuais e peças recentes. Reuse achados válidos do dossiê. Amplie a pesquisa somente quando faltar evidência para uma decisão; título, link ou descrição de foto não comprovam inspeção visual. Registre a fonte e a consequência concreta para a peça, distinguindo observação, interpretação e hipótese. Pesquisa que não muda conceito, ativo ou revisão não precisa virar relatório.
+
+Resolva conteúdo e visual juntos antes do acabamento: **situação do público → ideia/promessa sustentada → texto principal → prova ou imagem → relação espacial entre eles → ação**. Defina o que o texto diz e o que o visual torna visível; uma foto decorativa que pode ser trocada por qualquer outra exige uma escolha melhor ou uma composição tipográfica intencional. Texto aprovado permanece literal; se a composição mostrar que precisa de outra redação, devolva a proposta à especialidade de conteúdo e registre a versão realmente escolhida, sem alteração silenciosa.
+
+Em revisão de uma arte existente, preserve o arquivo e uma prévia original antes de editar. Identifique os problemas que a nova versão deve resolver e compare original/proposta na mesma proporção e escala, com mudanças e limites identificados. Em reconstrução fiel, julgue semelhança com a referência; em redesign, julgue a correção dos problemas e a preservação do DNA. Em criação do zero, compare conceito, ativos e acervo recente sem inventar um “antes”. Ganho visual observado não comprova ganho de conversão.
+
 ## Construção do layout
 
 Defina primeiro a hierarquia: mensagem principal, apoio, prova, marca e CTA. Use grade, alinhamento, contraste, repetição e espaço em branco para tornar essa ordem evidente. Evite preencher todos os espaços, usar efeitos sem função ou depender apenas de cor para comunicar informação.
@@ -46,6 +54,8 @@ Defina primeiro a hierarquia: mensagem principal, apoio, prova, marca e CTA. Use
 Escolha uma ideia visual por peça: o ativo ou relação visual que carrega a mensagem. Quando houver acervo real, explore seus detalhes e enquadramentos antes de recorrer a banco, geração ou template. Em carrosséis, faça o ritmo visual acompanhar a narrativa; não replique a capa mudando apenas o texto. Em Stories, preserve uma linguagem próxima do registro e da conversa quando isso corresponder à marca. Textura, colagem, assimetria e acabamento manual são recursos possíveis, não sinais automáticos de humanidade.
 
 Em campanha, identidade ou peça principal nova, esboce composições que expressem direções conceituais diferentes antes de investir no acabamento. Escolha pela força da ideia, leitura no canal, ativo distintivo, prova e viabilidade; registre por que a escolhida vence. Uma alternativa que só troca fonte ou cor não é outra direção. Para peça rotineira, execute o sistema aprovado sem criar uma rodada artificial de conceitos.
+
+Escolha a família de composição pela função: detalhe de produto para tornar um atributo visível; demonstração anotada para explicar mecanismo; sequência documental para mostrar processo; tipografia para uma fala exata; mapa ou diagrama para orientar decisão; relação de escala, espaço ou contraste para expressar um conceito. São possibilidades, não estilos obrigatórios. Em séries, varie ponto de entrada, escala, densidade e relação imagem–texto quando a narrativa pedir, mantendo os sinais distintivos do cliente. Uma mesma moldura em todas as telas só serve quando favorece leitura ou comparação.
 
 Trate tipografia como sistema: limite famílias e pesos, mantenha tamanhos coerentes, controle largura de linha e entrelinha e evite texto encostado em bordas. Garanta contraste e leitura no tamanho real de uso. Para séries, preserve posições, proporções e estilos recorrentes sem tornar todas as peças idênticas.
 
@@ -81,6 +91,8 @@ Renderize ou abra todos os arquivos finais. Confira texto, acentuação, cortes,
 
 Em arte nova, carrossel, anúncio ou lote, faça uma passagem crítica após a primeira versão: identifique defeitos **bloqueadores** (cliente, marca, texto, oferta ou identidade errados), **relevantes** (hierarquia, recorte, legibilidade ou CTA fracos) e de **acabamento**. Corrija os dois primeiros grupos antes de entregar e reabra o arquivo corrigido. No Canva, use revisão de design e de marca quando as capacidades da sessão trouxerem evidência adicional; não trate um parecer textual como inspeção visual. Em ajuste pontual, confira a mudança e os elementos que ela deslocou, sem reabrir toda a campanha.
 
+Use a rubrica de [crítica criativa](references/critica-criativa.md) para apontar **critério → evidência na página/elemento → defeito → correção → nova conferência**. Faça a rodada no artefato renderizado, com texto e imagem juntos; um parecer sobre o prompt não libera a peça. Confirme também a editabilidade prometida no arquivo ou design salvo: texto selecionável/editável e elementos separados quando exigidos, fontes e ativos realmente presentes. Depois da correção, exporte e abra novamente todas as versões finais; um arquivo antigo não comprova a correção no arquivo entregue.
+
 Compare a exportação com o design salvo e com a imagem selecionada: rosto e produto, cor, detalhes, nitidez e recorte podem mudar após importação, redimensionamento ou compressão. Quando o canal permitir texto alternativo, entregue uma descrição factual curta das imagens informativas para a etapa de publicação; elementos decorativos não precisam de descrição redundante.
 
 Se houver material para impressão, confira tamanho físico, sangria, área segura e perfil de cor somente quando a ferramenta e as especificações da gráfica permitirem; não afirme conformidade técnica sem verificá-la. Para material digital, confira proporção, dimensões reais e peso do arquivo quando relevante.
@@ -96,7 +108,7 @@ Quando o gatilho da demanda corresponder, a coordenação consulta automaticamen
 
 ## Formato padrão de entrega
 
-Inclua, conforme o escopo do pedido: objetivo e formato; conteúdo utilizado; conceito visual; hierarquia; decisões de composição; ativos e origem; variações produzidas; arquivos finais e editáveis efetivamente gerados; dimensões conferidas; resultado da inspeção; limitações e pendências.
+Inclua, conforme o escopo do pedido: objetivo e formato; conteúdo utilizado; conceito conjunto de texto e visual; hierarquia; decisões de composição e fontes que as mudaram; ativos e origem; variações produzidas; arquivos finais e editáveis efetivamente gerados; dimensões conferidas; comparação original/proposta quando houver revisão; defeitos corrigidos e resultado da inspeção; limitações e pendências. Use o registro existente do cliente; uma peça simples não exige um documento adicional.
 
 Considere a peça pronta quando a mensagem principal é compreendida rapidamente, o texto está correto, a marca é reconhecível, o CTA funciona, os ativos estão autorizados, o formato corresponde ao destino, todos os arquivos finais foram inspecionados e a revisão conjunta foi realizada.
 

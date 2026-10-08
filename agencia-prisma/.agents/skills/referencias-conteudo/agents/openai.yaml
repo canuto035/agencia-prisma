@@ -1,6 +1,6 @@
 interface:
   display_name: "Refer\u00eancias de Conte\u00fado"
-  short_description: "Analisa v\u00eddeos e extrai mecanismos reutiliz\u00e1veis"
+  short_description: "Pesquisa páginas e conteúdo com evidências"
   default_prompt: "Use $referencias-conteudo para analisar estes links e arquivos, registrar o que foi acessado e extrair mecanismos originais para o conte\u00fado do cliente."
 policy:
   allow_implicit_invocation: true

@@ -51,6 +51,7 @@ Respeite autorizações existentes. Criar conteúdo não autoriza enviar mensage
 ## Seleção de especialidades
 
 - Links, início ou coordenação de cliente: `coordenacao-agencia`, com `briefing-cliente` e `referencias-conteudo` conforme o material.
+- Analisar site ou perfil do cliente e apresentar melhorias com antes/depois em LP: coordenação segue [diagnóstico e apresentação](.agents/skills/coordenacao-agencia/references/diagnostico-apresentacao.md); referências registra acesso e evidências, páginas organiza a apresentação, design e produtor de conteúdo criam as propostas pedidas, revisão confere fontes e arquivos. LP de diagnóstico não significa alterar ou publicar a página do cliente.
 - Público, mercado e concorrentes: `pesquisa-mercado`.
 - Diagnóstico amplo ou reposicionamento: `coordenacao-agencia` integra briefing, referências, mercado, voz do cliente e sinais competitivos em uma síntese estratégica; `dna-marca` usa as decisões e hipóteses resultantes. Reaproveite evidências válidas e ative somente as especialidades necessárias.
 - Estratégia de marketing ou crescimento: a coordenação assume o papel de estrategista, identifica o obstáculo principal, escolhe prioridades executáveis, encaminha cada frente aos especialistas e define como revisar o resultado. Use dados reais quando existirem; uma peça isolada não exige diagnóstico amplo.

@@ -131,7 +131,7 @@
     {
       "nome": "paginas-conversao",
       "titulo": "Páginas de Conversão",
-      "descricao": "Planeje ou implemente landing pages e páginas de serviço com oferta, CTA, formulário e mensuração.",
+      "descricao": "Crie páginas de conversão ou apresentações de diagnóstico em LP, com evidências, antes/proposta e plano de melhorias.",
       "automatica": true
     },
     {
@@ -161,7 +161,7 @@
     {
       "nome": "referencias-conteudo",
       "titulo": "Referências de Conteúdo",
-      "descricao": "Analise links, vídeos, perfis e peças de referência antes de criar ideias, roteiros ou campanhas.",
+      "descricao": "Pesquise sites, perfis, vídeos e peças do cliente; registre acesso e evidências para diagnóstico, melhorias e criação.",
       "automatica": true
     },
     {

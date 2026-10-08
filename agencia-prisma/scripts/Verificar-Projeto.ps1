@@ -131,6 +131,14 @@ if(Test-Path -LiteralPath (Join-Path $strategyTools 'package.json') -PathType Le
     }
 }
 if($coord -notmatch 'bancada-dados-estrategicos\.md' -or $coord -notmatch 'obstáculo de negócio'){$errors.Add('Coordenação não encaminha a estratégia baseada em diagnóstico.')}
+$reportFiles=@('modelos/diagnostico-pagina.md','modelos/relatorio-cliente.example.json','scripts/client-report/render-report.mjs','scripts/client-report/render-report.test.mjs','scripts/client-report/README.md','.agents/skills/coordenacao-agencia/references/diagnostico-apresentacao.md','.agents/skills/referencias-conteudo/references/pesquisa-pagina-cliente.md','.agents/skills/paginas-conversao/references/lp-diagnostico-antes-depois.md')
+foreach($relative in $reportFiles){if(-not(Test-Path -LiteralPath (Join-Path $base $relative) -PathType Leaf)){$errors.Add("Fluxo de diagnóstico ausente: $relative")}}
+if($coord -notmatch 'diagnostico-apresentacao\.md' -or $matrix -notmatch 'diagnostico-apresentacao\.md'){$errors.Add('Rota da apresentação de diagnóstico não está ligada à coordenação/matriz.')}
+if(Test-Path -LiteralPath (Join-Path $base 'modelos/relatorio-cliente.example.json')){
+    try{$sample=Get-Content -Raw -Encoding utf8 (Join-Path $base 'modelos/relatorio-cliente.example.json') | ConvertFrom-Json
+        if($sample.demo -ne $true){$errors.Add('Exemplo de relatório precisa permanecer fictício.')}
+    }catch{$errors.Add('JSON de exemplo do relatório inválido.')}
+}
 # Estados salvos de integrações são históricos. Confirme disponibilidade e conexão na sessão real.
 foreach($script in @(Get-ChildItem -LiteralPath (Join-Path $base 'scripts') -File -Filter '*.ps1')){
     $tokens=$null; $parseErrors=$null
