@@ -13,9 +13,9 @@ Captura ou afirmação institucional não comprova impacto comercial. “Antes/d
 
 ## Ritmo com função
 
-Marque o avanço de cada página: informação, prova, perspectiva ou consequência. Um detalhe ampliado permite examinar; uma comparação pede alinhamento; uma pausa pode consolidar. Não varie layout ao acaso nem repita título/parágrafo/foto por inércia. Texto e imagem se complementam; retire duplicação e foto decorativa que pareça prova.
+Marque o que a pessoa compreende ao entrar e ao sair de cada página: informação, prova, perspectiva ou consequência. Um detalhe ampliado permite examinar; uma comparação pede alinhamento; uma pausa pode consolidar. A transição explica por que a próxima página vem agora, sem suspense artificial. Não varie layout ao acaso nem repita título/parágrafo/foto por inércia; repetição deliberada pode favorecer comparação. Texto e imagem se complementam; retire duplicação sem função e foto decorativa que pareça prova.
 
-Confira amostra de direção nova antes de ampliar e revise a sequência inteira depois. Abra contato geral e cada slide em escala de celular; confronte mensagem e origem dos ativos. Devolva ao design defeito concreto (página, hierarquia, corte, densidade, prova ou ativo) e reabra a exportação corrigida.
+Confira amostra de direção nova antes de ampliar e revise a sequência inteira depois. O repasse ao design conserva função, texto literal, prova/status, ativo/versão, composição e transição de cada página. Abra contato geral e cada slide em escala de celular; confronte mensagem e origem dos ativos. Devolva o defeito à causa: tese ou salto lógico retorna ao conteúdo, imagem inadequada retorna à seleção de ativos, hierarquia/corte/densidade retorna ao design. Reabra a exportação corrigida; acabamento não resolve narrativa sem progressão.
 
 [W3C — contraste](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), consultada em 08/10/2026, apoia a legibilidade entre texto e fundo. Inspecionar um carrossel não certifica conformidade WCAG de um site.
 

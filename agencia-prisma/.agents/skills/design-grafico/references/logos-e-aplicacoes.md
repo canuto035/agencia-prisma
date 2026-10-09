@@ -10,11 +10,13 @@ Para cada direção, mostre a relação entre a escolha estratégica, uma ideia 
 
 Defina construção, tipografia, proporção, espaçamento e versões essenciais. Prefira forma vetorial ou design editável para o mestre quando a ferramenta realmente permitir. Imagem gerada pode ajudar na exploração, mas não substitui o mestre com contornos, letras e cores controláveis. Confira licença da fonte e dos elementos usados. Preserve o logo anterior e mostre as mudanças em um redesenho.
 
-Teste a marca em tamanho pequeno, uma cor, fundo claro e escuro e ao menos um uso real do cliente. Verifique grafia, leitura, equilíbrio óptico, contraste, margens e consistência das versões. Não declare exclusividade, originalidade jurídica ou possibilidade de registro apenas por inspeção visual; uma busca de semelhantes informa risco de design, não substitui análise especializada.
+Produza uma folha de prova com o logo na dimensão prevista e numa condição mais exigente escolhida pelo uso real; registre unidade, tamanho, fundo, versão e arquivo conferido. Inclua uma cor, fundos claro/escuro e ao menos uma aplicação típica quando pertinentes. Não fixe um tamanho mínimo universal: derive o limite da leitura observada e do processo de reprodução; para impressão, uma prévia em tela não comprova o resultado impresso.
 
-Mostre a marca em um contexto típico da operação, não só em mockup ideal. Se a aplicação exigir corrigir letras, proporção ou contraste, ajuste o mestre e repita os testes. Explique o que torna o conceito reconhecível sem inventar simbolismos depois de desenhar.
+Confira grafia e letras, espaços internos, traços, equilíbrio óptico, contraste, margem e consistência entre mestre e exportação. Na folha, associe cada problema a aplicação, dimensão, correção e novo arquivo. Se uma versão compacta for necessária, trate-a como proposta de construção, sem deformar o mestre. Ajuste o arquivo de origem e repita as condições afetadas; um mockup ideal não substitui a folha conferida. A bancada disponível pode ajudar a renderizar, comparar e inspecionar arquivos, mas a avaliação continua no resultado visível.
 
-Entregue somente os arquivos realmente produzidos: mestre editável/vetorial quando existir, versões exportadas quando obtidas, cores e fontes com origem, mini guia de aplicação e limitações. PNG não é vetor. Não apresente mockup como arquivo mestre.
+Explique a ligação entre estratégia e forma sem inventar simbolismos depois de desenhar. Separe hipótese de diferenciação, sinal em uso e evidência de reconhecimento registrada no DNA. Não declare exclusividade, originalidade jurídica ou possibilidade de registro apenas por inspeção visual; uma busca de semelhantes informa risco de design, não substitui análise especializada.
+
+Entregue somente os arquivos realmente produzidos: mestre editável/vetorial quando existir, versões exportadas, folha de prova, cores e fontes com origem, mini guia e limitações observadas. Declare a editabilidade real: PNG não é vetor, e SVG com letras em contornos não tem texto editável. Não apresente mockup como arquivo mestre.
 
 ## Aplicação de logo existente
 

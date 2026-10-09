@@ -93,4 +93,9 @@ Assert-Refused $otherEncoding 'Recusa UTF-16 sem conversão silenciosa'
 Assert-Test ((Get-FileHash -LiteralPath $file).Hash -eq $hash) 'Preserva arquivo de codificação não suportada'
 Assert-Refused (Split-Path -Parent $PSScriptRoot) 'Não altera instalação ou base de manutenção'
 
+$mockStore=Join-Path $root '.codex/skills/agencia-prisma'
+$backupRoot=Get-PrismaBackupRoot -ProjetoRaiz $mockStore
+Assert-Test ($backupRoot -eq (Join-Path $root '.codex/skill-backups/agencia-prisma')) 'Backup global fica fora da descoberta de skills'
+Assert-Test ((Get-PrismaBackupRoot -ProjetoRaiz $empty) -eq (Join-Path $empty 'backups')) 'Backup do projeto permanece no destino local'
+
 [pscustomobject]@{Resultado='testes de ativação passaram';Verificacoes=$checks.Count;Pasta=$root;Escopo='preservação de instruções, backup, idempotência, override, desativação e recusas; não comprova comportamento de toda sessão'}

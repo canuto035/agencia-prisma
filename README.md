@@ -32,6 +32,8 @@ Quem usa uma cópia local precisa atualizar essa cópia para receber versões no
 
 **09/10/2026 — retenção e retomada:** entrada e coordenação passam a cobrir pedidos posteriores sem nova menção, com registro do contexto e da fila desde o início de entregas complexas. Os repasses distinguem etapa pronta, demanda concluída e bloqueio; status e correções devolvem o controle à coordenação. O ativador preserva instruções do projeto e o atualizador inclui também os arquivos da entrada global. Validação estrutural e testes controlados têm escopos próprios; não garantem comportamento de toda sessão futura.
 
+**09/10/2026 — criação aplicada e composição local:** DNA passa a separar evidência de aprovação e orientar voz, mensagem e comportamento; direção de arte define regras reproduzíveis e testes em uso. Carrosséis e Stories entregam função, transição, texto e ativos para o design. Prompts distinguem exploração, produção, edição e revisão, preservando a identidade e a linguagem das referências. A [bancada de design](agencia-prisma/scripts/design-tools/README.md) adiciona Satori e Sharp para compor SVG/PNG a partir de um mestre próprio do cliente, com fontes locais, prancha de contato e relatório. Não substitui o Canva quando solicitado nem comprova qualidade criativa sem inspeção visual. Instale as dependências conforme o guia. Backups de instalações globais passam a ficar fora da árvore de descoberta de skills.
+
 ## Estrutura
 
 - `agencia-prisma/SKILL.md`: comando único.

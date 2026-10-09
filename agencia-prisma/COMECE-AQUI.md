@@ -22,6 +22,8 @@ Higgsfield, Canva, Google Drive e outras integrações são conferidos quando ne
 
 Esta base recebe verificações estruturais e testes controlados em cada atualização relevante. Serviços, preços, recursos e políticas externos podem mudar e devem ser verificados no momento do uso. Uma cópia baixada não se atualiza sozinha.
 
+Para artes locais em SVG/PNG, a coordenação pode usar a [bancada de composição e verificação](scripts/design-tools/README.md): o designer define conteúdo, ativos, fontes e composição de cada cliente, renderiza e confere as páginas. As dependências precisam ser instaladas uma vez por máquina. O mestre JSON permite reproduzir a peça; o SVG exportado tem letras em contornos. Pedidos de arquivos editáveis no Canva seguem o fluxo do Canva.
+
 ## Atualizar cópias antigas
 
 Cada cópia da Agência Prisma em outro computador é independente. Envie ao dono o ZIP mais recente, peça que o extraia em uma pasta separada e que abra o projeto no Codex com o pedido: “Atualize minha cópia antiga da Agência Prisma usando este pacote; faça a prévia, preserve meus clientes e aplique o atualizador”. O utilitário [Atualizar-Projeto.ps1](scripts/Atualizar-Projeto.ps1) reconhece cópias antigas, guarda backup das instruções substituídas e não toca nos arquivos dos clientes nem na configuração local já existente do Codex. O dono precisa ter acesso à pasta antiga e ao pacote na própria máquina; apenas atualizar o Drive não modifica projetos já distribuídos.

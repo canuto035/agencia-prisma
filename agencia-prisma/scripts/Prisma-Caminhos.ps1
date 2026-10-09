@@ -35,3 +35,14 @@ function Get-PrismaFiles {
     }
     return @($files)
 }
+
+function Get-PrismaBackupRoot {
+    param([Parameter(Mandatory)][string]$ProjetoRaiz)
+    $base=(Assert-PrismaPath $ProjetoRaiz).TrimEnd('\','/')
+    $installed=[regex]::Match($base,'^(?<container>.+[\\/]\.(?:codex|agents))[\\/]skills[\\/](?<skill>[^\\/]+)$',[Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    if($installed.Success){
+        # SKILL.md antigo dentro de uma instalação pode voltar ao catálogo por descoberta recursiva.
+        return (Assert-PrismaPath (Join-Path $installed.Groups['container'].Value ('skill-backups/'+$installed.Groups['skill'].Value)))
+    }
+    return (Assert-PrismaPath (Join-Path $base 'backups'))
+}

@@ -17,22 +17,21 @@ Entregue essência em uma frase; público prioritário e quem não é prioridade
 
 Escreva o posicionamento como: para [público em situação], a marca oferece [benefício] por meio de [mecanismo], sustentado por [prova disponível]. Evite diferenciais intercambiáveis como qualidade e excelência sem evidência.
 
-Mostre três pares de exemplos “a marca diria / evitaria”, com motivo. Traduza a direção visual em cor, tipografia, fotografia, composição e acessibilidade; explique a relação com o posicionamento. Não apresente direção visual como logo ou manual gráfico final.
+Para DNA novo ou revisão substantiva, use [DNA aplicado](references/dna-aplicado.md): organize as decisões centrais, separe evidência de aprovação e derive regras de voz, mensagens e expressão. Em adaptação pontual, consulte a ficha vigente sem refazê-la. A direção visual estratégica não é logo nem manual gráfico final.
 
 Inclua linguagem real do público e da equipe quando existir, com origem e contexto, sem fabricar citações. Identifique cenas recorrentes, gestos, objetos, lugares e provas que possam virar repertório visual e editorial. Diferencie uma voz própria de um tom genérico “próximo e humano”: defina o que a marca observa, como explica, quando silencia e quais clichês do setor evita. Preserve regionalidade autêntica sem caricatura.
 
-Monte um inventário curto de **ativos distintivos**: sinais já reconhecíveis da marca, elementos que podem ser desenvolvidos e códigos comuns da categoria que convém evitar ou reinterpretar. Para cada sinal, anote origem, permissão de uso, função e formatos em que continua reconhecível. Não declare uma cor ou símbolo como distintivo só porque foi proposto; reconhecimento depende de uso consistente e, quando possível, evidência do público.
+Monte um inventário curto de sinais da marca, com origem, permissão, função e formatos de uso. Distinga candidato, em uso e com evidência de associação; aprovação estética e repetição interna não demonstram reconhecimento pelo público. Separe esses sinais dos códigos comuns da categoria e dos recursos temporários de campanha.
 
 Finalize com uma ficha de consulta para orientar peças e critérios de consistência. Preserve decisões aprovadas; apresente mudanças estratégicas explicitamente.
 
 ## Critérios específicos
 
-Diferencie o DNA observado do DNA recomendado. Para cada decisão central, mostre evidência do cliente ou marque hipótese. Não trate a comunicação atual como estratégia aprovada.
+Diferencie o DNA observado do DNA recomendado. Para cada decisão central, registre a base da afirmação e, separadamente, a decisão do responsável. Uma hipótese aprovada para exploração continua sendo hipótese; a aprovação não transforma alegação sem prova em fato. Não trate a comunicação atual como estratégia aprovada.
 
-Inclua uma matriz curta de mensagens por situação de compra: necessidade, mensagem, prova disponível e ação. Traduza valores em escolhas editoriais e exemplos do nicho; use arquétipos somente se ajudarem a decidir, nunca como diagnóstico obrigatório. Identifique a versão do DNA usada nas peças.
+Use a ficha de DNA aplicado para ligar situação de compra, alternativa real, promessa, prova, mensagem e expressão. Traduza valores em escolhas editoriais e exemplos do nicho; use arquétipos somente se ajudarem a decidir, nunca como diagnóstico obrigatório. Identifique a versão do DNA usada nas peças.
 
-Teste o DNA em uma capa, um Story e uma resposta a dúvida real ou plausível identificada como hipótese. Se a mesma redação e direção servirem a um concorrente com apenas a troca do logo, volte à tensão, prova e comportamento da marca antes de aprovar. Entregue também limites de representação: o que pode ser documentado, o que é simulação e o que não deve ser encenado como fato.
-Teste também uma situação difícil: uma objeção, reclamação ou limite da oferta. Uma voz que só funciona em peça aspiracional não orienta atendimento nem copy de conversão. Passe à direção de arte e ao planejamento os sinais distintivos, as provas permitidas e os códigos genéricos a evitar.
+Em DNA novo, teste mensagem e voz em aplicações pertinentes ao escopo, como capa, Story e resposta a dúvida, incluindo uma objeção ou limite da oferta. Identifique situações hipotéticas. Faça o teste de substituição por concorrente para encontrar generalidades, sem confundi-lo com pesquisa de reconhecimento. Passe à direção de arte e ao planejamento os sinais da marca, provas permitidas, regras de voz e limites de representação: registro factual, simulação identificada e o que não pode ser encenado como fato.
 
 ## Contexto e entrega
 Trabalhe em português brasileiro, salvo pedido diferente. No projeto Agência Prisma, consulte o briefing e o DNA do cliente quando existirem. Não bloqueie tarefas independentes por documentos ausentes: use hipóteses identificadas e pergunte apenas pelo que muda a entrega.
@@ -43,17 +42,17 @@ Quando o usuário pedir arquivos, salve na pasta do cliente com nome descritivo 
 Quando o gatilho da demanda corresponder, a coordenação consulta automaticamente os apoios de `operacao/mapa-inteligencia-github.json`; carregue somente os complementos necessários e mantenha esta skill, o contexto aprovado e as instruções do usuário como autoridade.
 
 - Registre a moldura da categoria, tensão principal do público, promessa, razão para acreditar, inimigo ou alternativa, personalidade e ativos distintivos. Conecte isso a uma escada de mensagens do posicionamento até provas e chamadas.
-- Mantenha estados separado por item: observado, hipótese, recomendado, aprovado e rejeitado. Teste o DNA contra concorrentes e situações reais para identificar frases genéricas ou ativos sem reconhecimento.
+- Examine alternativas reais do público e situações em que a promessa falha. Se a referência não mudar mensagem, prova, renúncia ou regra de expressão, não a acrescente ao repasse como contribuição aplicada.
 
 ## Formato padrão de entrega
 
-Inclua, conforme o escopo do pedido: fontes e versão; essência; posicionamento; público prioritário e exclusões; problema e transformação; promessa e limites; diferenciais e provas; valores em comportamento; personalidade; voz e vocabulário; exemplos “diria/evitaria”; mensagens por situação de compra; territórios de conteúdo; direção visual; hipóteses e validações.
+Inclua, conforme o escopo do pedido: fontes e versão; essência; posicionamento; público prioritário e exclusões; promessa e limites; diferenciais e provas; valores em comportamento; voz estável e tom por situação, com exemplos “diria/evitaria”; mensagens por situação de compra; territórios de conteúdo; direção visual; estado dos sinais da marca; hipóteses e decisões de aprovação separadas.
 
 Considere o DNA pronto para uso provisório quando suas decisões centrais têm evidência ou rótulo de hipótese e quando ele orienta escolhas concretas de texto, conteúdo e imagem. Registre a aprovação antes de tratá-lo como versão definitiva.
 
 
 ## Decisões de qualidade e execução
 
-Separe posicionamento atual, proposta de mudança e versão aprovada. Submeta cada diferencial ao teste: um concorrente pode afirmar exatamente o mesmo sem mudar nada? Quando faltar evidência, proponha hipótese e forma de validá-la. Use ../customer-research/SKILL.md para entrevistas e avaliações. A ficha final deve permitir decidir mensagem, linguagem e direção visual sem refazer a pesquisa.
+Use [customer-research](../customer-research/SKILL.md) quando entrevistas, avaliações ou pesquisa com o público puderem resolver uma decisão material. A ficha final deve permitir decidir mensagem, linguagem e direção visual sem refazer a pesquisa nem reproduzir dados pessoais desnecessários.
 
 Todo posicionamento precisa conter uma escolha e uma renúncia: quem prioriza, em qual situação vence e para quem ou quando não é a melhor opção. Confronte a proposta com alternativas reais do público e com a capacidade de entrega. Para cada mensagem central, associe prova disponível, limite e comportamento desejado; se a marca não conseguir sustentar essa cadeia na prática, rebaixe a frase a hipótese.

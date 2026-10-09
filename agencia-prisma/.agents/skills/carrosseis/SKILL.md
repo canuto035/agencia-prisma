@@ -11,7 +11,7 @@ Para carrossel novo, leia [criação humana e distintiva](../coordenacao-agencia
 
 Recupere DNA, objetivo, canal, intenção do público e peças recentes. Se houver diagnóstico da página, vincule tese aos IDs das evidências e à melhoria priorizada. Eleja pergunta, cena, detalhe, decisão ou demonstração concreta do cliente. Distinga fato e hipótese; não invente fala, bastidor, depoimento, resultado ou imagem que aparente provar uma alegação.
 
-Defina o que a pessoa entenderá ou decidirá depois e qual prova sustenta isso. Escolha a narrativa pela matéria-prima; em exploração conceitual, varie ângulo, prova ou expressão. Não force “gancho, três dicas, CTA”. Em adaptação, preserve direção aprovada. Use quantidade/formato pedidos; na ausência, dimensione pela informação e confira especificações atuais do canal antes da exportação.
+Defina o que a pessoa entenderá ou decidirá depois e qual prova sustenta isso. Escolha a narrativa pela matéria-prima; explore ângulo, prova ou expressão enquanto houver uma decisão material aberta. Pare quando houver evidência suficiente para escolher e produzir a amostra; não reabra o conceito a cada repasse. Não force “gancho, três dicas, CTA”. Em adaptação, preserve direção aprovada. Use quantidade/formato pedidos; na ausência, dimensione pela informação e confira especificações atuais do canal antes da exportação.
 
 Por slide, entregue função, título, texto final, prova/fonte, imagem/elemento, composição e ligação com o próximo. A capa identifica situação/assunto e promessa entregue pelo miolo, sem suspense vazio. O fechamento propõe ação coerente e existente; confira o destino de links.
 
@@ -21,13 +21,13 @@ Escreva na voz da marca, com exemplos situados e leitura confortável no celular
 
 Defina o que a imagem mostra mais rápido que o texto: detalhe, comparação, sequência, uso ou evidência. Tipografia pode conduzir a tese. Varie escala, densidade, enquadramento e relação texto/imagem por função; marca consistente não exige layout idêntico. Use templates somente quando fornecidos ou escolhidos.
 
-Inclua legenda e texto alternativo informativo por slide. Confira cada página isolada e a sequência sem legenda. Corte ou repense slides que não acrescentem compreensão, prova ou progressão. Redistribua texto antes de reduzir fonte.
+Inclua legenda e texto alternativo informativo por slide. Antes de montar, leia a sequência pelo que muda na compreensão: o que a pessoa já sabe ao chegar e o que passa a entender em cada página. Confira cada página isolada e a sequência sem legenda; corrija saltos e repetições sem função. Pausas e estruturas repetidas podem consolidar uma ideia ou permitir comparação. Redistribua texto antes de reduzir fonte.
 
 ## Arte final e repasse
 
 Carrossel completo, pronto para postar, imagens, PDF ou apresentação exigem arquivos no formato pedido quando as ferramentas estiverem disponíveis. Use `design-grafico` para montagem/exportação, `revisao-conteudo` para conferência, `direcao-arte` para direção nova e `imagens-marketing` para ativos. Preserve originais e priorize fotos indicadas. Roteiro textual dispensa imagem.
 
-Passe **slide → função → texto final → prova/fonte → ativo → ordem**, com versão e referências. Para Canva, design segue [o fluxo próprio](../design-grafico/references/canva-fluxos.md) e confere todas as páginas. Distinga ilustração de evidência e arquivo editável de imagem achatada.
+Passe **slide → função → texto final literal → prova/fonte e status → ativo/versão → composição → transição → ordem**, preservando as decisões já resolvidas. Design pode ajustar a composição para o formato; se isso mudar texto aprovado, prova ou progressão, devolve a mudança à responsável antes de consolidar. Para Canva, design segue [o fluxo próprio](../design-grafico/references/canva-fluxos.md) e confere todas as páginas. Distinga ilustração de evidência e arquivo editável de imagem achatada.
 
 Confira capa em miniatura e todos os slides renderizados no tamanho de uso: acentuação, cortes, contraste, margem, fidelidade e continuidade. Entregue sequência numerada, legenda e descrição dos arquivos. Se faltar ferramenta, marque arte pendente e devolva a próxima etapa à coordenação; briefing visual não comprova arquivo final.
 

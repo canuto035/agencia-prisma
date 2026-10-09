@@ -6,7 +6,7 @@ Leia em pedidos de identidade, logo, campanha visual, carrossel ou Stories novos
 
 Para uma peça nova, formule em uma frase: **esta pessoa reconhecerá [situação], perceberá [ideia inesperada mas verdadeira] porque verá [prova ou detalhe], e poderá [ação]**. Se não houver situação, ideia e sustentação, mais efeitos, imagens ou adjetivos não resolvem o conceito. “Surpreender” significa gerar atenção com significado para o público e a marca; não exige luxo, surrealismo, poluição visual ou ruptura em toda peça.
 
-Em identidade, campanha, série ou peça principal de alto investimento, explore duas ou três **direções conceituais diferentes** antes de escolher: altere ponto de vista, prova ou forma narrativa, não só paleta, fonte ou textura. Faça uma amostra pequena da direção escolhida e só amplie após conferi-la. Para correção, adaptação ou peça rotineira, preserve a direção aprovada e pule a exploração desnecessária.
+Em identidade, campanha, série ou peça principal de alto investimento, explore **direções conceituais diferentes** quando houver decisão material aberta: altere ponto de vista, prova ou forma narrativa, não só paleta, fonte ou textura. A quantidade acompanha a incerteza e o pedido; pare quando houver base suficiente para escolher e conferir uma amostra, sem exploração por cota. Amplie após verificar a amostra. Para correção, adaptação ou peça rotineira, preserve a direção aprovada e pule a exploração desnecessária.
 
 Julgue cada direção por cinco perguntas: a ideia é própria desta marca? A pessoa entende a mensagem no contexto e no tempo do canal? Há prova ou honestidade sobre a hipótese? O visual acrescenta algo que o texto sozinho não entrega? A execução cabe nos ativos, orçamento, acesso e prazo reais? Rejeite a direção que falha em identidade, fato, legibilidade ou viabilidade antes de polir o acabamento. Registre o defeito específico e a correção, sem transformar uma nota subjetiva em certificado de qualidade.
 
@@ -19,13 +19,13 @@ Escolha um ponto de vista: qual tensão concreta a peça resolve, qual fato ou d
 ## Desenhar a expressão
 
 - **Marca e logo:** parta da escolha estratégica e de ativos distintivos existentes; compare códigos visuais da categoria com o que a marca pode possuir legitimamente. Uma forma bonita sem relação com o posicionamento é exploração, não conceito final.
-- **Carrossel:** selecione a gramática visual pela ideia: demonstração anotada, foto-ensaio, diário de campo, diálogo autorizado, contraste, sequência documental, objeto ampliado ou tipografia editorial. São opções, não templates. Cada slide deve acrescentar prova, perspectiva ou consequência; texto e imagem devem colaborar, não duplicar a mesma frase. Varie escala, ritmo e densidade sem perder reconhecimento da marca.
+- **Carrossel:** selecione a gramática visual pela ideia: demonstração anotada, foto-ensaio, diário de campo, diálogo autorizado, contraste, sequência documental, objeto ampliado ou tipografia editorial. São opções, não templates. Cada slide deve avançar ou consolidar a compreensão; texto e imagem colaboram sem duplicação inútil. Varie escala, ritmo e densidade quando a narrativa pedir, preservando repetição útil à comparação e os sinais da marca.
 - **Stories:** mostre um momento ou decisão real, abra uma pergunta que a equipe possa responder e devolva depois o que aprendeu. Uma interação sem propósito ou capacidade de resposta não cria comunidade.
 - **Imagem:** priorize acervo do cliente e captação possível. Textura, grão, recorte irregular ou assimetria só entram quando servirem ao conceito; simular “feito à mão” em todas as marcas vira outro clichê. Preserve pele, produto, lugar e pessoa como são. Não apresente cena gerada como registro factual.
 
 ## Selecionar e revisar
 
-Para uma direção nova, compare poucas alternativas que **mudam o conceito**, não só cor ou fonte. Escolha pelo ajuste ao DNA, clareza para o público, prova disponível, diferença em relação ao acervo recente da marca e viabilidade de produção. Reuse o que já foi aprovado quando o pedido for adaptação.
+Para uma direção nova, compare alternativas que **mudam o conceito**, não só cor ou fonte, enquanto a escolha estiver aberta. Escolha pelo ajuste ao DNA, clareza para o público, prova disponível, diferença pertinente em relação ao acervo recente e viabilidade. Registre a razão da escolha e passe-a à produção; reabra apenas se a amostra revelar falha material ou o pedido mudar. Reuse o que já foi aprovado quando o pedido for adaptação.
 
 Faça o teste de substituição: se trocar nome e logo por um concorrente e a peça continuar igualmente plausível, falta singularidade. Faça o teste de realidade: uma pessoa do público reconheceria a situação, a fala e a promessa? Faça o teste de origem: é possível apontar de onde vieram as fotos, falas e afirmações? Corrija o defeito concreto antes de aumentar o acabamento. Não sacrifique legibilidade, acessibilidade ou fidelidade para parecer espontâneo.
 

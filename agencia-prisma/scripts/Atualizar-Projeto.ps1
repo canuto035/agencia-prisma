@@ -72,7 +72,8 @@ if(-not $Aplicar){
     return
 }
 
-$backup=Assert-PrismaPath (Join-Path $target ('backups/atualizacao-'+(Get-Date -Format 'yyyyMMdd-HHmmss')+'-'+[Guid]::NewGuid().ToString('N').Substring(0,8)))
+$backupRoot=Get-PrismaBackupRoot -ProjetoRaiz $target
+$backup=Assert-PrismaPath (Join-Path $backupRoot ('atualizacao-'+(Get-Date -Format 'yyyyMMdd-HHmmss')+'-'+[Guid]::NewGuid().ToString('N').Substring(0,8)))
 New-Item -ItemType Directory -Path $backup -Force | Out-Null
 foreach($item in @($pending | Where-Object Estado -eq 'alterado')){
     $saved=Assert-PrismaPath (Join-Path $backup $item.Arquivo)

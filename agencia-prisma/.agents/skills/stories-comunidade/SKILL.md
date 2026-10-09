@@ -11,7 +11,7 @@ Para sequência nova, leia [criação humana e distintiva](../coordenacao-agenci
 
 Recupere objetivo, DNA, contexto e ativos do dia. Parta de pergunta real, bastidor verificável, demonstração, detalhe ou decisão em aberto. Se houver diagnóstico da página, ligue a sequência ao ID da evidência e à intenção priorizada. Hipótese continua hipótese; não simule conversa, captura de seguidor, resultado de enquete ou espontaneidade de fundador.
 
-Defina o que a pessoa ganha ao continuar ou responder. Use o número de telas necessário e pedido: situação compreensível, explicação/demonstração e ação possível. Entregue texto final, fala opcional, visual, interação e próxima ação por tela. A voz deve soar natural e cada tela orientar também quem entrou no meio.
+Defina o que a pessoa ganha ao continuar ou responder. Use o número de telas necessário e pedido: situação compreensível, explicação/demonstração e ação possível. Entregue por tela função, texto final literal, fala opcional, ativo/versão, composição, transição, interação e próxima ação. Preserve a direção escolhida ao passar para imagem, vídeo e montagem. A voz deve soar natural e cada tela orientar também quem entrou no meio.
 
 Use rosto/voz reais, detalhe filmado, foto anotada ou tipografia conforme ideia/acervo. Preserve identidade/produto e evite acabamento falso para fabricar proximidade. Confira leitura confortável e alternativa sem áudio ou interação.
 
@@ -19,7 +19,7 @@ Use rosto/voz reais, detalhe filmado, foto anotada ou tipografia conforme ideia/
 
 Abra enquete, pergunta ou mensagem quando ajudar uma decisão, dúvida ou conversa útil. Para cada interação, defina benefício, aprendizado, ramos, capacidade, responsável, janela e devolutiva conforme a referência. Não prometa resposta a todos sem capacidade. Se ela for desconhecida, proponha tentativa delimitada ou explicação que entregue valor diretamente.
 
-Confira destino e condições da oferta quando houver link; verifique recursos do canal na implementação. Registre padrões anonimizados e devolva perguntas a pesquisa, pauta, oferta e atendimento. Interação sugere hipótese sem representar todo o mercado. Avalie sinais disponíveis pelo objetivo/contexto, sem prometer engajamento ou inventar métricas.
+Confira destino e condições da oferta quando houver link; verifique recursos do canal na implementação. Separe a arte exportável da interação nativa: informe texto/opções, posição reservada, destino e responsável por inserir enquete, caixa ou link. Uma imagem com botão desenhado não comprova interação funcional; a publicação confere o recurso implementado quando isso fizer parte do pedido. Registre padrões anonimizados e devolva perguntas a pesquisa, pauta, oferta e atendimento. Interação sugere hipótese sem representar todo o mercado. Avalie sinais disponíveis pelo objetivo/contexto, sem prometer engajamento ou inventar métricas.
 
 ## Comunidade e produção
 

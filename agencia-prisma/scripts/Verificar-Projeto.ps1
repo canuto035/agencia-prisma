@@ -3,6 +3,13 @@ param([string]$ProjetoRaiz=(Split-Path -Parent $PSScriptRoot),[int]$QuantidadeEs
 $ErrorActionPreference='Stop'
 . (Join-Path $PSScriptRoot 'Prisma-Caminhos.ps1')
 $base=Assert-PrismaPath $ProjetoRaiz
+if($base.TrimEnd('\','/') -match '(^|[\\/])\.(codex|agents)[\\/]skills[\\/][^\\/]+$'){
+    $oldBackups=Join-Path $base 'backups'
+    if(Test-Path -LiteralPath $oldBackups -PathType Container){
+        $discoverable=@(Get-PrismaFiles $oldBackups | Where-Object Name -eq 'SKILL.md')
+        if($discoverable.Count){throw 'Backup com SKILL.md dentro da instalação pode competir com a versão atual. Preserve e mova o backup para a raiz indicada por Get-PrismaBackupRoot antes de validar.'}
+    }
+}
 $manifest=Get-Content -LiteralPath (Join-Path $base 'operacao/catalogo.json') -Raw -Encoding utf8 | ConvertFrom-Json
 $names=@($manifest.skills | ForEach-Object nome)
 if(-not $QuantidadeEsperada){$QuantidadeEsperada=$names.Count}
@@ -135,14 +142,17 @@ if($integrationConfig.selecao -ne 'automatica_pelo_coordenador'){$errors.Add('Se
 if($integrationConfig.armazenar_credenciais -ne $false){$errors.Add('Credenciais não podem ser armazenadas no projeto.')}
 # A bancada visual é distribuída como código e dependências fixadas, sem node_modules.
 $designTools=Join-Path $base 'scripts/design-tools'
-foreach($relative in @('design-check.mjs','package.json','package-lock.json','README.md')){
+foreach($relative in @('design-check.mjs','design-check.test.mjs','render-composition.mjs','render-composition.test.mjs','composition.example.json','package.json','package-lock.json','README.md')){
     if(-not(Test-Path -LiteralPath (Join-Path $designTools $relative) -PathType Leaf)){$errors.Add("Bancada de design ausente: $relative")}
 }
 if(Test-Path -LiteralPath (Join-Path $designTools 'package.json') -PathType Leaf){
     $designPackage=Get-Content -LiteralPath (Join-Path $designTools 'package.json') -Raw -Encoding utf8 | ConvertFrom-Json
-    foreach($dependency in @('sharp','colorjs.io','svgo')){
+    foreach($dependency in @('sharp','colorjs.io','svgo','satori')){
         if(-not $designPackage.dependencies.PSObject.Properties[$dependency]){$errors.Add("Dependência visual ausente: $dependency")}
     }
+}
+foreach($relative in @('.agents/skills/dna-marca/references/dna-aplicado.md','.agents/skills/direcao-arte/references/sistema-visual-aplicado.md')){
+    if(-not(Test-Path -LiteralPath (Join-Path $base $relative) -PathType Leaf)){$errors.Add("Referência criativa ausente: $relative")}
 }
 if($coord -notmatch 'bancada-codigo-aberto\.md' -or $coord -notmatch 'pesquisa-e-reconstrucao\.md'){$errors.Add('Coordenação não ativa os novos fluxos de design.')}
 $strategyTools=Join-Path $base 'scripts/strategy-tools'

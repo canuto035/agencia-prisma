@@ -13,15 +13,15 @@ Quando o design partir de uma referência ou de uma linguagem ainda indefinida, 
 
 Para uma direção nova ou redesign, leia [crítica criativa e comparação](../design-grafico/references/critica-criativa.md). Reúna matéria-prima específica: cenas de uso, detalhes de produto, linguagem autorizada, peças recentes e sinais que já tornam o cliente reconhecível. Cada referência recebe papel explícito — identidade, prova, composição, luz/acabamento, reconstrução autorizada ou contraste de categoria — e uma decisão do que aproveitar e evitar. Um moodboard sem consequência para a peça não é direção. Faltas de acesso ou acervo viram limites e hipóteses identificadas, sem inventar uma realidade do cliente.
 
-Converta personalidade em escolhas justificadas de paleta, funções tipográficas, fotografia, ilustração, margens e hierarquia. Entregue valores de cor quando propuser paleta, pares de fontes com alternativas e regras aplicáveis a capa, conteúdo e CTA. Não presuma licença de fonte ou imagem; use ativos com origem conhecida e adequada ao uso pretendido.
+Para sistema novo ou revisão substantiva, use [sistema visual aplicado](references/sistema-visual-aplicado.md): ligue decisão estratégica, função visual, regra, exceção e aplicação de teste. Um adjetivo de personalidade não determina sozinho cor ou fonte. Em peça rotineira, reutilize o sistema aprovado sem refazer a ficha. Use fontes e imagens com origem e licença adequadas ao uso pretendido.
 
-Para produção multiformato, traduza a direção em regras que sobrevivam ao recorte: elementos fixos da marca, áreas de respiro para texto, contraste sobre fotografia, tratamento de pele e produto, uso de logo e variação entre Feed, Stories, capa e anúncio. Entregue essas regras ao design e à produção de imagem/vídeo como instruções verificáveis, evitando adjetivos vagos e aparência sintética repetida.
+Para produção multiformato, entregue regras que sobrevivam ao recorte: elementos fixos, respiro para texto, contraste sobre fotografia, tratamento de pele e produto, uso de logo e adaptação por destino. Registre valores e unidades próprios de cada formato; evite adjetivos vagos ou uma escala universal aplicada a todos os clientes.
 
-Quando a marca pedir uma linguagem nova, desenhe a **gramática visual** antes do template: que tipo de imagem carrega prova, como a tipografia reage à mensagem, onde a composição respira ou cria tensão, qual elemento retorna para gerar reconhecimento e o que muda entre informação, emoção e conversão. Em campanha importante, compare direções por uma amostra difícil de cada uma; não escolha só pelo mockup mais bonito. Para identidade aprovada, varie o ritmo sem trocar os sinais distintivos.
+Quando a marca pedir uma linguagem nova, desenhe a **gramática visual** antes do template: que tipo de imagem carrega prova, como a tipografia reage à mensagem, onde a composição respira ou cria tensão, qual elemento retorna para gerar reconhecimento e o que muda entre informação, emoção e conversão. Em campanha importante com decisão conceitual ainda aberta, compare direções por uma amostra difícil de cada uma; não escolha só pelo mockup mais bonito. Para identidade aprovada, varie o ritmo sem trocar os sinais distintivos.
 
 Trabalhe com conteúdo para ligar **situação → ideia → texto → prova visual → composição → ação**. Defina o ponto de entrada do olhar e o que a imagem acrescenta à copy. Apresente direções que mudem o mecanismo da ideia — demonstrar um detalhe, tornar uma tensão visível, mostrar uma cena reconhecível ou organizar uma decisão — em vez de versões da mesma arte com outra cor. Formalidade, espontaneidade, silêncio, densidade, simetria e experimentação dependem do cliente e da mensagem; nenhuma delas é padrão obrigatório da Prisma.
 
-Entregue regras com função e limites: sinais de marca que se repetem, escala e hierarquia de texto, recortes permitidos, função da fotografia, contraste e ritmo entre páginas. Em sistema novo, teste ao menos uma aplicação com pouco texto, outra densa e outra que exija ação, quando estiverem no escopo. Uma gramática pode admitir foto inteira, detalhe ampliado, anotação, diagrama ou página tipográfica conforme a função, sem perder reconhecimento. Não imponha variedade em adaptação simples nem use variedade para esconder um conceito fraco.
+Em sistema novo, confira aplicações com exigências diferentes e as falhas previsíveis descritas na referência: texto longo, fonte alternativa, recorte difícil ou ativo indisponível, conforme o escopo. Não imponha variedade em adaptação simples nem use variedade para esconder um conceito fraco.
 
 Mostre aplicação em uma peça do formato solicitado quando houver ferramentas. Para imagens e apresentações, use as capacidades disponíveis e inspecione o resultado. Se a entrega for apenas textual, chame de especificação visual. Não trate imagens geradas contendo texto como substituto automático de layout editável.
 
@@ -42,12 +42,12 @@ Se a produção utilizar kit de marca, produto, preset ou geração do Higgsfiel
 
 Quando o gatilho da demanda corresponder, a coordenação consulta automaticamente os apoios de `operacao/mapa-inteligencia-github.json`; carregue somente os complementos necessários e mantenha esta skill, o contexto aprovado e as instruções do usuário como autoridade.
 
-- Proponha territórios visuais realmente distintos e compare cada um por reconhecimento, adequação ao público, diferenciação na categoria, capacidade de produção e flexibilidade entre formatos.
-- Defina invariantes da marca e variáveis de campanha. Valide o sistema em peças difíceis, como capa, anúncio, Story, carrossel e foto de produto, antes de considerar a direção suficientemente robusta.
+- Quando houver uma decisão conceitual aberta, proponha territórios visuais realmente distintos e compare cada um por reconhecimento, adequação ao público, diferenciação na categoria, capacidade de produção e flexibilidade entre formatos.
+- Separe invariantes da marca, variáveis de campanha e códigos da categoria. Sinal recorrente é evidência de uso; reconhecimento pelo público depende da evidência registrada no DNA.
 
 ## Formato padrão de entrega
 
-Inclua, conforme o escopo do pedido: conceito visual e ligação com o DNA; paleta com função e códigos; tipografia por função e alternativas; linguagem fotográfica/ilustrativa; formas, texturas e ícones; grade, margens e hierarquia; aplicações em capa, conteúdo e CTA; regras do que fazer e evitar; acessibilidade; decisões aprovadas e propostas.
+Inclua, conforme o escopo do pedido: conceito visual e ligação com o DNA; regras com função, valores e exceções; paleta com códigos; tipografia e alternativas; linguagem fotográfica/ilustrativa; formas, texturas e ícones; grade, margens e hierarquia; aplicações conferidas; acessibilidade; decisões aprovadas e propostas. No repasse à ferramenta, forneça a regra escolhida e os ativos reais, não apenas o nome do estilo.
 
 Considere o sistema utilizável quando outro profissional consegue montar uma peça coerente sem adivinhar hierarquia, cores, tipografia ou estilo de imagem. Não chame a especificação de manual completo se os ativos finais ainda não existem.
 
@@ -58,6 +58,4 @@ Esta skill define o sistema visual; use `design-grafico` para compor, adaptar, e
 
 ## Decisões de qualidade e execução
 
-Registre os elementos invariáveis da marca e os elementos que variam por campanha. Para uma identidade nova, compare poucas direções justificadas antes de consolidar uma; para peça rotineira, reutilize o sistema existente. Não force a paleta sobre pele, embalagem ou fotografia a ponto de alterar sua identidade. Documente licença e alternativa de fontes antes da produção em série.
-
-Separe códigos visuais da categoria, ativos distintivos da marca e elementos temporários de campanha. Preserve reconhecimento sem copiar o concorrente dominante. Valide a direção em pelo menos aplicações com exigências diferentes quando o escopo for um sistema — por exemplo, capa, conteúdo denso e peça de conversão — e ajuste as regras que funcionarem apenas em um mockup ideal.
+Não force a paleta sobre pele, embalagem ou fotografia a ponto de alterar sua identidade. Confira também a fonte alternativa e os arquivos exportados que realmente serão usados. Se uma regra só funcionar no mockup ideal, corrija a regra ou registre seu limite; o acabamento de uma amostra não comprova robustez do sistema.

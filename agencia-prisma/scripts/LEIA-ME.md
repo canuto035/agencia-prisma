@@ -12,6 +12,7 @@ Use PowerShell 7. O coordenador pode executar os utilitários a partir de um ped
 | Verificar-Projeto.ps1 | Confere catálogo, configuração de seleção implícita, entrada efetiva, referências e sintaxe dos scripts |
 | Ativar-Prisma-No-Projeto.Tests.ps1 | Testa ancoragem em projetos fictícios, sem alterar clientes ou integrações |
 | client-report/render-report.mjs | Monta HTML local de diagnóstico, antes/proposta e plano do cliente com fontes; não pesquisa nem publica |
+| design-tools/render-composition.mjs | Compõe SVG/PNG por página a partir de JSON, fontes e ativos locais; gera prancha de contato e relatório para revisão |
 
 Prisma-Caminhos.ps1 é a biblioteca de proteção de caminhos dos utilitários. Caminhos com links de sistema exigem revisão; nomes reservados do Windows são rejeitados. Inventariar metadados não equivale a abrir fotos, ouvir áudio ou verificar direitos de uso.
 
@@ -37,5 +38,7 @@ Na primeira ativação global em outro projeto, o coordenador usa internamente `
 O arquivo de instruções ancora o método; a fila do cliente ancora as entregas e autorizações. Nenhum deles cria processo em segundo plano. A descoberta de skills depende da descrição e as instruções do projeto seguem a precedência `AGENTS.override.md` / `AGENTS.md` documentada no [guia oficial do Codex](https://learn.chatgpt.com/docs/agent-configuration/agents-md); mantenha o método disponível também nas [condições de uso da entrada](../SKILL.md).
 
 O atualizador inclui `SKILL.md` e `agents/openai.yaml` da entrada global, além das especialidades. Em cópia de projeto que tenha um `AGENTS.override.md` próprio, a prévia verifica a ancoragem e a aplicação atualiza somente o bloco Prisma desse arquivo, com backup adicional; o restante do override permanece. Instalações compartilhadas da skill não recebem uma âncora de projeto. O verificador estrutural recusa uma entrada efetiva sem encaminhamento, mas somente um teste de conversa pode observar a execução das etapas.
+
+Backups de projetos ficam em `backups/`. Para uma instalação em `.codex/skills/<nome>` ou `.agents/skills/<nome>`, o atualizador guarda o backup em `skill-backups/<nome>` ao lado da pasta `skills`, evitando que uma versão antiga de `SKILL.md` reapareça no catálogo. Backups legados dentro da instalação devem ser preservados e movidos para esse destino antes de validar a atualização.
 
 Para apresentação de melhorias em formato de LP, consulte [o gerador de relatório](client-report/README.md). A coordenação coleta evidências e as especialidades criam as propostas; o comando somente organiza esses dados num HTML. Para arquivos finais de carrossel/Stories, siga a criação e exportação do formato, além da apresentação.

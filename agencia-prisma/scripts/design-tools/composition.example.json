@@ -1,0 +1,71 @@
+{
+  "client": "EXEMPLO TECNICO — substituir pelo cliente",
+  "dnaVersion": "EXEMPLO — substituir pela versão aprovada do DNA",
+  "width": 1080,
+  "height": 1350,
+  "fonts": [
+    {
+      "family": "FonteDoCliente",
+      "weight": 400,
+      "style": "normal",
+      "path": "assets/fonte-licenciada.ttf",
+      "license": "EXEMPLO: substituir pela licença e origem reais; arquivo não incluído"
+    }
+  ],
+  "slides": [
+    {
+      "id": "abertura",
+      "role": "Abrir o argumento aprovado",
+      "argument": "Texto e estilos ilustrativos; não representam identidade global da agência.",
+      "alt": "Exemplo técnico de página com título e texto, sem fotografia.",
+      "tree": {
+        "type": "div",
+        "props": {
+          "style": {
+            "display": "flex",
+            "boxSizing": "border-box",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "padding": 80,
+            "gap": 40,
+            "backgroundColor": "#F6F3EE",
+            "color": "#18212B",
+            "fontFamily": "FonteDoCliente",
+            "fontWeight": 400,
+            "fontSize": 64,
+            "lineHeight": 1.15
+          },
+          "children": [
+            { "type": "div", "props": { "children": "Título aprovado pelo cliente" } },
+            { "type": "div", "props": { "style": { "fontSize": 34, "lineHeight": 1.4 }, "children": "Texto literal da peça, com acentos e pontuação preservados no mestre JSON." } }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fechamento",
+      "role": "Concluir a sequência",
+      "argument": "Adaptar o convite à decisão editorial aprovada.",
+      "alt": "Página de fechamento do exemplo técnico.",
+      "tree": {
+        "type": "div",
+        "props": {
+          "style": {
+            "display": "flex",
+            "boxSizing": "border-box",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "padding": 80,
+            "backgroundColor": "#18212B",
+            "color": "#F6F3EE",
+            "fontFamily": "FonteDoCliente",
+            "fontWeight": 400,
+            "fontSize": 64,
+            "lineHeight": 1.15
+          },
+          "children": "Fechamento aprovado da sequência"
+        }
+      }
+    }
+  ]
+}

@@ -15,7 +15,7 @@ Use somente os itens aplicáveis à entrega.
 - A intenção foi escolhida: reconstrução fiel autorizada, original guiado por referências ou criação do zero; origem e grau de fidelidade foram registrados.
 - Pesquisa foi feita quando faltava evidência para público, categoria, conceito, ativo ou especificação mutável; fonte e data foram anotadas.
 - Em criação nova, a observação, prova ou cena própria do cliente foi identificada; hipótese e registro factual não foram confundidos.
-- Para campanha, identidade ou peça principal, foram comparadas direções que mudam ideia ou prova; a escolha foi feita antes de polir o layout.
+- Para campanha, identidade ou peça principal com decisão material aberta, a exploração comparou ideias ou provas distintas; a direção foi resolvida antes do acabamento, sem reabrir uma escolha aprovada sem motivo.
 - Se houver logo novo ou redesenho, nome, DNA, usos e formatos de mestre foram definidos; para aplicação, foi identificado o arquivo oficial.
 
 ## Composição
@@ -47,6 +47,7 @@ Use somente os itens aplicáveis à entrega.
 - Em criação nova, a peça foi comparada com o acervo recente da marca e passou no teste de substituição por concorrente, ou a limitação foi registrada para revisão.
 - Texto e imagem contribuem informações complementares; o visual não é só uma frase renderizada com efeitos, salvo escolha tipográfica intencional.
 - O formato editável foi realmente gerado quando prometido.
+- Em composição local por código, cliente/DNA, ordem, texto literal e fontes foram conferidos no JSON e na saída; o SVG com contornos não foi apresentado como texto editável. Cada PNG foi aberto, além da prancha de contato.
 - Se uma arte achatada virou camadas, texto, logotipo e recortes foram conferidos no design resultante; não foi presumida fidelidade perfeita da conversão.
 - Origens, licenças e atribuições necessárias estão registradas.
 - Originais e versões aprovadas permanecem preservados.

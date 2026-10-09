@@ -53,7 +53,7 @@ Defina primeiro a hierarquia: mensagem principal, apoio, prova, marca e CTA. Use
 
 Escolha uma ideia visual por peça: o ativo ou relação visual que carrega a mensagem. Quando houver acervo real, explore seus detalhes e enquadramentos antes de recorrer a banco, geração ou template. Em carrosséis, faça o ritmo visual acompanhar a narrativa; não replique a capa mudando apenas o texto. Em Stories, preserve uma linguagem próxima do registro e da conversa quando isso corresponder à marca. Textura, colagem, assimetria e acabamento manual são recursos possíveis, não sinais automáticos de humanidade.
 
-Em campanha, identidade ou peça principal nova, esboce composições que expressem direções conceituais diferentes antes de investir no acabamento. Escolha pela força da ideia, leitura no canal, ativo distintivo, prova e viabilidade; registre por que a escolhida vence. Uma alternativa que só troca fonte ou cor não é outra direção. Para peça rotineira, execute o sistema aprovado sem criar uma rodada artificial de conceitos.
+Em campanha, identidade ou peça principal nova, quando houver decisão conceitual material aberta, esboce composições que expressem direções conceituais diferentes antes de investir no acabamento. Escolha pela força da ideia, leitura no canal, ativo distintivo, prova e viabilidade; registre por que a escolhida vence. Uma alternativa que só troca fonte ou cor não é outra direção. Para peça rotineira, execute o sistema aprovado sem criar uma rodada artificial de conceitos.
 
 Escolha a família de composição pela função: detalhe de produto para tornar um atributo visível; demonstração anotada para explicar mecanismo; sequência documental para mostrar processo; tipografia para uma fala exata; mapa ou diagrama para orientar decisão; relação de escala, espaço ou contraste para expressar um conceito. São possibilidades, não estilos obrigatórios. Em séries, varie ponto de entrada, escala, densidade e relação imagem–texto quando a narrativa pedir, mantendo os sinais distintivos do cliente. Uma mesma moldura em todas as telas só serve quando favorece leitura ou comparação.
 
@@ -85,6 +85,8 @@ Leia [o checklist de produção](references/checklist-design.md) antes de entreg
 
 Em toda tarefa visual, verifique também a [bancada de código aberto](references/bancada-codigo-aberto.md). Execute as rotinas pertinentes sobre os arquivos que estiverem acessíveis: dimensões e qualidade técnica de imagens, contraste de cores planas, prévia comparativa de reconstruções e otimização conservadora de SVG. Instale dependências fixadas pelo projeto quando o ambiente permitir. Se a peça existir só dentro de uma ferramenta conectada e não houver exportação local, use a conferência visual da ferramenta e registre que a checagem por código não foi aplicada. Código não substitui julgamento de composição, marca ou fidelidade.
 
+Para montagem local em SVG/PNG, a bancada também oferece composição por dados com Satori e Sharp: conteúdo literal, fontes reais do cliente, regras visuais e composição própria por página. Use quando servir ao formato pedido e reduzir trabalho repetitivo; não substitua um pedido de Canva ou arquivo nativo por essa saída. O JSON conserva o conteúdo e a composição reproduzível; o SVG de exportação pode ter letras convertidas em contornos. Antes de prometer edição de texto, confira o formato realmente gerado. A prancha de contato apoia a leitura do conjunto e não dispensa abrir cada página.
+
 ## Conferência visual
 
 Renderize ou abra todos os arquivos finais. Confira texto, acentuação, cortes, alinhamentos, margens, contraste, resolução, consistência da marca, posição do CTA e ausência de elementos acidentais. Veja a peça no tamanho aproximado de uso, especialmente em telas de celular.
@@ -112,10 +114,6 @@ Inclua, conforme o escopo do pedido: objetivo e formato; conteúdo utilizado; co
 
 Considere a peça pronta quando a mensagem principal é compreendida rapidamente, o texto está correto, a marca é reconhecível, o CTA funciona, os ativos estão autorizados, o formato corresponde ao destino, todos os arquivos finais foram inspecionados e a revisão conjunta foi realizada.
 
-## Decisões de qualidade e execução
+## Corrigir na origem
 
-Antes de um lote extenso, resolva a composição de uma peça representativa e confira leitura; não exija uma aprovação extra quando a direção já estiver autorizada. Use tipografia editável sobre fotografia sempre que o formato permitir. Cada peça final precisa corresponder a um arquivo realmente exportado. Decisões de design devem explicar hierarquia e uso, não se apoiar em adjetivos como premium ou moderno.
-
-Faça três testes antes de ampliar: miniatura para reconhecer mensagem e marca, escala real para leitura e tons de cinza para verificar hierarquia sem depender da cor. Em séries, transforme as decisões aprovadas em regras reutilizáveis de grade, espaçamento, tipografia, cor e imagem; permita variação deliberada, mas não deriva acidental. Se uma peça falhar, corrija o sistema antes de replicar o erro no lote.
-
-Antes de aprovar uma criação nova, compare-a com o acervo recente do cliente: se parecer mais um template da categoria ou uma variação cosmética do lote, mude conceito, evidência visual ou composição. Confira se “mais humano” veio de situação, voz ou ativo real, e não de imperfeições fabricadas. Rejeite pele plastificada, iluminação impossível, mãos ou objetos incoerentes e tipografia gerada dentro de imagem quando a precisão importar. Registre o motivo da escolha e inspecione a versão final exportada.
+Quando a peça falhar, localize a causa: evidência/conceito, narrativa, ativo, composição ou exportação. Devolva o problema à responsável por esse nível; ornamentos e prompts negativos não resolvem uma ideia sem sustentação. Compare a nova peça com o acervo recente e confira se a expressão humana veio da situação, linguagem ou ativo do cliente. Aplique a crítica no resultado e pare de explorar quando a decisão estiver resolvida e a entrega conferida.
