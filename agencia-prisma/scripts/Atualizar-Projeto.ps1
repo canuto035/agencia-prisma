@@ -30,13 +30,20 @@ if(Test-Path -LiteralPath $targetCatalog -PathType Leaf){
 }
 & (Join-Path $source 'scripts/Verificar-Projeto.ps1') -ProjetoRaiz $source | Out-Null
 
+# Um override próprio tem precedência sobre AGENTS.md; preserve-o, mas confira a entrada efetiva.
+$anchorPreview=$null
+if((Test-Path -LiteralPath (Join-Path $target 'AGENTS.override.md')) -and
+   $target -notmatch '(^|[\\/])\.(codex|agents)[\\/]skills([\\/]|$)'){
+    $anchorPreview=& (Join-Path $source 'scripts/Ativar-Prisma-No-Projeto.ps1') -Projeto $target -Previa
+}
+
 $sourceSkills=@(Get-ChildItem -LiteralPath (Join-Path $source '.agents/skills') -Directory | Select-Object -ExpandProperty Name)
 $extraSkills=@(Get-ChildItem -LiteralPath (Join-Path $target '.agents/skills') -Directory | Where-Object Name -NotIn $sourceSkills | Select-Object -ExpandProperty Name)
 if($extraSkills.Count){throw "O destino tem skills adicionais que exigem revisão manual: $($extraSkills -join ', ')"}
 
 # Copia só a base distribuível. Dados de clientes, backups e arquivos locais extras ficam intactos.
-$files=@(foreach($relative in @('.agents','.codex','modelos','scripts')){Get-PrismaFiles (Join-Path $source $relative)})
-$files+=@(foreach($relative in @('operacao/catalogo.json','operacao/higgsfield.json','operacao/integracoes-agencia.json','operacao/mapa-inteligencia-github.json','AGENTS.md','COMECE-AQUI.md','MAPA-DA-AGENCIA.md','DECISOES-DO-GESTOR.md')){Get-Item -LiteralPath (Join-Path $source $relative)})
+$files=@(foreach($relative in @('.agents','.codex','agents','modelos','scripts')){Get-PrismaFiles (Join-Path $source $relative)})
+$files+=@(foreach($relative in @('operacao/catalogo.json','operacao/higgsfield.json','operacao/integracoes-agencia.json','operacao/mapa-inteligencia-github.json','SKILL.md','AGENTS.md','COMECE-AQUI.md','MAPA-DA-AGENCIA.md','DECISOES-DO-GESTOR.md')){Get-Item -LiteralPath (Join-Path $source $relative)})
 $changes=@(foreach($file in $files){
     $relative=$file.FullName.Substring($source.Length).TrimStart('\','/')
     $destination=Assert-PrismaPath (Join-Path $target $relative)
@@ -58,6 +65,7 @@ if(-not $Aplicar){
         Alterados=@($changes | Where-Object Estado -eq 'alterado').Count
         Novos=@($changes | Where-Object Estado -eq 'novo').Count
         ConfiguracoesLocaisPreservadas=@($changes | Where-Object Estado -eq 'local').Count
+        EntradaEfetiva=$anchorPreview
         ProximaAcao='Revise a lista; depois execute com -Aplicar. Clientes não serão alterados; configuração .codex existente será preservada.'
         Arquivos=$pending | Select-Object Arquivo,Estado
     }
@@ -80,6 +88,10 @@ foreach($item in $pending){
     if((Get-FileHash -LiteralPath $item.Origem -Algorithm SHA256).Hash -ne
        (Get-FileHash -LiteralPath $item.Destino -Algorithm SHA256).Hash){throw "Cópia divergente: $($item.Arquivo)"}
 }
+$anchorResult=$null
+if($anchorPreview.NecessitaMudanca){
+    $anchorResult=& (Join-Path $source 'scripts/Ativar-Prisma-No-Projeto.ps1') -Projeto $target
+}
 & (Join-Path $target 'scripts/Verificar-Projeto.ps1') -ProjetoRaiz $target | Out-Null
 [pscustomobject]@{
     Estado='atualizado e validado'
@@ -87,5 +99,6 @@ foreach($item in $pending){
     Alterados=@($pending | Where-Object Estado -eq 'alterado').Count
     Novos=@($pending | Where-Object Estado -eq 'novo').Count
     Backup=$backup
+    EntradaEfetiva=$anchorResult
     Preservados='clientes, backups, arquivos extras e configuração .codex local'
 }

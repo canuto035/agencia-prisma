@@ -41,10 +41,35 @@ foreach($dir in $dirs){
         }
     }
 }
-foreach($file in @('AGENTS.md','COMECE-AQUI.md','.codex/config.toml','operacao/catalogo.json','operacao/higgsfield.json','operacao/integracoes-agencia.json','operacao/mapa-inteligencia-github.json','modelos/orcamento-higgsfield.md','modelos/plano-mensuracao.md','modelos/fila-publicacao.md','modelos/atendimento-reputacao.md','modelos/rentabilidade-cliente.md','modelos/governanca-ativos-lgpd.md','modelos/inteligencia-competitiva.md','modelos/integracoes-cliente.md','.agents/skills/coordenacao-agencia/references/protocolo-decisao.md','.agents/skills/coordenacao-agencia/references/matriz-ativacao.md','.agents/skills/higgsfield-producao/references/ferramentas-e-orcamento.md','.agents/skills/governanca-ativos-lgpd/references/controles-minimos.md','.agents/skills/inteligencia-competitiva/references/metodo-observacao.md')){
+foreach($file in @('SKILL.md','agents/openai.yaml','AGENTS.md','COMECE-AQUI.md','.codex/config.toml','operacao/catalogo.json','operacao/higgsfield.json','operacao/integracoes-agencia.json','operacao/mapa-inteligencia-github.json','modelos/orcamento-higgsfield.md','modelos/plano-mensuracao.md','modelos/fila-publicacao.md','modelos/atendimento-reputacao.md','modelos/rentabilidade-cliente.md','modelos/governanca-ativos-lgpd.md','modelos/inteligencia-competitiva.md','modelos/integracoes-cliente.md','scripts/Ativar-Prisma-No-Projeto.ps1','scripts/Ativar-Prisma-No-Projeto.Tests.ps1','.agents/skills/coordenacao-agencia/references/continuidade.md','.agents/skills/coordenacao-agencia/references/cenarios-ativacao.md','.agents/skills/coordenacao-agencia/references/protocolo-decisao.md','.agents/skills/coordenacao-agencia/references/matriz-ativacao.md','.agents/skills/higgsfield-producao/references/ferramentas-e-orcamento.md','.agents/skills/governanca-ativos-lgpd/references/controles-minimos.md','.agents/skills/inteligencia-competitiva/references/metodo-observacao.md')){
     if(-not(Test-Path -LiteralPath (Join-Path $base $file))){$errors.Add("Arquivo da base ausente: $file")}
 }
 $entry=Get-Content -LiteralPath (Join-Path $base 'AGENTS.md') -Raw -Encoding utf8
+$globalEntryPath=Join-Path $base 'SKILL.md'
+if(Test-Path -LiteralPath $globalEntryPath -PathType Leaf){
+    $globalEntry=Get-Content -LiteralPath $globalEntryPath -Raw -Encoding utf8
+    if($globalEntry -notmatch '(?m)^name:\s*agencia-prisma\r?$' -or $globalEntry -notmatch '(?m)^description:\s*\S'){$errors.Add('Metadados da entrada global ausentes ou divergentes.')}
+    foreach($link in [regex]::Matches($globalEntry,'\]\(([^)]+)\)')){
+        $relative=$link.Groups[1].Value.Split('#')[0]
+        if($relative -and $relative -notmatch '^[a-z]+://' -and -not(Test-Path -LiteralPath (Join-Path $base $relative))){$errors.Add("Referência ausente na entrada global: $relative")}
+    }
+}
+$globalUiPath=Join-Path $base 'agents/openai.yaml'
+if(Test-Path -LiteralPath $globalUiPath -PathType Leaf){
+    $globalUi=Get-Content -LiteralPath $globalUiPath -Raw -Encoding utf8
+    if($globalUi -notmatch 'allow_implicit_invocation:\s*true' -or $globalUi -notmatch [regex]::Escape('$agencia-prisma')){$errors.Add('Entrada global sem seleção implícita ou prompt com nome da skill.')}
+}
+$override=Join-Path $base 'AGENTS.override.md'
+if(Test-Path -LiteralPath $override -PathType Leaf){
+    $null=Assert-PrismaPath $override
+    $effective=Get-Content -LiteralPath $override -Raw -Encoding utf8
+    $beginCount=[regex]::Matches($effective,'<!-- PRISMA:BEGIN -->').Count
+    $endCount=[regex]::Matches($effective,'<!-- PRISMA:END -->').Count
+    $anchor=[regex]::Match($effective,'(?ms)^<!-- PRISMA:BEGIN -->\r?$.*?^<!-- PRISMA:END -->\r?$')
+    $native=$effective -match '(?m)^# Operação automática — Agência Prisma\r?$' -and $effective -match '(?m)^Em todo pedido de marketing deste projeto, leia `\.agents/skills/coordenacao-agencia/SKILL\.md`'
+    if($beginCount -ne $endCount -or $beginCount -gt 1 -or ($beginCount -and -not $anchor.Success)){$errors.Add('Bloco Prisma inválido na entrada efetiva AGENTS.override.md.')}
+    if(-not $native -and -not($anchor.Success -and $anchor.Value.Contains('agencia-prisma') -and $anchor.Value.Contains('.agents/skills/coordenacao-agencia/SKILL.md'))){$errors.Add('AGENTS.override.md tem precedência e não encaminha à coordenação. Preserve o texto e aplique Ativar-Prisma-No-Projeto.ps1 à raiz do projeto.')}
+}
 if($entry -notmatch '\.agents/skills/coordenacao-agencia/SKILL.md'){$errors.Add('Entrada da coordenação ausente.')}
 if($entry -notmatch 'protocolo-decisao\.md'){$errors.Add('Protocolo de decisão não está ligado à entrada do projeto.')}
 if($entry -notmatch 'matriz-ativacao\.md'){$errors.Add('Matriz de ativação não está ligada à entrada do projeto.')}
@@ -146,4 +171,4 @@ foreach($script in @(Get-ChildItem -LiteralPath (Join-Path $base 'scripts') -Fil
     foreach($e in $parseErrors){$errors.Add("$($script.Name): $($e.Message)")}
 }
 if($errors.Count){throw ($errors -join [Environment]::NewLine)}
-[pscustomobject]@{Skills=$dirs.Count;Catalogo='conferido';Selecao='implícita habilitada; uso não testado';Referencias='conferidas';Licencas='conferidas';Scripts='sintaxe válida';Resultado='Estrutura válida; não comprova carregamento em chats antigos, acesso a contas ou resultado com clientes reais'}
+[pscustomobject]@{Skills=$dirs.Count;Catalogo='conferido';Selecao='implícita habilitada; uso não testado';Entrada='arquivos de entrada conferidos; não comprova retenção na sessão';Referencias='conferidas';Licencas='conferidas';Scripts='sintaxe válida';Resultado='Estrutura válida; não comprova carregamento em chats antigos, acesso a contas ou resultado com clientes reais'}

@@ -46,4 +46,4 @@ Quando o gatilho da demanda corresponder, a coordenação consulta automaticamen
 
 Entregue fila atualizada, arquivos e versões usados, canais, datas, estados reais, URLs ou IDs confirmados, adaptações, verificações, falhas e próximo marco de medição.
 
-Considere concluído quando cada item estiver no estado solicitado e verificável: pronto para aprovação, aprovado, programado, publicado ou bloqueado com motivo e ação necessária.
+Considere a etapa concluída quando cada item tiver alcançado o estado solicitado e verificável: pronto para aprovação, aprovado, programado ou publicado, conforme o pedido. Um item bloqueado mantém a entrega pendente; registre motivo e ação necessária e devolva o controle à coordenação, que continua as frentes independentes. Preparação para aprovação não conclui um pedido de publicação.

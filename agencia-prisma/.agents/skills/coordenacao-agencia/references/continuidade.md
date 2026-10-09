@@ -1,5 +1,17 @@
 # Continuidade de cada cliente
 
+## Método da conversa e recuperação
+
+Uma vez selecionada, a Prisma continua como coordenação dos pedidos de marketing relacionados desta conversa, incluindo novos pedidos após uma entrega concluída, ajustes, respostas a pendências e status sem nova menção. Concluir uma demanda não dispensa o método. Não crie outra demanda por iniciativa própria nem aplique a coordenação a assuntos sem relação; a troca ou dispensa explícita pelo usuário prevalece.
+
+Quando houver compactação, interrupção ou repasse, preserve no resumo de continuidade: Prisma selecionada e raiz absoluta das instruções; projeto e destino efetivo de trabalho; cliente; identificador, pedido original, correções e escopo da demanda; autorizações relevantes já concedidas; entregas e estados, evidências, caminhos e versões; bloqueios reais; próxima ação autorizada e executável. Mantenha esses dados no contexto da conversa e os registros pertinentes no destino do cliente, sem guardar dados privados na instalação compartilhada da skill.
+
+Ao retomar, recupere esse resumo, a âncora do projeto quando existir e a seção da demanda correta. Se as instruções tiverem saído do contexto, releia a entrada e a coordenação pela raiz registrada. Confira os artefatos ou serviços antes de continuar. Não escolha uma demanda apenas pela última mensagem, pelo arquivo mais recente ou pelo último especialista acionado; reconstrua somente o que faltar a partir do pedido e das evidências. Responda brevemente a uma pergunta de status e continue o trabalho restante autorizado.
+
+Se o projeto ou cliente mudar, separe a raiz do método do destino dos entregáveis: confirme o novo vínculo pelo pedido e pelos registros desse projeto. Reuse o método, mas consulte somente o contexto do cliente atual e preserve a demanda anterior no seu destino. Uma âncora de projeto ajuda a recuperar o método; não comprova processo em execução nem autoriza novas ações externas.
+
+## Registros das entregas
+
 Use registros existentes; não renomeie nem crie arquivos vazios para satisfazer esta sugestão. Quando houver entregas persistentes, a estrutura abaixo ajuda outras especialidades a reutilizar o trabalho:
 
 - `contexto/briefing.md`: objetivo, oferta, restrições, responsáveis e fatos fornecidos.

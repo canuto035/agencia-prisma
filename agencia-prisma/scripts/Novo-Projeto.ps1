@@ -9,8 +9,8 @@ if(Test-Path -LiteralPath $target){
     if(-not(Test-Path -LiteralPath $target -PathType Container) -or @(Get-ChildItem -LiteralPath $target -Force).Count){throw 'Use uma pasta nova ou vazia. Arquivos existentes não serão substituídos.'}
 }
 & (Join-Path $PSScriptRoot 'Verificar-Projeto.ps1') -ProjetoRaiz $source | Out-Null
-$files=@(foreach($relative in @('.agents','.codex','modelos','scripts')){Get-PrismaFiles (Join-Path $source $relative)})
-$files+=@(foreach($relative in @('operacao/catalogo.json','operacao/higgsfield.json','operacao/integracoes-agencia.json','operacao/mapa-inteligencia-github.json','AGENTS.md','COMECE-AQUI.md','MAPA-DA-AGENCIA.md','DECISOES-DO-GESTOR.md')){Get-Item -LiteralPath (Join-Path $source $relative)})
+$files=@(foreach($relative in @('.agents','.codex','agents','modelos','scripts')){Get-PrismaFiles (Join-Path $source $relative)})
+$files+=@(foreach($relative in @('operacao/catalogo.json','operacao/higgsfield.json','operacao/integracoes-agencia.json','operacao/mapa-inteligencia-github.json','SKILL.md','AGENTS.md','COMECE-AQUI.md','MAPA-DA-AGENCIA.md','DECISOES-DO-GESTOR.md')){Get-Item -LiteralPath (Join-Path $source $relative)})
 foreach($file in $files){$null=Assert-PrismaPath $file.FullName}
 New-Item -ItemType Directory -Path $target -Force | Out-Null
 foreach($file in $files){

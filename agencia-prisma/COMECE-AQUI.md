@@ -4,6 +4,8 @@ Abra a pasta principal **Agencia-Prisma** como projeto no Codex, diga o nome do 
 
 Se esta base foi instalada como skill global, você também pode chamá-la de qualquer projeto com `$agencia-prisma`. Nesse caso, os arquivos do cliente ficam no projeto em uso ou no destino que você indicar, nunca dentro da pasta de instalação da skill.
 
+Após a primeira ativação, os próximos pedidos de marketing e ajustes seguem pela Prisma sem repetir o nome. Em outro projeto, o coordenador usa [o ativador](scripts/Ativar-Prisma-No-Projeto.ps1) para registrar esse método em um bloco das instruções, preservando o texto e guardando backup. Ele usa `AGENTS.override.md` quando existir; caso contrário, `AGENTS.md`. Isso permite recuperar a coordenação em outras conversas do mesmo projeto enquanto a skill estiver disponível. Você também pode pedir uso apenas nesta conversa ou remoção desse bloco.
+
 Comando único para começar: **“Prisma, cliente [nome]: [entrega desejada]. Referências: [links ou arquivos].”**
 
 Exemplos de pedido: “Analisa estes links e cria cinco Reels para a Loja X”; “Monta um carrossel com as fotos do cliente Y”; “Cria uma campanha de aquisição com peças, página, rastreamento e plano de mídia”.
@@ -14,11 +16,11 @@ Os trabalhos ficam separados em clientes/<identificador>/. Para iniciar outro cl
 
 As 33 especialidades permitem seleção implícita, e o `AGENTS.md` encaminha os pedidos à coordenação. A lista inicial de skills do Codex tem limite de espaço; se alguma descrição não aparecer, o coordenador ainda pode ler o arquivo da especialidade pelo mapa da agência. O verificador local confirma arquivos e configuração, não comprova que uma sessão aplicou uma skill. Skills são instruções especializadas; não são agentes permanentes nem garantem uma ferramenta conectada. A configuração local solicita Astra/Ultra quando carregada pelo Codex, mas o modelo efetivo depende da sessão.
 
-Se uma entrega atravessar mensagens, peça “continua” na mesma conversa ou abra o projeto e informe o cliente e a demanda. A coordenação deve localizar a seção certa em `contexto/entregas-em-andamento.md`, conferir os arquivos reais e seguir do primeiro item viável. Várias demandas do mesmo cliente ficam separadas; um bloqueio continua pendente até ser resolvido. Esse registro mantém a continuidade entre conversas; não executa tarefas sozinho enquanto o chat está fechado.
+Durante a execução, cada etapa devolve o controle à coordenação, que confere o resultado e segue para a próxima etapa autorizada sem esperar um novo comando. Correções e perguntas de status mantêm o restante do pedido em andamento. Se a conversa foi interrompida ou fechada, ao retomá-la informe o cliente e a demanda quando não estiverem claros; a coordenação localiza a seção certa em `contexto/entregas-em-andamento.md`, confere os arquivos reais e segue do primeiro item viável. Várias demandas do mesmo cliente ficam separadas; um bloqueio continua pendente até ser resolvido. Esse registro mantém a continuidade entre conversas; não executa tarefas sozinho enquanto o chat está fechado.
 
 Higgsfield, Canva, Google Drive e outras integrações são conferidos quando necessários. A conexão, o saldo e o custo precisam ser verificados na sessão real. Nenhuma geração paga, publicação ou envio é presumido. O orçamento aprovado do cliente orienta o uso de créditos. Links de vídeo são analisados até o nível que o acesso permitir; capa e título não equivalem a assistir ao vídeo.
 
-Esta base foi conferida estruturalmente em 30/09/2026. Serviços, preços, recursos e políticas externos podem mudar e devem ser verificados no momento do uso. Uma cópia baixada do GitHub ou do Drive não se atualiza sozinha.
+Esta base recebe verificações estruturais e testes controlados em cada atualização relevante. Serviços, preços, recursos e políticas externos podem mudar e devem ser verificados no momento do uso. Uma cópia baixada não se atualiza sozinha.
 
 ## Atualizar cópias antigas
 
@@ -72,4 +74,4 @@ Depois da atualização, inicie uma **nova conversa** com a pasta principal aber
 - [Utilitários](scripts/LEIA-ME.md)
 - [Origem dos complementos](.agents/fontes-externas.md)
 
-O histórico de auditorias e validações anteriores foi preservado em ackups/ da pasta principal e fica fora das cópias para novos projetos.
+O histórico de auditorias e validações anteriores foi preservado em `backups/` da pasta principal e fica fora das cópias para novos projetos.

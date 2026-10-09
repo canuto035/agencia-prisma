@@ -10,6 +10,8 @@ Instale a pasta `agencia-prisma` como skill do Codex. Depois, em qualquer projet
 
 O coordenador lê as instruções da base, escolhe as especialidades pertinentes e acompanha a entrega até a revisão final. Se chamar apenas `$agencia-prisma`, ele solicitará o mínimo necessário para começar.
 
+Depois da primeira ativação, faça os próximos pedidos de marketing e correções normalmente, sem repetir o nome. Em um projeto de trabalho com permissão de escrita, a entrada registra a coordenação em um bloco próprio das instruções do projeto, com backup e preservação do conteúdo existente. Isso permite recuperar o método nas próximas conversas desse projeto enquanto a skill estiver instalada. Se preferir usar só na conversa atual, diga isso. A coordenação avança entre etapas autorizadas e confere o pedido inteiro antes de encerrar; não mantém execução com o chat fechado.
+
 O modelo indicado na configuração incluída é Astra/Ultra; o modelo efetivo e o custo de uso dependem da conta e das configurações da sessão. Quem instalar pode ajustar `.codex/config.toml` conforme sua disponibilidade.
 
 Também é possível abrir a pasta `agencia-prisma` como projeto no Codex e fazer um pedido em linguagem natural, sem chamar a skill. Consulte [o guia de início](agencia-prisma/COMECE-AQUI.md).
@@ -27,6 +29,8 @@ Quem usa uma cópia local precisa atualizar essa cópia para receber versões no
 **30/09/2026 — criação de marca e conteúdo:** revisão de DNA, direção de arte, logos, design, imagens, carrosséis, Stories, prompts e checagem final. A nova referência de criação humana e distintiva orienta o uso de cenas, falas e provas reais do cliente, evita fórmulas intercambiáveis e exige conferir os arquivos finais. Projetos e instalações anteriores precisam receber esta versão para aplicar as mudanças.
 
 **30/09/2026 — referências por tarefa:** a coordenação agora verifica o mapa de apoios em cada pedido e retomada, consulta fontes pertinentes em entregas substantivas e repassa à especialidade a decisão concreta aproveitada. A revisão confere seu efeito no resultado; fontes sem ganho são descartadas. Isso não instala nem executa código dos repositórios consultados.
+
+**09/10/2026 — retenção e retomada:** entrada e coordenação passam a cobrir pedidos posteriores sem nova menção, com registro do contexto e da fila desde o início de entregas complexas. Os repasses distinguem etapa pronta, demanda concluída e bloqueio; status e correções devolvem o controle à coordenação. O ativador preserva instruções do projeto e o atualizador inclui também os arquivos da entrada global. Validação estrutural e testes controlados têm escopos próprios; não garantem comportamento de toda sessão futura.
 
 ## Estrutura
 

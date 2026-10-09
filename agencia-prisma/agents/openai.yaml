@@ -1,6 +1,6 @@
 interface:
   display_name: "Agência Prisma"
-  short_description: "Coordenação de marketing por um comando"
-  default_prompt: "Use $agencia-prisma para coordenar e executar meu pedido de marketing com as especialidades necessárias."
+  short_description: "Coordenação contínua de marketing na conversa"
+  default_prompt: "Use $agencia-prisma para coordenar e executar meu pedido de marketing. Mantenha a Prisma nos próximos pedidos relacionados, correções e status desta conversa sem exigir nova menção. Após cada etapa, confira a evidência e execute a próxima ação autorizada; preserve a seleção e a demanda correta na continuidade."
 policy:
   allow_implicit_invocation: true

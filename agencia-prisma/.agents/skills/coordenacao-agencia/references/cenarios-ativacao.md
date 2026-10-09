@@ -17,3 +17,24 @@ Use estes pedidos de mesa para conferir se a matriz e as skills continuam indica
 | “Analise o desempenho e proponha o próximo teste” | `metricas-marketing` | `rastreamento-conversoes` se coleta estiver falha; `ab-testing` se houver experimento controlado; distinguir dado de hipótese |
 
 Ao revisar, marque cada cenário como coberto, divergente ou dependente de teste real. Corrija divergências entre matriz, skill e mapa antes de distribuir uma nova versão da base.
+
+## Cenários de continuidade
+
+Confira pedido original, controle por demanda, evidência observada e próxima ação; use somente clientes e arquivos fictícios nesta revisão.
+
+| Situação de teste | Comportamento esperado |
+|---|---|
+| Prisma foi mencionada; depois o usuário pede outra peça de marketing sem repetir o nome | Coordenação atende o novo pedido com demanda própria e somente as especialidades necessárias |
+| Roteiro terminou, mas o pedido incluía arte final | Conferir roteiro e continuar montagem, inspeção e exportação sem esperar nova convocação |
+| Usuário pergunta “como está?” durante a montagem | Informar brevemente em comentário e continuar a próxima ação autorizada |
+| Usuário faz pergunta sobre assunto alheio durante uma entrega | Responder à pergunta sem apagar ou substituir a fila existente; manter a demanda original identificada |
+| Conversa foi interrompida com item antigo `em execução` | Consultar controle e arquivos/processo reais; reclassificar pela evidência e retomar sem duplicar execução |
+| Texto corrigido depois de uma exportação conferida | Invalidar apenas as saídas dependentes afetadas, corrigir e conferir a nova versão |
+| Um subagente devolve resultado enquanto outro ainda trabalha | Conferir a saída recebida, executar dependências prontas e acompanhar o outro responsável pelo ID real |
+| Job assíncrono foi submetido e ainda está ativo | Registrar ID, estado e forma de acompanhar; avançar partes independentes, recolher e conferir antes da entrega final |
+| Publicação bloqueada por acesso, mas há peças independentes para revisar | Revisar as peças executáveis; encerrar turno somente quando restar o bloqueio, com demanda aberta |
+| Usuário pede “pause os vídeos, continue os carrosséis” | Pausar somente vídeos e continuar carrosséis; não marcar a demanda concluída |
+| Usuário cancela explicitamente uma frente | Marcar somente essa frente como retirada e continuar o restante autorizado |
+| Todas as entregas foram verificadas ou retiradas explicitamente | Concluir a demanda e não inventar novas tarefas |
+
+Em teste real controlado, a evidência de continuidade é a próxima ação executada e seu resultado. Uma atualização textual da fila, sozinha, não comprova que a etapa seguinte ocorreu.
