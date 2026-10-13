@@ -5,6 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import sharp from 'sharp';
+import satori from 'satori';
 import { renderComposition } from './render-composition.mjs';
 
 const font = process.env.PRISMA_TEST_FONT ?? 'C:/Windows/Fonts/arial.ttf';
@@ -170,4 +171,43 @@ test('falha de glifo é explícita no relatório, sem considerar o lote aprovado
   const report = JSON.parse(await readFile(join(f.output, 'report.json'), 'utf8'));
   assert.equal(report.status, 'failed');
   assert.match(report.error, /Glifo sem fonte/);
+});
+
+test('alinha baselines de textos com tamanhos diferentes e preserva o layout na exportação', async t => {
+  const f = await fixture(t);
+  const fonts = [{ name: 'Teste', data: await readFile(join(f.root, 'assets', 'test.ttf')), weight: 400, style: 'normal' }];
+  f.data.width = 320; f.data.height = 100;
+  for (const secondSize of [14, 40]) {
+    const tree = {
+      type: 'div', props: {
+        style: { display: 'flex', alignItems: 'baseline', gap: 8, width: 320, height: 100, boxSizing: 'border-box', fontFamily: 'Teste', fontWeight: 400, fontSize: 40, color: '#111111', backgroundColor: '#ffffff' },
+        children: [
+          { type: 'span', props: { style: { fontSize: 40 }, children: '20' } },
+          { type: 'span', props: { style: { fontSize: secondSize }, children: '/month' } },
+        ],
+      },
+    };
+    const measured = [];
+    // Text SVG exposes the real baselines; checking only box bottoms misses the bug.
+    const textSvg = await satori(tree, { width: 320, height: 100, fonts, embedFont: false, onNodeDetected: node => measured.push(node) });
+    const baselines = [...textSvg.matchAll(/<text\b[^>]*\by="([^"]+)"[^>]*>/g)].map(match => Number(match[1]));
+    assert.ok(baselines.length >= 2, 'Os dois textos precisam aparecer no SVG de medição.');
+    assert.ok(Math.max(...baselines) - Math.min(...baselines) <= 1, `Baselines devem coincidir, inclusive com fontes 40/${secondSize}px: ${baselines.join(', ')}.`);
+    f.data.slides = [{ id: 'baseline', tree }];
+    await f.save(f.data);
+    const output = join(f.root, `baseline-${secondSize}`);
+    const { report } = await renderComposition(f.input, output);
+    const slide = report.slides[0];
+    assert.deepEqual(slide.warnings, []);
+    for (const content of ['20', '/month']) {
+      const expected = measured.find(node => node.textContent === content);
+      const actual = slide.layout.find(node => node.text === content);
+      assert.ok(expected && actual, `O texto ${content} deve ser medido em ambas as saídas.`);
+      for (const dimension of ['left', 'top', 'width', 'height']) {
+        assert.ok(Math.abs(actual[dimension] - expected[dimension]) <= 1, `A exportação incorporada deve preservar ${dimension} de ${content}.`);
+      }
+    }
+    const embeddedSvg = await readFile(join(output, slide.svg), 'utf8');
+    assert.ok(embeddedSvg.includes('<path') && !/<text\b/.test(embeddedSvg), 'A saída final deve manter fontes incorporadas como curvas.');
+  }
 });

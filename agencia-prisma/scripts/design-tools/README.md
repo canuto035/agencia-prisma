@@ -39,8 +39,10 @@ Projetos copiados para outra máquina incluem este código e o lockfile, mas pre
 
 ## Dependências e decisões
 
-Versões fixadas: [Satori 0.44.3 (MPL-2.0)](https://github.com/vercel/satori), [Sharp 0.35.5 (Apache-2.0)](https://github.com/lovell/sharp), [Color.js 0.7.1 (MIT)](https://github.com/color-js/color.js), [SVGO 4.1.0 (MIT)](https://github.com/svg/svgo). Dependências são instaladas pelo gerenciador; os repositórios e fontes tipográficas não são copiados para esta base.
+Versões fixadas: [Satori 0.47.1 (MPL-2.0)](https://github.com/vercel/satori), [Sharp 0.35.5 (Apache-2.0)](https://github.com/lovell/sharp), [Color.js 0.7.1 (MIT)](https://github.com/color-js/color.js), [SVGO 4.1.0 (MIT)](https://github.com/svg/svgo). Dependências são instaladas pelo gerenciador; os repositórios e fontes tipográficas não são copiados para esta base.
 
 Em 09/10/2026, o registro npm confirmou Satori 0.44.3. O pacote original fixava fflate 0.7.3; a auditoria apontou [GHSA-px8p-9vwx-vf98](https://github.com/advisories/GHSA-px8p-9vwx-vf98). O override restrito a Satori usa a correção compatível `fflate@0.7.5`, com lockfile atualizado. `npm audit --omit=dev` não apontou vulnerabilidades após essa correção nessa data; isso não equivale a garantia permanente. Preserve o override até que a dependência original o torne desnecessário e testes confirmem a atualização. Não use `npm audit fix --force` sem avaliar mudanças e regressões.
 
 Satori tem subconjunto próprio de HTML/CSS; a aparência não é garantida como idêntica à de um navegador. resvg foi avaliado e dispensado porque Sharp já cumpre a rasterização requerida. Pixelmatch ficou para um caso futuro de regressão exata entre renders estáveis, pois não mede qualidade criativa. Mudança de versão requer teste de quebra de linha, fontes, dimensões e saída visual antes de distribuir.
+
+Em 12/10/2026, a revisão reproduziu desalinhamento de baseline entre textos de tamanhos diferentes no Satori 0.44.3. A versão 0.47.1 incorpora a [correção oficial #873](https://github.com/vercel/satori/pull/873); o teste de regressão confere alinhamento misto e o caso de controle. A atualização conserva o override fflate 0.7.5, ainda necessário nessa versão. Novas propriedades de CSS do motor só podem ser usadas quando o esquema local as aceitar.

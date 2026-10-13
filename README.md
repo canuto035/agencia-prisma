@@ -34,6 +34,8 @@ Quem usa uma cópia local precisa atualizar essa cópia para receber versões no
 
 **09/10/2026 — criação aplicada e composição local:** DNA passa a separar evidência de aprovação e orientar voz, mensagem e comportamento; direção de arte define regras reproduzíveis e testes em uso. Carrosséis e Stories entregam função, transição, texto e ativos para o design. Prompts distinguem exploração, produção, edição e revisão, preservando a identidade e a linguagem das referências. A [bancada de design](agencia-prisma/scripts/design-tools/README.md) adiciona Satori e Sharp para compor SVG/PNG a partir de um mestre próprio do cliente, com fontes locais, prancha de contato e relatório. Não substitui o Canva quando solicitado nem comprova qualidade criativa sem inspeção visual. Instale as dependências conforme o guia. Backups de instalações globais passam a ficar fora da árvore de descoberta de skills.
 
+**12/10/2026 — revisão semanal:** rastreamento passa a exigir o estado solicitado e evidência de validação para concluir uma implementação completa; eventos configurados, publicados sem teste ou bloqueados permanecem pendentes na coordenação. Planos, auditorias e configurações de escopo limitado mantêm seus próprios critérios de entrega. O link de notícias oficiais da Meta foi corrigido. Satori foi atualizado para 0.47.1 após reproduzir um defeito de alinhamento entre textos de tamanhos diferentes, com regressão específica e inspeção visual. Estrutura das 33 skills, rotas, referências e dependências foram conferidas.
+
 ## Estrutura
 
 - `agencia-prisma/SKILL.md`: comando único.

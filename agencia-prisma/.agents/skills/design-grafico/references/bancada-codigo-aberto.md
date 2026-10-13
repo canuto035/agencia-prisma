@@ -27,3 +27,5 @@ Avaliação de 09/10/2026: Satori 0.44.3 foi escolhido para composição e tipog
 A versão e o lockfile são parte da entrega do código. O pacote fixa também uma correção transitiva de fflate; detalhes de licença e manutenção estão no guia. Atualização de dependência exige nova renderização de teste: adotar “latest” silenciosamente pode mudar quebra de linha, métrica tipográfica e exportação.
 
 Se Node/dependências ou arquivo local não estiverem disponíveis, continue com a ferramenta de criação e sua inspeção visual; registre qual verificação técnica ficou indisponível. Não descreva os códigos como agentes autônomos, nem prometa execução contínua fora de uma tarefa aberta.
+
+Manutenção de 12/10/2026: Satori atualizado para 0.47.1 após reproduzir falha em alinhamento de baseline com tamanhos de fonte diferentes. O guia e o lockfile indicam a versão vigente; teste de regressão e inspeção visual acompanham esta correção. Não extrapole isso para melhoria automática de criatividade.

@@ -1,6 +1,6 @@
 {
   "name": "agencia-prisma-design-tools",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "type": "module",
   "description": "Composição e verificações técnicas de peças visuais da Agência Prisma",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "colorjs.io": "0.7.1",
-    "satori": "0.44.3",
+    "satori": "0.47.1",
     "sharp": "0.35.5",
     "svgo": "4.1.0"
   },

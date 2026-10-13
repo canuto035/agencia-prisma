@@ -12,7 +12,7 @@ Use em campanha nova, auditoria e mudança relevante de estratégia ou configura
 
 ## Fontes de partida
 
-- Meta: [informações oficiais sobre anúncios](https://www.facebook.com/business/ads) e [notícias da Meta para negócios](https://about.fb.com/news/category/business/). Confirme políticas e funções no Gerenciador de Anúncios e na ajuda oficial no momento da operação.
+- Meta: [informações oficiais sobre anúncios](https://www.facebook.com/business/ads) e [notícias oficiais da Meta](https://about.fb.com/news/). Confirme políticas e funções no Gerenciador de Anúncios e na ajuda oficial no momento da operação.
 - Google Ads: [anúncios e atualizações oficiais](https://support.google.com/google-ads/announcements/9048695?hl=pt-BR), [experimentos](https://support.google.com/google-ads/answer/7281575?hl=pt-BR) e documentação do tipo de campanha usado. Confirme disponibilidade e configuração na conta.
 
 Ao citar uma mudança específica, use a página oficial exata, data de publicação/atualização e data da consulta. Resultados divulgados pela plataforma são contexto, não previsão para o cliente. Se a fonte ou a conta não estiver acessível, marque a conclusão como pendente e avance apenas nas decisões que não dependem dela.
