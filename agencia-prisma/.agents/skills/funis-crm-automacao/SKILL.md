@@ -43,3 +43,7 @@ Considere o fluxo pronto para configuração quando entradas, etapas, responsáv
 Antes de ativação autorizada, verifique reentrada, contatos duplicados, concorrência com resposta humana, fuso e regra de parada. Registre identificador do evento processado para impedir envio duplicado em repetição. Login aberto ou um fluxo desenhado não constitui automação ativa. Se a ferramenta real não estiver conectada, entregue o desenho e o plano de teste, distinguindo configuração de funcionamento.
 
 Modele cada fluxo como estado atual → evento → condição → próximo estado → efeito → registro. Teste caminhos felizes, resposta humana, evento repetido, dados ausentes, atraso, falha parcial, descadastro e reprocessamento. Toda exceção precisa de proprietário e fila visível; automação que falha silenciosamente ou não permite reconstruir o histórico não está pronta para operar.
+
+## Retorno da aquisição para mídia
+
+Quando o funil alimentar campanhas, mantenha estados e motivos que distingam contato inválido, fora de escopo, sem resposta, não atendido, qualificado e cliente. Registre horário de entrada e primeira resposta, origem/ID de campanha quando disponível e cobertura de atualização. Devolva qualidade, atraso e capacidade a campanhas; falta de avaliação não é prova de segmentação ruim. Rastreamento verifica recebimento e correspondência das conversões enviadas à plataforma; CRM cuida da definição comercial e da fila de exceções. Um negócio atualizado não comprova que o sinal chegou aos lances.

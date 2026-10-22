@@ -14,3 +14,12 @@ Uma hipótese pode seguir para teste com risco e limite explícitos. Um plano n�
 ## Bloqueios antes da publicação
 
 Não publique enquanto houver conta/identidade errada ou não confirmada; falta de mandato e teto para a ação; limite de gasto incompatível com a mecânica da plataforma; destino quebrado ou divergente; evento necessário à otimização não testado; peça com alegação sem prova, direitos incertos ou restrição setorial aplicável não resolvida; prévia necessária indisponível ou ausência de um meio para conferir o resultado após salvar. Registre o que está preparado e a dependência exata. Quando os bloqueios forem resolvidos, confira novamente a configuração real e só então execute o que estiver autorizado. Após a ação, estado persistido e níveis dependentes precisam de evidência; confirmação perdida mantém resultado incerto, nunca autoriza duplicar a operação. Registre a conclusão de cada item e devolva a próxima etapa à coordenação.
+
+## Perguntas críticas para uma decisão de escala
+
+- O resultado melhorou também na qualidade ou contribuição pertinente, ou apenas no indicador intermediário? Eventos, valores e metas efetivas são coerentes com o negócio?
+- O aumento veio de desempenho dentro de grupos comparáveis ou de maior participação de marca, remarketing ou clientes antigos?
+- A próxima faixa de verba cabe no teto, caixa, estoque e atendimento, inclusive com atraso de conversão e correções de receita?
+- O destino e a promessa podem ser alterados por automação? As configurações e páginas elegíveis respeitam as condições do cliente?
+
+Use [decisão integrada](decisao-integrada.md) para resolver as dimensões pertinentes. Uma hipótese limitada pode ser testada dentro do mandato; uma avaliação sem dados suficientes não vira garantia de retorno nem autorização para aumentar o teto.

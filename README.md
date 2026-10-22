@@ -50,3 +50,5 @@ Quem usa uma cópia local precisa atualizar essa cópia para receber versões no
 - `agencia-prisma/scripts/`: criação, atualização e verificação de projetos.
 
 As referências do GitHub mapeadas pela agência são material de consulta, não código instalado ou executado automaticamente.
+
+**22/10/2026 — segunda revisão de tráfego:** decisão integrada entre oferta, criativo, página, CRM e contribuição; auditoria do sinal efetivamente usado nos lances, metas personalizadas, duplicidade entre fontes, valores e ajustes comerciais. A operação Google passa a verificar expansão de destinos e ativos automáticos. Três novos prompts orientam auditoria, retrospectiva criativa e escala. Referências oficiais e GitHub informam o método; nenhuma integração ou dependência nova foi instalada.

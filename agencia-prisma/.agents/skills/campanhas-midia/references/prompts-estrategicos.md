@@ -49,3 +49,15 @@ São moldes internos de raciocínio, não comandos fixos enviados a toda ferrame
 ## Mudança de plataforma ou oportunidade de teste
 
 > Para [cliente, conta e decisão], compare [recurso ou recomendação] com [documentação oficial, data] e com a configuração observada em [portal, data]. Classifique se foi anunciado, se está disponível e se serve ao objetivo. Identifique impacto em marca, criativo, público, mensuração, qualidade e orçamento. Recomende usar, testar, adiar ou ignorar com hipótese, métrica principal, métricas de proteção, limite de gasto autorizado e condição de parar. Separe afirmações da plataforma de evidência do cliente e registre o próximo ponto de leitura.
+
+## Auditoria do sinal que orienta os lances
+
+> Para [conta/campanhas], relacione objetivo comercial, evento observado, ação efetiva de otimização, fonte, contagem, valor e meta herdada/específica/personalizada. Compare eventos intermediários e finais sem somá-los como vendas. Separe recebimento, correspondência, relatório e uso em lances. Identifique duplicidades possíveis e o impacto compartilhado de cada correção; altere somente o escopo autorizado e confirme depois.
+
+## Retrospectiva criativa ligada ao negócio
+
+> Para [conceitos/versões, dados, coortes e período], compare hipótese, promessa, prova, execução, distribuição e destino com atenção, qualificação e resultado comercial disponíveis. Distinga pouca entrega, intenção inadequada, desgaste, oferta e falha de atendimento. Escolha a próxima mudança, indique evidência contrária e passe a copy/design/página o que preservar, modificar e conferir. Se a distribuição não foi comparável, não declare vencedor causal.
+
+## Escala com margem e restrições reais
+
+> Para [decisão de verba], reconcilie pedidos/CRM, atribuição, cancelamentos, receita líquida definida, custos variáveis, mídia e clientes novos versus recorrentes. Mostre contribuição antes/depois de mídia, unidade do valor usado nos lances e premissas de prazo de retorno. Compare a próxima faixa de gasto com teto restante, caixa, estoque e capacidade; diferencie dado observado de extrapolação. Recomende a ação autorizada e a evidência para revê-la, sem confundir ROAS, lucro e incremento causal.

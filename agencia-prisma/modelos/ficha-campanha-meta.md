@@ -70,3 +70,15 @@ Use apenas os campos pertinentes; pausa pontual não exige ficha completa.
 | Data e período medido | Gasto e resultado (fonte) | Qualidade pós-clique e atendimento | Hipótese | Ação executada | Verba antes/depois | Próxima leitura |
 |---|---|---|---|---|---|---|
 |  |  |  |  |  |  |  |
+
+## Sinal, valor e decisão integrada (quando aplicável)
+
+Evento recebido versus ação efetivamente usada para otimização e evidência:
+Metas/ações compartilhadas afetadas, fontes e possíveis duplicidades:
+Valor reportado: receita, contribuição ou estimativa; moeda e regra de contagem:
+Pedidos únicos, estornos, clientes novos/recorrentes e cobertura dos dados:
+Contribuição antes/depois de mídia, custos já descontados e prazo de caixa:
+Tempo de atendimento, motivos de perda e leads ainda sem avaliação:
+Automações que alteram texto/destino, páginas elegíveis e restrições conferidas:
+Gargalo → evidência → ação → responsável → próxima condição de leitura:
+Retorno para criação: conceito/versão, o que preservar, mudar e conferir:
