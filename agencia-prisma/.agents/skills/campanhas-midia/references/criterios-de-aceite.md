@@ -1,6 +1,6 @@
 # Critérios de aceite da campanha
 
-Use antes de chamar um plano de pronto e novamente antes de gerar gasto. Para cada dimensão, marque **confirmado**, **hipótese a testar**, **pendente** ou **bloqueio**, com fonte e próxima ação. Não atribua nota genérica: uma falha de conta ou teto não é compensada por criativo forte.
+Use antes de chamar um plano de pronto e novamente antes de gerar gasto. Uma pausa pontual segue identidade, permissão e confirmação, sem exigir as dependências de um lançamento. Para outras alterações, confira apenas dependências pertinentes e efeitos no escopo compartilhado. Para cada dimensão, marque **confirmado**, **hipótese a testar**, **pendente** ou **bloqueio**, com fonte e próxima ação; use **não aplicável** quando a dimensão estiver fora do escopo. Ausência de acesso reduz a cobertura da auditoria, não prova defeito da conta. Não atribua nota genérica: uma falha de conta ou teto não é compensada por criativo forte.
 
 ## Qualidade da estratégia
 
@@ -13,4 +13,4 @@ Uma hipótese pode seguir para teste com risco e limite explícitos. Um plano n�
 
 ## Bloqueios antes da publicação
 
-Não publique enquanto houver conta/identidade errada ou não confirmada; falta de mandato e teto para a ação; limite de gasto incompatível com a mecânica da plataforma; destino quebrado ou divergente; evento necessário à otimização não testado; peça com alegação sem prova, direitos incertos ou restrição setorial aplicável não resolvida; prévia ou estado final não verificável. Registre o que está preparado e a dependência exata. Quando os bloqueios forem resolvidos, confira novamente a configuração real e só então execute o que estiver autorizado.
+Não publique enquanto houver conta/identidade errada ou não confirmada; falta de mandato e teto para a ação; limite de gasto incompatível com a mecânica da plataforma; destino quebrado ou divergente; evento necessário à otimização não testado; peça com alegação sem prova, direitos incertos ou restrição setorial aplicável não resolvida; prévia necessária indisponível ou ausência de um meio para conferir o resultado após salvar. Registre o que está preparado e a dependência exata. Quando os bloqueios forem resolvidos, confira novamente a configuração real e só então execute o que estiver autorizado. Após a ação, estado persistido e níveis dependentes precisam de evidência; confirmação perdida mantém resultado incerto, nunca autoriza duplicar a operação. Registre a conclusão de cada item e devolva a próxima etapa à coordenação.

@@ -24,6 +24,8 @@ Com pouco material, entregue mapa provisório de hipóteses e perguntas priorit�
 
 ## Integração e memória
 
+Quando a pesquisa alimentar aquisição, encaminhe também a campanhas-midia evidência, situação de compra, objeção, prova, confiança e contraexemplo, seguindo [pesquisa aplicada à mídia](../campanhas-midia/references/pesquisa-publico-e-hipoteses.md). Separe compradores, qualificados, perdidos e relatos públicos; não traduza um perfil de pesquisa automaticamente em filtro de anúncio.
+
 Encaminhe situações e linguagem a dna-marca, copy-ofertas e planejamento-editorial; gargalos a paginas-conversao e sucesso-cliente; hipóteses testáveis a ab-testing. Registre os achados na pasta do cliente e use identificadores anônimos no banco de ideias.
 
 ## Inteligência ampliada

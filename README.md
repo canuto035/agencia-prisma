@@ -36,6 +36,10 @@ Quem usa uma cópia local precisa atualizar essa cópia para receber versões no
 
 **12/10/2026 — revisão semanal:** rastreamento passa a exigir o estado solicitado e evidência de validação para concluir uma implementação completa; eventos configurados, publicados sem teste ou bloqueados permanecem pendentes na coordenação. Planos, auditorias e configurações de escopo limitado mantêm seus próprios critérios de entrega. O link de notícias oficiais da Meta foi corrigido. Satori foi atualizado para 0.47.1 após reproduzir um defeito de alinhamento entre textos de tamanhos diferentes, com regressão específica e inspeção visual. Estrutura das 33 skills, rotas, referências e dependências foram conferidas.
 
+**19/10/2026 — rotas de produção e orçamento por canal:** a coordenação passa a consultar o roteador atual do Higgsfield, distinguindo pedidos comuns dos workflows UGC, faceless e Ad Multiplier que exigem comando explícito. Video Editor/Katana segue o repasse ao editor local; comandos desconhecidos respeitam as exceções do serviço. Atalhos internos de ensaio continuam disponíveis. O guia Google Ads inclui prioridade e alocação por canal, com disponibilidade gradual e alocação por melhor esforço que não substitui teto financeiro. As 33 especialidades mantêm seleção automática; conexões e execuções reais dependem das ferramentas disponíveis.
+
+**22/10/2026 — tráfego pago:** pesquisa de público agora entrega hipóteses ligadas a evidências e configurações possíveis. Cálculos distinguem lead bruto, qualificado e cliente, com coortes e maturação comercial. Operação Meta/Google ganha recuperação de confirmação perdida, lotes parciais, pausas proporcionais e registro do estado desejado. Novos prompts e fichas apoiam essas decisões. O diagnóstico oficial do Google entra como referência metodológica; integrações de API permanecem opcionais e não foram instaladas por esta atualização.
+
 ## Estrutura
 
 - `agencia-prisma/SKILL.md`: comando único.

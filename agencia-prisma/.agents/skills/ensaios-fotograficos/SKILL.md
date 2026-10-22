@@ -31,7 +31,7 @@ Leia [o protocolo de fidelidade](references/protocolo-fidelidade.md) em qualquer
 
 Leia [a biblioteca de atalhos](references/atalhos-de-estilo.md) quando o usuário empregar uma palavra com barra, citar um estilo fotográfico ou deixar a estética em aberto. Reconheça atalhos como `/cinematic`, `/editorial`, `/studio`, `/lifestyle`, `/luxury`, `/documentary`, `/portrait`, `/product`, `/hero`, `/packshot` e `/macro` como presets internos de prompt.
 
-Esses nomes servem como vocabulário interno de estilo quando o pedido não indicar uma ferramenta com comandos próprios. Se o usuário pedir Higgsfield com um token de barra, resolva primeiro a entrada na skill Higgsfield; se ela não existir, use o termo apenas como orientação visual. Traduza o estilo em luz, composição, lente aparente, textura, cor e acabamento. Se nenhum atalho for informado, selecione automaticamente o estilo adequado ao briefing. A fidelidade do modelo, personagem ou produto sempre prevalece sobre o preset.
+Esses nomes servem como vocabulário interno de estilo quando o pedido não indicar uma ferramenta com comandos próprios. Se o token invocar um comando Higgsfield, consulte a skill atual e resolva a entrada antes de pedir insumos ou enviar mídias; mesmo desconhecido, siga o fallback e as exceções do serviço, sem convertê-lo automaticamente em estilo. Traduza o estilo em luz, composição, lente aparente, textura, cor e acabamento. Se nenhum atalho for informado, selecione automaticamente o estilo adequado ao briefing. A fidelidade do modelo, personagem ou produto sempre prevalece sobre o preset.
 
 ## Briefing do ensaio
 

@@ -2,6 +2,16 @@
 
 Use os nomes e esquemas disponíveis na sessão; não invente ferramentas, modelos, presets, vozes, produtos ou identificadores.
 
+## Roteamento antes da produção
+
+Para preset nomeado ou comando invocado, leia a skill Higgsfield atual. Siga a rota de galeria/modelo indicada pelo servidor; nos demais comandos, resolva o token exato com `get_preset_instructions` antes de pedir insumos, enviar mídias ou escolher fluxo. UGC, faceless e Ad Multiplier exigem comando explícito com barra ou continuação; formato pedido em prosa não substitui essa condição. Use as capacidades genéricas adequadas ao pedido comum, sem simular uma invocação.
+
+Pedido para abrir/conectar/trabalhar no Video Editor/Katana resolve `/use-video-editor` antes do repasse ao plugin local. Se este faltar, explique a dependência; não execute uma alternativa em sandbox na nuvem. Consulta, explicação, estimativa ou crítica não autoriza geração ou abertura do editor.
+
+Entrada não encontrada segue o fallback atual, não uma conversão universal em estilo. Para `/reset-credits`, se não houver comando, resolvedor ou ferramenta Credit Reset exigida, use a resposta exata prevista na skill Higgsfield e pare sem repetir ou substituir ações. Erro de backend e conta inelegível não equivalem a ferramenta ausente.
+
+Resolvida a rota, faça o pré-voo e respeite o orçamento antes de qualquer produção paga. A verificação inicial de conexão continua sendo apenas leitura.
+
 ## Pré-voo sem custo
 
 1. `list_workspaces`: confirme o espaço correto. Não selecione espaço de equipe sem escolha do usuário.
@@ -21,10 +31,10 @@ Consultas de saldo, catálogo e custo não autorizam a geração seguinte. Se a 
 | Vídeo novo ou imagem animada | geração de vídeo; modelo compatível com as mídias | Produção de vídeo |
 | Movimento de vídeo em outro sujeito | Genjutsu de controle de movimento | Produção + fidelidade visual |
 | Troca de produto, objeto ou personagem | Genjutsu de substituição | Produção + campanha + fidelidade |
-| Variações independentes de anúncio | multiplicação/Marketing Studio quando disponível | Campanha + produção + revisão; experimento quando solicitado |
-| Produto, UGC e marca | produtos, kit de marca, avatares, hooks e presets reais | DNA + direção + campanha |
+| Variações independentes de anúncio | rota resolvida de Ad Multiplier quando invocada; demais variações por edição/geração compatível | Campanha + produção + revisão; experimento quando solicitado |
+| Produto, UGC e marca | recursos reais de marca e mídia; helpers UGC somente quando o workflow invocado os exigir | DNA + direção + campanha |
 | Narração | vozes listadas e geração de áudio | Produção de vídeo |
-| Preset Viral ou Marketing Studio | catálogo, detalhe e execução do preset | Especialidade do formato |
+| Preset Viral ou Marketing Studio | resolução atual, esquema, orçamento e execução dentro do pedido | Especialidade do formato |
 | Análise de vídeo | criação da análise, espera e resultado por cena | Referências + produção |
 | Site, aplicativo ou jogo | fluxo de website e instruções obrigatórias | Página + design + técnica |
 | Cena ou ativo 3D | fluxo de cena 3D | Direção de arte + design |

@@ -2,6 +2,8 @@
 
 Leia para configurar, publicar, alterar ou otimizar uma conta Google Ads. Aplique a [estratégia e diagnóstico](estrategia-e-diagnostico.md) e os [critérios de aceite](criterios-de-aceite.md) proporcionais ao pedido; registre estado e decisões na [ficha do cliente](../../../../modelos/ficha-campanha-google.md). Não afirme que uma campanha está ativa sem reler seu estado no portal.
 
+Para alterações, pausas e retomadas, aplique [execução e recuperação](execucao-e-recuperacao.md). Registre estado desejado e resultado persistido; confira dependências e nunca repita uma criação ou aumento de verba cuja confirmação se perdeu sem antes verificar seu efeito.
+
 ## Conferir conta e objetivo
 
 1. Identifique cliente, ID da conta, moeda, fuso, acesso, cobrança, campanhas já ativas e gasto acumulado no período. Confirme que a conta exibida corresponde ao cliente. Registre oferta, praça, destino, teto autorizado, período e quem atende ou processa a venda.
@@ -11,6 +13,18 @@ Leia para configurar, publicar, alterar ou otimizar uma conta Google Ads. Apliqu
 ## Limite de gasto
 
 Some gasto já ocorrido, campanhas em andamento e nova verba no mesmo teto do cliente. **Orçamento diário médio não é teto diário rígido**; confirme na ajuda oficial atual como a plataforma pode distribuir gasto e como mudanças de orçamento alteram o limite. Quando o pedido exigir um teto total estrito, use um controle de limite total disponível e adequado ao tipo de campanha, ou mantenha rascunho se o limite não puder ser garantido. Não apresente monitoramento manual futuro como trava automática. Registre moeda, período, mecanismo observado de limitação e pior exposição plausível antes de publicar.
+
+Em revisão de 22/10/2026, a [ajuda sobre mudanças de orçamento](https://support.google.com/google-ads/answer/10487143?hl=en) informa que o limite diário no dia da edição considera o maior orçamento médio escolhido naquele dia. Reduzir depois não desfaz essa exposição. Registre o histórico relevante antes de propor aumento ou afirmar que uma redução restabeleceu o teto. Orçamento total de campanha não pode ser aplicado a uma campanha diária existente por simples troca; confirme elegibilidade na criação e lembre que teto total não é teto diário. Não crie uma substituta automaticamente para contornar essa limitação.
+
+## Prioridade e alocação por canal
+
+Conferido em 19/10/2026: a disponibilidade é gradual e varia por conta e campanha. Confira os controles reais antes de planejar seu uso. Prioridade High/Low pode abranger Pesquisa, Shopping, Performance Max e Demand Gen; Demand Gen ainda não aceita alocação percentual.
+
+Antes de salvar, confira o alcance: padrão da conta, campanha ou orçamento compartilhado. Um padrão pode afetar outras campanhas elegíveis; um orçamento compartilhado aplica o controle ao conjunto vinculado. Altere somente o escopo autorizado e registre antes/depois.
+
+A alocação percentual de canais Low é calculada sobre o orçamento diário médio, não sobre o gasto efetivo. Funciona por melhor esforço e pode ser excedida: **não substitui o teto financeiro aprovado**. Prioridade pode não mudar a distribuição quando o orçamento não limita a campanha. Com orçamento total de campanha, a compatibilidade indicada é apenas Demand Gen.
+
+Na data da revisão, o suporte estava no Google Ads e Search Ads 360; API e Ads Editor permaneciam anunciados para depois. Reconfirme disponibilidade e limitações na [ajuda oficial](https://support.google.com/google-ads/answer/18385152); consulte também o [anúncio de 14/10/2026](https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/).
 
 ## Montar e conferir
 

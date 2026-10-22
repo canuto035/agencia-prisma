@@ -10,6 +10,15 @@ Resultado de negócio, ação de conversão para lances e teste do evento:
 Eventos secundários, CRM/venda e responsável pelo atendimento:
 Fonte/período da linha de base e hipótese da campanha:
 
+## Definições e maturação comercial
+
+Definição de lead bruto, qualificado e cliente novo:
+Coorte de origem, data de corte e cobertura do vínculo com CRM:
+Taxa bruto → qualificado e taxa qualificado → cliente (numeradores/denominadores):
+Atraso observado de qualificação/venda/importação e resultados ainda pendentes:
+CAC disponível para mídia, CPL bruto e CPQL suportáveis; premissas e custos já descontados:
+Achado de público → hipótese → mensagem/prova → destino → controle disponível → critério de revisão:
+
 ## Escopo e verba
 
 Pedido ou aprovação (fonte/data), ações e período autorizados:
@@ -25,6 +34,16 @@ Consultas/termos, correspondência, exclusões e feed quando aplicáveis:
 Anúncios, ativos, URL, UTMs e prévias verificadas:
 Critérios de aceite (confirmados, hipóteses, pendências e bloqueios):
 IDs e estado relido após criar, alterar ou publicar:
+
+## Registro de operações
+
+Use apenas os campos pertinentes; pausa pontual não exige ficha completa.
+
+| Data/fuso | Comando e autorização | Conta/IDs | Antes → valor desejado | Resultado: persistido, parcial ou incerto | Estado da plataforma e evidência | Pendência/retomada |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+## Leituras e decisões
 
 | Data/período | Gasto e resultado com fonte | Qualidade de lead/venda | Hipótese | Alteração e verba antes/depois | Próxima leitura |
 |---|---|---|---|---|---|

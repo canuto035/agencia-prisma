@@ -11,7 +11,7 @@ O usuário não precisa mencionar Higgsfield. A coordenação aciona esta especi
 
 Se a integração estiver ausente, descubra as capacidades disponíveis e informe o que falta; instalação segue as ferramentas e autorizações da sessão. Se estiver desconectada, solicite conexão uma vez e continue roteiro, briefing, seleção de referências e outras partes independentes. Não bloqueie toda a agência. Use o espaço privado padrão, salvo escolha explícita de outro espaço pelo usuário.
 
-Leia [ferramentas e política de orçamento](references/ferramentas-e-orcamento.md) antes de qualquer geração, edição, preset, lote ou criação de site. Consulte as instruções atuais da própria ferramenta para parâmetros e fluxos, pois modelos e preços podem mudar.
+Leia [ferramentas e política de orçamento](references/ferramentas-e-orcamento.md) antes de qualquer geração, edição, preset, lote ou criação de site. Consulte as instruções atuais da própria ferramenta para parâmetros e fluxos, pois modelos e preços podem mudar. A seleção automática desta especialidade local não aciona por si só workflows que exijam invocação explícita; pedidos comuns continuam pelas capacidades genéricas compatíveis.
 
 ## Escolha da ferramenta
 
@@ -19,9 +19,11 @@ Escolha pelo resultado, referências, fidelidade necessária, duração, formato
 
 - Imagem, tratamento e fotografia: trabalhe com `imagens-marketing`; para série, use também `ensaios-fotograficos`.
 - Vídeo gerado, imagem animada, transferência de movimento, troca de objeto e edição: trabalhe com `producao-video` e o roteiro pertinente.
-- Anúncios, variações e Marketing Studio: distinga anúncio novo, edição simples, variações de elementos de um vídeo fornecido e preset nomeado; ad-multiplier só serve quando sua entrada for compatível. Use `campanhas-midia`, `copy-ofertas`, `design-grafico`, métricas e experimentação conforme o objetivo.
+- Anúncios, variações e Marketing Studio: distinga anúncio novo, edição simples, variações de elementos de um vídeo fornecido e preset nomeado; o workflow Ad Multiplier exige invocação explícita por barra ou continuação dela, além de entrada compatível conforme a resolução atual. Use `campanhas-midia`, `copy-ofertas`, `design-grafico`, métricas e experimentação conforme o objetivo.
 - Voz: use somente para fala e narração, com voz escolhida validamente; não substitua música ou efeitos por voz sintética.
-- Presets: quando o usuário escolher um nome ou comando com barra, resolva primeiro a entrada real com a skill Higgsfield da sessão. Se a entrada não existir, trate o termo como orientação criativa e escolha a ferramenta pelo resultado; não invente ID nem declare preset executado. Menção genérica ao Higgsfield não aciona fluxo de preset.
+- Presets e comandos: quando invocados, leia a skill Higgsfield atual e resolva a entrada antes de pedir referências, enviar mídias ou escolher um fluxo genérico, mesmo se o token for desconhecido ou faltar mídia. Siga o esquema e o fallback retornados, com suas exceções; não converta automaticamente uma falha em orientação estética nem invente ID. Menção genérica, citação ou negação de um comando não o ativa.
+- UGC e faceless: os workflows especializados Higgsfield exigem invocação explícita por barra ou continuação dela. Pedidos em prosa podem ser atendidos pelas ferramentas genéricas compatíveis; não fabrique uma invocação para abrir o workflow.
+- Video Editor/Katana: para abrir, conectar ou trabalhar no editor, resolva /use-video-editor primeiro, mesmo em pedido sem barra, e siga o repasse ao plugin local separado. Sem ferramentas do editor, explique a dependência; não use sandbox na nuvem como substituto. Explicação ou crítica isolada não abre o editor.
 - Análise de vídeo: registre se a entrada foi arquivo ou YouTube e considere que vídeos curtos oferecem análise por cena mais confiável.
 - Site, aplicativo, jogo ou cena 3D: acione apenas quando essa for a entrega. Respeite escolhas exigidas pela ferramenta e não publique ou implante sem que o pedido cubra essa ação.
 

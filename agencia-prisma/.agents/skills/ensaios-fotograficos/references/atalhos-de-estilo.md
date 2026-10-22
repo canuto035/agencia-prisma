@@ -13,7 +13,9 @@ O usuário pode escrever com ou sem barra. Por exemplo, `/cinematic` e “cinem�
 
 O preset nunca pode modificar identidade, idade aparente, anatomia, produto, embalagem ou elementos oficiais da marca. Combine até três presets compatíveis quando isso trouxer benefício real. Se dois presets entrarem em conflito, escolha o que melhor atende à finalidade e informe a interpretação usada.
 
-Um termo iniciado por `/` que não esteja neste catálogo deve ser tratado como possível indicação estética, não como comando garantido. Interprete-o somente quando seu significado for claro; caso contrário, ignore o formato da barra e use a descrição restante do pedido.
+Quando o pedido invocar um comando de serviço, use a skill atual desse serviço antes de interpretar o token como estética. No Higgsfield, resolva o comando exato mesmo desconhecido ou sem mídia e siga seu fallback; exceções como `/reset-credits` não viram presets internos. Citações, traduções e comandos negados não são invocações.
+
+Fora de um comando de serviço, um termo de estilo iniciado por `/` que não esteja neste catálogo pode ser interpretado quando o significado estético for claro. Caso contrário, use a descrição restante do pedido sem fingir que um comando foi executado.
 
 ## Linguagem fotográfica
 

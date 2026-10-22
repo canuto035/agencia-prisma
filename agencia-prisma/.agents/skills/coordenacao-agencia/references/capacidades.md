@@ -35,22 +35,15 @@ Leia a descrição atual e o SKILL.md da ferramenta escolhida. Os nomes abaixo s
 | Necessidade | Skill de ferramenta e condição de entrada | Responsável local |
 |---|---|---|
 | Criar ou editar fotos, ilustrações, ensaios raster | imagegen e ferramenta integrada; ler a skill atual para distinguir geração de edição e salvar o final no projeto. Layout vetorial/editável segue ferramenta de design | imagens-marketing; ensaios-fotograficos para série |
-| Preset nomeado, atalho com barra ou galeria Viral/Marketing Studio | higgsfield; resolva a entrada real e seu esquema antes de gerar. Token não encontrado vira dica de estilo, sem fingir preset. Esta skill não é a rota genérica de toda fotografia | higgsfield-producao + produtor do formato |
-| Variações independentes de um vídeo de anúncio fornecido | ad-multiplier apenas com um vídeo de origem compatível (skill atual: 4–30 s) e edição de elementos; não serve para criar vídeos novos ou fazer cortes simples | campanhas-midia + producao-video; ab-testing só para experimento |
-| Episódio completo com apresentador de IA consistente | ai-host-video | producao-video + conteúdo responsável |
-| Vídeo completo sem apresentador, com várias cenas e narrador | faceless-video somente quando esse formato for explicitamente solicitado | producao-video + conteúdo responsável |
-| Narração com duração definida ou sobreposição de apresentador sobre vídeo existente | narrator | producao-video |
-| UGC de produto com locução fora de cena | ugc-product-video; confira restrições atuais sobre pessoas em quadro | producao-video + conteúdo responsável |
-| Criador adulto vestindo roupa | ugc-try-on-video, com referências e condições aceitas pela skill | producao-video + imagens-marketing |
-| Criador demonstrando uso passo a passo | ugc-tutorial-video | producao-video + conteúdo responsável |
-| Criador abrindo uma embalagem | ugc-unboxing-video, com criador e produto definidos | producao-video + conteúdo responsável |
-| Criador apresentando site, aplicativo ou serviço online | ugc-website-video, com captura real do site | producao-video + paginas-conversao quando pertinente |
-| Editar filmagem ou motion graphics | video-editing; motion-craft somente para coreografia e trilhas de movimento em composição Higgsedit | producao-video |
-| Gravar legendas de fala permanentemente nos pixels do vídeo | subtitles; arquivo SRT isolado ou legenda de post não é esse gatilho | producao-video + revisão |
-| Produzir ou alterar capa final de YouTube/Instagram | thumbnail-generation; sugestão textual de capa não exige gerar imagem | design-grafico + revisão |
-| Roteiro completo de YouTube | youtube-script dentro dos gêneros e requisitos descritos na sessão; não usar automaticamente para todo Reel | conteúdo responsável + producao-video quando houver produção |
+| Preset Higgsfield nomeado, comando do serviço ou sua galeria Viral/Marketing Studio | higgsfield atual: resolva a entrada antes de pedir insumos, enviar mídias ou escolher fluxo; siga esquema e fallback retornados, incluindo exceções. Consulta não autoriza gerar | higgsfield-producao + produtor do formato |
+| Workflow UGC, faceless ou Ad Multiplier do Higgsfield | higgsfield somente com invocação explícita por barra ou continuação dela. Descubra entradas e limites atuais na resolução; não procure antigas skills avulsas nem invente uma invocação para pedidos em prosa | producao-video + conteúdo; campanhas-midia para anúncio |
+| Vídeo, apresentador, UGC, narração ou variações pedidos em linguagem comum | Especialidades locais e ferramentas genéricas compatíveis disponíveis; o formato criativo não ativa os workflows Higgsfield restritos acima. Confirme mídias, identidade, voz e custo | producao-video + imagens/campanhas conforme o pedido |
+| Abrir, conectar ou trabalhar no Higgsfield Video Editor/Katana | higgsfield: resolver /use-video-editor primeiro, mesmo sem barra, e seguir repasse ao plugin local separado. Sem ferramentas do editor, informar a dependência; não substituir por sandbox na nuvem. Explicação ou crítica não abre editor | producao-video |
+| Editar filmagem, motion graphics ou gravar legendas nos pixels | Editor/CLI realmente disponível, com áudio, fontes e exportação compatíveis; SRT isolado e legenda de post têm escopo próprio | producao-video + revisão |
+| Produzir ou alterar capa final de YouTube/Instagram | design-grafico com ferramenta de imagem/composição disponível; sugestão textual de capa não exige geração | design-grafico + revisão |
+| Roteiro completo de YouTube | Especialidade de conteúdo e estrutura adequada ao gênero; não depender de antiga skill de ferramenta ausente | conteúdo responsável + producao-video quando houver produção |
 | Construir ou editar site no Higgsfield | website-builder quando essa plataforma for escolhida e estiver disponível | paginas-conversao + higgsfield-producao |
-| Site com Sites | sites-building e sites-hosting quando a publicação fizer parte do pedido | paginas-conversao |
+| Site com Sites | sites; distinguir construção de publicação e executar esta quando fizer parte do pedido | paginas-conversao |
 | Arte ou carrossel novo no Canva | Criação de design, template de marca ou cópia de peça aprovada conforme o cliente; aplicar [fluxo Canva](../../design-grafico/references/canva-fluxos.md); imagem avulsa não substitui a montagem | design-grafico + conteúdo; carrosseis para sequência |
 | Apresentação de marca no Canva | canva-branded-presentation se a rota atual permitir; não tratar como criador universal de posts | design-grafico + conteúdo |
 | Editar, redimensionar ou traduzir design Canva | canva-edit-design, canva-resize-for-social-media ou canva-translate-design conforme a ação; respeitar transação, prévia e salvamento da ferramenta | design-grafico + revisão |

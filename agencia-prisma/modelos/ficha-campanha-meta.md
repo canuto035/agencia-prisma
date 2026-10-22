@@ -13,8 +13,17 @@ Período e fonte dos dados históricos usados na decisão:
 Pesquisa setorial usada (fonte/data/região) e hipótese de jornada:
 Restrição ou categoria setorial verificada na conta (fonte/data):
 Margem de contribuição, ticket e recorrência confirmados (ou ausentes):  
-Taxa de lead qualificado → venda, prazo comercial e capacidade de atendimento:  
+Taxas bruto → qualificado → cliente novo, prazo comercial e capacidade de atendimento:
 CAC/CPL suportável e conta que o justifica (ou hipótese a validar):  
+
+## Definições e maturação comercial
+
+Definição de lead bruto, qualificado e cliente novo:
+Coorte de origem, data de corte e cobertura do vínculo com CRM:
+Taxa bruto → qualificado e taxa qualificado → cliente (numeradores/denominadores):
+Atraso observado de qualificação/venda/importação e resultados ainda pendentes:
+CAC disponível para mídia, CPL bruto e CPQL suportáveis; premissas e custos já descontados:
+Achado de público → hipótese → mensagem/prova → destino → controle disponível → critério de revisão:
 
 ## Escopo e verba
 
@@ -47,6 +56,14 @@ Critérios de aceite (confirmados, hipóteses, pendências e bloqueios):
 | Data | Mudança ou recurso e fonte oficial | Disponibilidade nesta conta | Decisão e hipótese | Métrica principal e proteção | Condição de parada/revisão | Resultado observado |
 |---|---|---|---|---|---|---|
 |  |  |  |  |  |  |  |
+
+## Registro de operações
+
+Use apenas os campos pertinentes; pausa pontual não exige ficha completa.
+
+| Data/fuso | Comando e autorização | Conta/IDs | Antes → valor desejado | Resultado: persistido, parcial ou incerto | Estado da plataforma e evidência | Pendência/retomada |
+|---|---|---|---|---|---|---|
+| | | | | | | |
 
 ## Leituras e decisões
 

@@ -9,7 +9,7 @@ description: "Planeje e opere tráfego pago em Meta e Google Ads: pesquisa, púb
 
 Assuma a entrega inteira pedida: diagnóstico, estratégia, configuração, publicação, leitura e otimização quando fizerem parte do comando. Não encerre uma solicitação de execução com um plano se houver acesso e parâmetros para agir. Para operar uma conta, leia o fluxo da plataforma: [Meta Ads](references/operacao-meta-ads.md) ou [Google Ads](references/operacao-google-ads.md). Para outra plataforma, consulte as instruções oficiais atuais antes de configurar; não adapte campos de Meta ou Google por analogia.
 
-Para estratégia nova, auditoria ou decisão de verba, siga [diagnóstico e decisão de mídia](references/estrategia-e-diagnostico.md). Quando uma análise ou produção usar instrução livre, componha um prompt específico do cliente a partir dos [padrões de prompts estratégicos](references/prompts-estrategicos.md); configuração no portal usa campos e parâmetros reais, não um prompt genérico.
+Para estratégia nova, auditoria ou decisão de verba, siga [diagnóstico e decisão de mídia](references/estrategia-e-diagnostico.md). Quando público e qualidade de aquisição forem decisivos, aplique [pesquisa de público e hipóteses](references/pesquisa-publico-e-hipoteses.md), com customer-research para evidência de compra. Para mutações no portal, use [execução e recuperação](references/execucao-e-recuperacao.md), inclusive em pausas e retomadas. Quando uma análise ou produção usar instrução livre, componha um prompt específico do cliente a partir dos [padrões de prompts estratégicos](references/prompts-estrategicos.md); configuração no portal usa campos e parâmetros reais, não um prompt genérico.
 
 Quando mercado, jornada, concorrência ou restrições setoriais puderem mudar a estratégia, a coordenação aciona `pesquisa-mercado` e, para mudanças ao longo do tempo, `inteligencia-competitiva`; passe os achados com fonte, data, região e confiança à decisão de mídia. Desenhe o funil junto de `funis-crm-automacao`, incluindo quem atende, quando e como o lead é qualificado. Não presuma que toda campanha precise de remarketing ou de todas as etapas do funil.
 
@@ -20,6 +20,8 @@ Levante objetivo, oferta, canal e destino. Para plano ou operação de mídia, i
 Organize campanha por hipótese de público e mensagem; conecte cada criativo à página de destino e ao evento de conversão. Proponha distribuição de verba em valores cuja soma confira com o total fornecido.
 
 Para criativos, leia [criação humana e distintiva](../coordenacao-agencia/references/criacao-humana-distintiva.md) e monte uma ficha por conceito: público/situação, ângulo, promessa, prova, formato, posicionamento, destino e hipótese de resultado. Em campanha nova importante, compare conceitos que mudem a observação, demonstração ou prova antes de variar acabamento; uma peça surpreendente sem oferta clara não resolve aquisição. Antes de pedir um lote, selecione uma peça representativa para validar marca, leitura e custo. Ao iterar com dados, diferencie padrão observado de causalidade; preserve os identificadores das peças. Defina evento principal, métricas de diagnóstico, janela de avaliação e critérios de revisão proporcionais ao volume. Não declare vencedor com poucos dados; se não houver base para limiares, explique a incerteza.
+
+Com CSVs locais pertinentes, use a [bancada de dados estratégicos](../coordenacao-agencia/references/bancada-dados-estrategicos.md) para auditar campos e calcular taxas ponderadas antes da decisão. Confira coortes, definição de lead/qualificado/cliente e cobertura comercial; código não corrige populações incompatíveis.
 
 Cruze o resultado da plataforma com eventos testados, CRM ou vendas quando existirem; priorize qualidade de lead e lucro viável, não apenas volume ou CPL baixo. Antes de escalar, confira o gasto marginal, a capacidade de atendimento e o teto restante. Cada alteração relevante deve deixar hipótese, evidência, decisão e próxima leitura na ficha do cliente.
 
@@ -40,6 +42,8 @@ Trabalhe em português brasileiro, salvo pedido diferente. No projeto Agência P
 Quando o usuário pedir arquivos, salve na pasta do cliente com nome descritivo e preserve versões aprovadas. Para tarefas fora deste projeto, use os materiais e o destino disponíveis. Use as especialidades complementares somente quando contribuírem para a entrega; respeite a coordenação e as decisões existentes.
 
 ## Inteligência ampliada
+
+Para diagnóstico de mídia ou integração de dados, consulte [apoios de método e código](references/apoios-github.md). O método oficial de diagnóstico Google complementa os apoios já mapeados; SDKs e MCPs permanecem condicionais à necessidade e ao acesso real.
 
 Quando o gatilho da demanda corresponder, a coordenação consulta automaticamente os apoios de `operacao/mapa-inteligencia-github.json`; carregue somente os complementos necessários e mantenha esta skill, o contexto aprovado e as instruções do usuário como autoridade.
 

@@ -11,6 +11,8 @@ Inspecione origem, período, unidade, definição de conversão, atribuição e 
 
 Calcule CTR como cliques/impressões, CPC como gasto/cliques, CPA como gasto/conversões e ROAS como receita atribuída/gasto. Identifique o tipo de clique e conversão. Denominador zero torna a métrica indefinida. Não chame CPA de CAC sem dados de novos clientes; não chame ROAS de lucro.
 
+Em aquisição com CRM, separe lead bruto, qualificado, oportunidade e cliente novo. Calcule taxas com a mesma coorte de origem e informe data de corte, maturação e cobertura do vínculo; vendas fechadas e leads captados no mesmo mês não são necessariamente a mesma população. Sem vínculo suficiente, mostre contagens e limite da análise. Não classifique leads ainda sem avaliação como reprovados.
+
 Entregue resumo executivo, tabela de métricas, achados, limitações e ações priorizadas. Separe correlação, hipótese e causalidade; não atribua melhoria a uma mudança sem evidência adequada.
 
 Cada recomendação deve apontar dado de origem, hipótese, ação e critério para avaliar o próximo teste. Sem dados, indique a entrada ausente; acione `rastreamento-conversoes` se houver necessidade de planejar, diagnosticar ou corrigir a coleta no escopo. Não crie relatório fictício nem transforme a falta de um CSV em implantação de tags.

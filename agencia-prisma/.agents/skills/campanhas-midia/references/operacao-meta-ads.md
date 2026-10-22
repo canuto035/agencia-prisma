@@ -2,6 +2,8 @@
 
 Leia quando o pedido incluir configurar, publicar, alterar, acompanhar ou otimizar campanhas. O comando do usuário define o escopo: faça as etapas independentes sem pedir que ele nomeie skills ou repita autorização já registrada. Uma sessão no Gerenciador de Anúncios permite trabalho durante a tarefa; manter a aba aberta não cria acompanhamento contínuo. Para rotina posterior, configure automação apenas se pedida e teste a fonte de dados e os alertas.
 
+Para toda alteração, aplique [execução e recuperação](execucao-e-recuperacao.md): estado desejado, conferência após salvar, tratamento de resultado incerto e pausa proporcional ao comando.
+
 ## Entrada e diagnóstico
 
 1. Identifique o cliente e confira `contexto/integracoes.md`, decisões, oferta, público, criativos e [ficha de campanha](../../../../modelos/ficha-campanha-meta.md). Compare o ID da conta de anúncios do cliente com o ID exibido no portal. Nunca use a conta atualmente selecionada como padrão. Confira página, Instagram, domínio, destino, moeda, fuso, permissões e cobrança antes de escrever.
@@ -22,7 +24,7 @@ Leia quando o pedido incluir configurar, publicar, alterar, acompanhar ou otimiz
 
 Configure no portal o que o pedido cobrir, inclusive públicos, exclusões, orçamento, datas, posicionamentos, anúncios, URL, UTMs e evento. Prefira salvar rascunhos enquanto faltarem dependências. Antes de publicar, confira novamente **cliente/conta, página/Instagram, objetivo, público e exclusões, destino, evento testado, peças, moeda, orçamento total projetado e datas**. Registre o que foi observado e o que não pôde ser testado.
 
-Publique ou altere verba quando o comando atual ou uma aprovação vigente do cliente cobrir a conta específica, a ação, o período e um teto de gasto. Uma instrução genérica para a agência trabalhar sozinha não fornece um teto para campanhas futuras. Se faltar apenas esse dado, deixe a configuração revisável e peça-o como último passo; não peça nova autorização para um escopo que já a tenha. Respeite qualquer confirmação exigida pela ferramenta no momento da ação. Pare se a interface mostrar gasto acima do teto, conta errada ou estado incerto; verifique antes de tentar de novo.
+Publique ou altere verba quando o comando atual ou uma aprovação vigente do cliente cobrir a conta específica, a ação, o período e um teto de gasto. Uma instrução genérica para a agência trabalhar sozinha não fornece um teto para campanhas futuras. Se faltar apenas esse dado, deixe a configuração revisável e peça-o como último passo; não peça nova autorização para um escopo que já a tenha. Respeite qualquer confirmação exigida pela ferramenta no momento da ação. Se houver gasto indevido, contenha a exposição dentro do mandato de gestão e confira o resultado. Conta errada impede escrever; estado incerto exige recuperação antes de repetir. Não abandone uma campanha gastando quando houver autorização e acesso para pausá-la.
 
 Depois da ação, releia o portal. Guarde IDs de campanha, conjunto e anúncio, orçamento exibido, data, estado observado (rascunho, em análise, ativo, rejeitado, pausado), captura ou relatório quando possível e pendências em `clientes/<identificador>/`. Nunca chame “publicado” um rascunho, nem “veiculando” algo apenas enviado para análise.
 
