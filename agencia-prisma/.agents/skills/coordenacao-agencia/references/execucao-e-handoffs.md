@@ -37,7 +37,9 @@ Em cada retomada, faça uma passagem curta:
 1. Confira a saída real e sua versão contra o critério da etapa; marque `produzido` se faltar inspeção, `verificado` se passou, `precisa corrigir` se falhou ou `bloqueado` com causa real, sem tratar uma resposta do especialista como prova automática.
 2. Compare a fila restante com **todas as entregas do pedido original e correções posteriores**. Reavalie na matriz só as dimensões afetadas; não reabra decisões aprovadas sem motivo.
 3. Nomeie a próxima transformação ou conferência, a especialidade responsável, entrada concreta e condição de término. Leia a skill se ainda não foi carregada nesta execução e acione-a agora se a dependência está pronta; se não, avance em outra frente independente.
-4. Se a próxima etapa depende de subagente ou job assíncrono real, registre ferramenta, identificador, último estado observado e forma de acompanhar; acompanhe, recolha o resultado e confira-o antes do novo repasse. Enquanto espera, avance em frentes independentes. Submissão ou estado incerto exige consulta antes de repetir. Se subagentes não estiverem disponíveis, aplique as skills sequencialmente na mesma sessão. Nenhum agente permanece trabalhando fora de uma tarefa ativa só por estar listado no projeto.
+4. Se a próxima etapa depende de subagente ou job assíncrono real, registre ferramenta, identificador, último estado observado e forma de acompanhar; acompanhe, recolha o resultado e confira-o antes do novo repasse. Enquanto espera, avance em frentes independentes. Submissão ou estado incerto exige consulta permitida antes de repetir. Se subagentes não estiverem disponíveis, aplique as skills sequencialmente na mesma sessão. Nenhum agente permanece trabalhando fora de uma tarefa ativa só por estar listado no projeto.
+
+A regra de continuidade respeita restrições específicas da ferramenta: se ela mandar parar após submissão e só consultar por pedido do usuário, não use polling, outro endpoint ou automação para contornar. Registre `bloqueado` com motivo `consulta depende de novo pedido conforme contrato da ferramenta`, preservando ID e próxima ação; isso não é pausa pedida pelo usuário nem conclusão. Avance nas frentes independentes e informe o estado submetido. Ao receber pedido de status ou continuação que autorize a consulta, use a rota permitida e retome pela evidência.
 
 Para trabalho que atravessa conversas, registre uma linha compacta por entrega dentro da seção da demanda: `resultado pedido | estado | último artefato e versão | próximo responsável e ação | bloqueio real`. Ao retomar, leia a seção correta e continue do primeiro item executável; não reinicie o briefing, não misture demandas e não sobrescreva o trabalho paralelo. Um status antigo não substitui a verificação da saída atual.
 
@@ -49,7 +51,7 @@ Após cada passagem e antes de encerrar o turno, reconcilie todas as entregas pe
 |---|---|
 | O usuário pediu pausa ou cancelamento | Aplique primeiro somente ao escopo indicado, registre a pausa ou retirada e os efeitos de operações já iniciadas; reavalie a fila pelas situações seguintes |
 | Há item autorizado e executável | Execute agora a próxima transformação ou conferência; adie a resposta final |
-| Há subagente ou job ativo necessário à entrega | Acompanhe, recolha e confira o resultado; avance nas frentes independentes e retorne à decisão |
+| Há subagente ou job ativo necessário à entrega | Acompanhe pela rota permitida, recolha e confira; se o contrato proibir consulta automática, aplique a exceção acima. Avance nas frentes independentes |
 | Todos os itens estão `verificado` ou `retirado pelo usuário` | Atualize o controle e conclua a demanda; retirada exige manifestação explícita |
 | Resta bloqueio real e nenhuma ação independente possível | Encerre o turno com o que está pronto, causa, dado/acesso necessário e ponto de retomada; mantenha a demanda aberta |
 

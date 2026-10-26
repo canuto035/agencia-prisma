@@ -12,7 +12,7 @@ Entrada não encontrada segue o fallback atual, não uma conversão universal em
 
 Resolvida a rota, faça o pré-voo e respeite o orçamento antes de qualquer produção paga. A verificação inicial de conexão continua sendo apenas leitura.
 
-## Pré-voo sem custo
+## Pré-voo sem geração paga
 
 1. `list_workspaces`: confirme o espaço correto. Não selecione espaço de equipe sem escolha do usuário.
 2. `balance`: leia créditos, plano, gerações gratuitas e estado de teste.
@@ -20,7 +20,7 @@ Resolvida a rota, faça o pré-voo e respeite o orçamento antes de qualquer pro
 4. `estimate_image_cost` ou `estimate_video_cost`: estime com modelo, duração, proporção, quantidade e referências reais. Para voz, use `generate_audio` com consulta de custo.
 5. Compare custo com o teto aprovado e o acumulado do cliente.
 
-Consultas de saldo, catálogo e custo não autorizam a geração seguinte. Se a ferramenta exigir escolha entre benefício gratuito e créditos, apresente a escolha ao usuário.
+Consultas de saldo, catálogo e custo não autorizam a geração seguinte. Algumas estimativas importam referências HTTPS para a biblioteca de mídia; não as descreva como estritamente somente leitura nem repita uploads sem necessidade. Use apenas referências autorizadas e confira o contrato atual. Se a ferramenta exigir escolha entre benefício gratuito e créditos, apresente a escolha ao usuário.
 
 ## Mapa de uso
 
@@ -47,8 +47,18 @@ Consultas de saldo, catálogo e custo não autorizam a geração seguinte. Se a 
 - Benefício gratuito exige a escolha prevista pela ferramenta. Teste gratuito com renovação, compra, recarga e auto-refill exigem autorização própria.
 - Guarde margem para uma correção essencial. Não gaste todo o teto na primeira tentativa.
 - Se o saldo da conta for menor que o teto do projeto, o saldo disponível prevalece; não sugira compra como continuação automática.
-- Trabalho falho ou rejeitado conta como gasto. Em falha incerta, consulte jobs antes de repetir.
+- Resultado falho pode ter custo; registre a cobrança realmente observada. Rejeição sem submissão não comprova consumo. Custo incerto exige reconciliação e reserva antes de ampliar gasto; recupere estado pela rota permitida, sem reenviar para descobrir se cobrou.
 
 ## Registro por cliente
 
 Use `contexto/orcamento-higgsfield.md` quando existir. Registre uma linha por job submetido: data, entrega, modelo/preset, quantidade/duração, estimativa, custo observado, benefício usado, saldo do projeto, job/arquivo, resultado e decisão. O teto é acumulado do escopo definido, não o saldo total da conta.
+
+## Ads Studio
+
+Revalidado em 26/10/2026 pelas ferramentas disponíveis na sessão. Diferencie Ads Studio, Marketing Studio e Ad Multiplier; não use nomes ou IDs de um fluxo no outro.
+
+- Uma solicitação de criação permite cotar pela ferramenta própria sem iniciar geração. Mostre distribuição exata e custo total. Consulta só de preço termina na cotação.
+- A geração exige aprovação explícita dessa distribuição e custo conforme o contrato atual, além do teto do cliente. Escolher a distribuição no aplicativo não comprova aprovação do gasto. Use a confirmação nativa quando suportada; não divida o lote para contorná-la. Submeta os mesmos itens e custo esperado aprovados, sem reduzir silenciosamente para uma amostra; proponha uma amostra na cotação se ela for adequada.
+- Após a aceitação, registre os runs e pare a consulta dessa geração. O contrato atual permite ler marca/produto/run quando o usuário pedir, sem consulta automática ou loop. Coordenação mantém a entrega pendente de consulta solicitada; não inventa um monitor para continuar.
+- Quando houver pedido de status, use a consulta própria. Um run marcado done com still_rendering ainda indica imagens em produção. Mantenha o cartão nativo; não peça URL de imagem que a resposta não oferece nem passe IDs do Ads Studio a jobs_wait ou show_generation_by_ids.
+- Estado concluído no serviço e inspeção visual são evidências diferentes. Declare o que foi possível conferir; sem imagem acessível à inspeção, não alegue aprovação visual. Registre estimativa e gasto observado separadamente e preserve cancelamento como cancelamento, não falha a reenviar.

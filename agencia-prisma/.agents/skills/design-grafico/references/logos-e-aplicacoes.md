@@ -21,3 +21,9 @@ Entregue somente os arquivos realmente produzidos: mestre editável/vetorial qua
 ## Aplicação de logo existente
 
 Use o arquivo oficial e a versão aprovada para o fundo e tamanho. Mantenha proporção, cores, área de respiro e legibilidade. Para papelaria, arte social, produto ou anúncio, adapte o layout ao logo, não distorça o logo para preencher espaço. Uma versão monocromática ou invertida só é oficial quando prevista no kit ou aprovada; caso contrário, marque-a como proposta.
+
+## Geração vetorial como candidata de produção
+
+O [changelog oficial do Higgsfield](https://higgsfield.ai/creator-hub/changelog) anunciou em 23/10/2026 o Ideogram Vector 1.0 para SVG a partir de texto ou imagem; consulta em 26/10/2026. É uma opção a verificar quando houver necessidade de vetor, não prova de acesso pelo conector. Confira modelo, parâmetros, exportação e custo na rota disponível antes de escolher; não invente ID nem substitua a ferramenta pedida.
+
+Se o arquivo gerado for SVG, inspecione se contém formas vetoriais reais ou apenas uma imagem incorporada, além de grafia, contornos, cores e editabilidade. Na conversão de marca existente, compare com o original: simplificação pode alterar o símbolo. Só trate como mestre depois da conferência e correções exigidas acima; a origem por IA não dispensa a folha de prova nem autoriza redesenho. Se a saída vetorial não estiver disponível, mantenha construção editável adequada e declare o formato realmente entregue.

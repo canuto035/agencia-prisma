@@ -20,6 +20,7 @@ Escolha pelo resultado, referências, fidelidade necessária, duração, formato
 - Imagem, tratamento e fotografia: trabalhe com `imagens-marketing`; para série, use também `ensaios-fotograficos`.
 - Vídeo gerado, imagem animada, transferência de movimento, troca de objeto e edição: trabalhe com `producao-video` e o roteiro pertinente.
 - Anúncios, variações e Marketing Studio: distinga anúncio novo, edição simples, variações de elementos de um vídeo fornecido e preset nomeado; o workflow Ad Multiplier exige invocação explícita por barra ou continuação dela, além de entrada compatível conforme a resolução atual. Use `campanhas-midia`, `copy-ofertas`, `design-grafico`, métricas e experimentação conforme o objetivo.
+- Ads Studio: use a [rota própria de cotação, aprovação e consulta](references/ferramentas-e-orcamento.md#ads-studio) quando esse for o ambiente escolhido. Seus runs e regras de acompanhamento não são os jobs de geração comum.
 - Voz: use somente para fala e narração, com voz escolhida validamente; não substitua música ou efeitos por voz sintética.
 - Presets e comandos: quando invocados, leia a skill Higgsfield atual e resolva a entrada antes de pedir referências, enviar mídias ou escolher um fluxo genérico, mesmo se o token for desconhecido ou faltar mídia. Siga o esquema e o fallback retornados, com suas exceções; não converta automaticamente uma falha em orientação estética nem invente ID. Menção genérica, citação ou negação de um comando não o ativa.
 - UGC e faceless: os workflows especializados Higgsfield exigem invocação explícita por barra ou continuação dela. Pedidos em prosa podem ser atendidos pelas ferramentas genéricas compatíveis; não fabrique uma invocação para abrir o workflow.
@@ -50,7 +51,7 @@ Para marca recorrente, use kit de marca ou produto somente com dados e mídias f
 
 ## Conferência e registro
 
-Aguarde o estado final e apresente o resultado com a ferramenta de exibição adequada. Abra e confira imagem, vídeo ou áudio; em lote, verifique cada item. Registre modelo, parâmetros relevantes, referências, estimativa, custo, job, arquivo, rejeições e motivo. Resultado rejeitado ainda consome orçamento e deve entrar no total.
+Acompanhe o estado conforme o contrato da ferramenta e apresente o resultado pela exibição adequada. Se a ferramenta exigir parar após submissão e consultar somente quando o usuário pedir, registre a entrega como pendente de consulta solicitada e encerre essa etapa sem polling; não declare mídia pronta nem pausa solicitada pelo usuário. Avance somente nas frentes independentes permitidas. Abra e confira imagem, vídeo ou áudio; em lote, verifique cada item. Registre modelo, parâmetros relevantes, referências, estimativa, custo, job, arquivo, rejeições e motivo. Registre cobrança observada mesmo quando o resultado for inutilizável. Rejeição antes de submeter, prévia de custo ou escolha pendente não comprova gasto; custo desconhecido permanece pendente de reconciliação, com reserva prudente antes de ampliar o lote.
 
 ## Inteligência ampliada
 
