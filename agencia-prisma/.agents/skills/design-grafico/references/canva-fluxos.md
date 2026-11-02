@@ -36,6 +36,22 @@ Essas são rotas, não etapas obrigatórias em toda peça. Se uma skill ou ferra
 
 Para logo novo ou redesenho pedido no Canva, leia também [logos e aplicações](logos-e-aplicacoes.md). Um link de design ou PNG não é automaticamente um arquivo mestre vetorial; confira os formatos de exportação realmente disponíveis antes de prometer o kit de marca final.
 
+## Contratos atuais de geração e recuperação
+
+Confira a descrição da ferramenta em cada sessão. Na revisão de 02/11/2026:
+
+- `create-design` cria uma página/layout editável, mas não aplica kit nem template de marca. Para geração com kit, cores, fontes, logo ou template da marca solicitados, use a exceção de marca indicada no contrato: `prepare-design-generation`, quando disponível, ou a geração legada compatível. Descrever o kit no briefing não comprova aplicação. Para editar um design existente, use o fluxo de edição.
+- Se a saída pedida for explicitamente uma imagem avulsa, use a rota de imagem do Canva, mesmo que contenha texto ou composição de infográfico. Em `generate-image`, preserve o texto do usuário sem acrescentar estilo, iluminação ou câmera não pedidos; só reformule quando houver pedido de refinamento. A análise interna e a revisão continuam específicas do cliente, sem encher um campo que exige texto literal.
+- Quando o widget de geração acompanhar o job, deixe o widget consultar o estado; não duplique o polling. Sem widget, siga a ferramenta de consulta correspondente, o intervalo retornado e, quando exigido, o token de continuação mais recente. Falha sem job criado não tem ID para consultar. Aceite do job não comprova arte pronta nem inspeção visual.
+
+### Créditos e falhas
+
+A atualização oficial de 28/10/2026 das REST APIs passou a retornar `402` para cota de créditos esgotada, com `credit_quota_exceeded` (usuário) ou `app_credit_quota_exceeded` (aplicativo), nas operações indicadas pelo serviço. Não trate esses códigos como limite temporário de requisições nem repita a geração em loop. O conector pode expor códigos diferentes: em `create-design`, `quota_exceeded` interrompe a tentativa e `quota_cooldown` exige aguardar o período informado antes de tentar de novo. Leia código, mensagem e contrato; não diagnostique só pelo HTTP. Um `429` de limite de requisições segue a política de espera do serviço, sem ser confundido automaticamente com falta de créditos.
+
+Registre o bloqueio, preserve o trabalho e continue texto ou revisão independentes. Não compre créditos, troque de conta ou acione outra ferramenta paga para contornar o bloqueio sem autorização correspondente. A ausência de `quota_usage` nas respostas afetadas não significa geração gratuita nem saldo disponível; registre consumo como desconhecido quando não houver evidência. Antes de repetir uma submissão cuja confirmação se perdeu, consulte o job existente quando o contrato permitir.
+
+Fonte: [changelog oficial das APIs do Canva](https://www.canva.dev/docs/apps/rest-apis/changelog/). Essas regras de API não comprovam que todas as capacidades estejam expostas no conector; prevalece o contrato atual da ferramenta usada.
+
 ## Fechar a entrega
 
 Depois de criar ou editar, obtenha link/ID, número de páginas, miniaturas e conteúdo quando acessíveis. Revise cada página em escala de celular e compare com o mapa de slides ou briefing. Faça checagem de marca com o kit **quando os dados necessários forem visíveis**; se a revisão for apenas visual, diga isso. Corrija divergências que a ferramenta suporta e registre as que exigem edição no editor.
