@@ -34,6 +34,8 @@ Use somente os itens aplicáveis à entrega.
 
 ## Arquivo final
 
+- Em séries de publicações, veja as capas juntas e identifique o sinal de marca em comum e o que cada peça acrescenta. Em comparativos e testes controlados, confira se a repetição necessária foi preservada.
+- Quando a prova depender de duas telas, confira a passagem nas exportações, em ordem e no tamanho de uso. Por exemplo, numa demonstração de abertura de gaveta, a porta e a folga precisam continuar visíveis nas posições que permitem entender o movimento.
 - Todos os textos foram revisados.
 - Dimensões, proporção, páginas e ordem estão corretas.
 - Cada variação foi ajustada e inspecionada individualmente.
