@@ -30,7 +30,13 @@ Construa um repasse curto com conteúdo: **para [público/situação], dizer [id
 
 Responda: o que o texto explica? O que o visual mostra que a frase sozinha não entrega? Por que essa relação serve a este cliente? Tipografia pode carregar toda a ideia quando a linguagem exata, a forma ou a escala forem a solução; isso é uma decisão explícita. Não ilustre automaticamente cada palavra, cole imagens sem função nem renderize copy precisa dentro de uma imagem gerada.
 
-Em campanha, identidade ou peça principal, esboce poucas direções que mudem ideia, prova ou mecanismo visual. Compare leitura, reconhecimento, especificidade, viabilidade e possibilidade de adaptação. Escolha antes de polir; fonte/cor novas sobre a mesma ideia são variações cosméticas. Em peça rotineira, execute a direção aprovada. Mudança de texto aprovado passa à origem do conteúdo e fica registrada na versão escolhida.
+### Escolher a ideia antes do acabamento
+
+1. **Encontre a convenção e o que ela deixa de mostrar.** Use referências de categoria já examinadas. Aponte a repetição concreta na amostra e uma pergunta do comprador que aquelas peças deixam sem resposta. Se a amostra for insuficiente, trate a convenção como hipótese. Preserve convenções que facilitem leitura, reconhecimento ou uso.
+2. **Compare caminhos narrativos.** Com copy e design, use o mesmo briefing e os mesmos ativos disponíveis para ensaiar caminhos distintos. Para cada um, basta uma frase de conceito e um esboço simples da capa ou abertura. Um pode partir da dúvida do público e outro de uma demonstração. Escolha pelo que desperta curiosidade pertinente, pelo detalhe próprio do cliente e pela capacidade de cumprir a promessa com o material existente. Registre em uma frase por que a alternativa escolhida funciona melhor naquela entrega. Uma mudança no texto aprovado volta à responsável pelo conteúdo.
+3. **Dê uma função ao formato.** Para cada canal solicitado, indique o que a pessoa descobre e em que momento. No carrossel, duas fotos alinhadas podem tornar uma mudança perceptível ao deslizar. No Story, a pausa antes de uma demonstração pode dar tempo para antecipar o resultado. No anúncio estático, mostre a relação decisiva no mesmo quadro. Escolha o recurso que ajuda a entender a ideia e mantenha a peça compreensível nas condições reais de uso.
+
+Exemplo fictício de marcenaria. Se houver fotos autorizadas da gaveta fechada e aberta no mesmo ângulo, experimente a capa “Vai bater na porta?”. Ao deslizar, a pessoa vê a folga; a página seguinte identifica o encaixe que permite a abertura. Para Story, uma enquete pode anteceder o vídeo real. Se houver apenas uma fotografia lateral que mostre bem a folga, uma anotação sobre a foto pode explicar o mecanismo em um único quadro. Use somente a versão que o acervo sustenta.
 
 ## 4. Compor pela função e produzir
 
@@ -51,6 +57,8 @@ Escolha ponto de entrada, sequência do olhar, escala, densidade, respiro e inte
 Monte na ferramenta adequada, mantendo texto, marca e CTA controláveis quando a entrega pedir editabilidade. Confirme arquivo/ID e versão salvos; abra o mestre e verifique o que realmente pode ser editado. Produza uma amostra representativa antes do lote, sem pedir aprovação adicional se a direção já estiver autorizada. Exporte cada formato conforme o destino e as especificações verificadas; preserve originais e versões aprovadas.
 
 ## 5. Comparar e corrigir no artefato
+
+Na campanha ou peça principal, pergunte **“O que o público descobre por causa desta escolha de design?”**. Aponte a palavra, a relação visual ou a passagem que permite essa descoberta na versão renderizada. Quando o briefing pedir uma experiência expressiva, identifique a tensão, o tom ou o ponto de vista que o recurso torna perceptível. Se a resposta se limitar a “ficou diferente”, devolva o ponto a copy e design para rever o conceito. Uma inspeção da equipe registra a leitura pretendida; uma reação do público exige observação real.
 
 Em redesign, mostre original e proposta na mesma proporção, escala e visualização, identificando versões. Associe cada mudança a um problema observado e confira também possíveis perdas de reconhecimento, conteúdo ou fidelidade. Não melhore a comparação piorando o original. Em reconstrução, a referência autorizada é o alvo de semelhança. Em criação do zero, use conceito/ativos e acervo recente como base; não invente um “antes”. Se só houver captura de baixa resolução, informe o limite da comparação.
 

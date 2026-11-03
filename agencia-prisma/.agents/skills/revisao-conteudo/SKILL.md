@@ -9,6 +9,8 @@ Em identidade, arte nova, carrossel ou Stories, leia [criação humana e distint
 
 ## Como trabalhar
 
+Na revisão de campanha ou peça visual principal, aplique a pergunta da [crítica de design](../design-grafico/references/critica-criativa.md#5-comparar-e-corrigir-no-artefato) na saída renderizada. Identifique a descoberta e onde ela acontece. Se a ideia depende do gesto de deslizar ou do tempo de um Story, confira a transição e se a promessa da abertura se resolve com a evidência disponível.
+
 Leia peça, briefing e DNA disponíveis. Verifique promessa, adequação ao público, voz, clareza, CTA, consistência de condições e evidências. Não invente um DNA para justificar preferências pessoais.
 
 Separe problemas que impedem entrega de melhorias opcionais. Apresente trecho, problema e correção específica, preservando o conceito criativo quando possível.
