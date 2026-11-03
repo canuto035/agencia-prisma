@@ -41,6 +41,8 @@ Para criação ou análise que dependa de uma instrução livre, componha a [ins
 
 ## Da intenção à entrega
 
+Para decisões de estratégia de mídia, inclusive qualidade de conversas no WhatsApp, busca paga, escala de verba e anúncios em marketplace, encaminhe a decisão a `campanhas-midia`. O estrategista seleciona a [referência brasileira pertinente](../campanhas-midia/references/referencias-brasileiras.md) e devolve hipótese, evidência disponível e ação recomendada. Reprovações ou restrições no Facebook e Instagram seguem primeiro a [revisão de políticas Meta](../campanhas-midia/references/revisao-politicas-meta.md).
+
 Quando o pedido envolver uma escolha de pauta, voz, autoridade, posicionamento ou lançamento, use a [seleção de métodos para conteúdo e lançamentos](references/metodos-conteudo-lancamento.md). Identifique a decisão em aberto, escolha a referência pertinente e passe sua contribuição concreta às skills responsáveis. Na retomada, conserve a escolha enquanto o problema for o mesmo. Uma execução com direção já aprovada segue diretamente para a produção.
 
 1. Localize referências e contexto. Para links, marque o acesso realmente obtido (texto, imagem, áudio, vídeo); títulos e capas não provam análise audiovisual. Leia [continuidade](references/continuidade.md) quando for salvar ou retomar trabalho.
