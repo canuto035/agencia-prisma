@@ -9,6 +9,8 @@ Para campanha editorial nova ou série visual, leia [criação humana e distinti
 
 ## Escolha editorial
 
+Recupere a escolha metodológica da coordenação e transforme-a em pauta ou sequência com prova e destino. Se o pedido chegar diretamente a planejamento e a escolha ainda estiver aberta, consulte a [seleção para conteúdo e lançamentos](../coordenacao-agencia/references/metodos-conteudo-lancamento.md). Devolva à coordenação o que a estratégia mudou e a próxima entrega, preservando o escopo original.
+
 Recupere briefing, DNA, decisões, histórico e diagnóstico existentes. Use perguntas, objeções, situações e linguagem reais, com origem, período e ID da evidência. Distinga observação, inferência e hipótese; a comunicação institucional não comprova o que todo o público pensa. Lacunas reversíveis permitem hipóteses marcadas e uma captação útil.
 
 Escolha a prioridade pelo objetivo e pelo obstáculo documentado. Derive pilares das perguntas que a marca pode responder com autoridade. Para cada pauta principal, ligue **evidência → situação do público → tese/ângulo → função → formato/ativo → ação → sinal a observar**. Temas amplos precisam virar decisões concretas que a peça ajude a tomar.
