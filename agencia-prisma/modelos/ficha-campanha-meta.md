@@ -12,6 +12,13 @@ Fonte de leads/CRM e responsável pelo atendimento:
 Período e fonte dos dados históricos usados na decisão:  
 Pesquisa setorial usada (fonte/data/região) e hipótese de jornada:
 Restrição ou categoria setorial verificada na conta (fonte/data):
+
+Revisão Meta desta versão (preencher somente o aplicável):
+- País de exibição, oferta, ativo/ID, requisito de autorização, política específica consultada e data:
+- Texto/imagem/vídeo e variações automáticas conferidas; alegação e evidência; destino final, condições e formulário verificados:
+- Público/lista, origem e dados enviados por evento ou URL; pendência, responsável e correção:
+- Decisão interna (apto para submissão / corrigir / bloqueado) e motivo:
+- Estado real no portal, data/hora, nível afetado e aviso literal sem dados pessoais; correção ou pedido de revisão, protocolo/estado e próximo passo:
 Margem de contribuição, ticket e recorrência confirmados (ou ausentes):  
 Taxas bruto → qualificado → cliente novo, prazo comercial e capacidade de atendimento:
 CAC/CPL suportável e conta que o justifica (ou hipótese a validar):  

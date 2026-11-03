@@ -6,6 +6,8 @@ Para toda alteração, aplique [execução e recuperação](execucao-e-recuperac
 
 ## Entrada e diagnóstico
 
+Use a [triagem e resposta a restrições](revisao-politicas-meta.md) no diagnóstico, antes de enviar alterações materiais e quando o portal sinalizar um incidente. Registre o nível afetado e preserve os ativos independentes.
+
 1. Identifique o cliente e confira `contexto/integracoes.md`, decisões, oferta, público, criativos e [ficha de campanha](../../../../modelos/ficha-campanha-meta.md). Compare o ID da conta de anúncios do cliente com o ID exibido no portal. Nunca use a conta atualmente selecionada como padrão. Confira página, Instagram, domínio, destino, moeda, fuso, permissões e cobrança antes de escrever.
 2. Use o Gerenciador de Anúncios oficial aberto pelo usuário ou o acesso de navegador/conector realmente disponível. Leia campanhas, conjuntos, anúncios, relatórios, públicos e eventos pertinentes. Se o botão de criação/edição estiver indisponível ou faltar permissão, registre exatamente o bloqueio; conclua estratégia, peças e preparação que independam disso.
 3. Extraia objetivo de negócio, resultado esperado, capacidade de atendimento, margem, janela comercial e teto de mídia. Audite resultados históricos com período, fonte, evento, qualidade de lead/venda, frequência, gasto, atribuição e possíveis mudanças de mensuração. Não infira causalidade de um gráfico isolado.

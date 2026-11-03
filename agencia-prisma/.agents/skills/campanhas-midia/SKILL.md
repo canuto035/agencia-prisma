@@ -31,6 +31,8 @@ Antes de apresentar um plano como pronto ou publicar, aplique os [critérios de 
 
 ## Critérios específicos
 
+Em estratégia, criação, alteração ou incidente no Facebook e Instagram Ads, aplique a [revisão de políticas Meta](references/revisao-politicas-meta.md). Faça a triagem de elegibilidade antes de produzir e confira a versão efetiva antes da submissão. A revisão interna qualifica a decisão de enviar; a aprovação e o estado de veiculação são observados no portal.
+
 Separe verba de mídia, honorários e produção. Em um plano com datas, confira a correspondência entre orçamento diário e total; registre a moeda. Não escolha segmentação ou evento só por costume: justifique sua relação com a conversão desejada.
 
 Inclua nomenclatura consistente e parâmetros de campanha quando houver destino rastreável. Liste como verificar o evento antes da ativação, sem afirmar que foi testado sem acesso. Considere atraso de atribuição ao avaliar resultados e evite somar receitas atribuídas por plataformas como se fossem vendas únicas.
