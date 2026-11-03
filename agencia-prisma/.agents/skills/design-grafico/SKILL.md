@@ -41,6 +41,8 @@ Escolha entre **reconstrução fiel de material autorizado**, **criação origin
 
 ## Pesquisa aplicada e conceito conjunto
 
+Na criação ou retomada, consulte a memória visual deste cliente junto ao kit. Se faltar uma imagem que sustente a promessa, prepare o pedido de captação. Em campanha importante com leitor disponível, confira a compreensão antes de explicar a peça. Ao receber dados de uma versão publicada, use-os para orientar a próxima criação. O [ciclo de trabalho do design](references/decisoes-de-design.md#memória-visual-do-cliente) define o registro e os repasses em cada situação.
+
 Antes de compor uma peça nova ou rever sua direção, resolva as [cinco perguntas de design e os critérios por tipo de peça](references/decisoes-de-design.md). Use o contexto do cliente para definir situação de leitura, efeito pretendido, evidência própria, percurso do olhar e teste no formato final. Selecione o princípio que resolver a decisão em aberto. Passe a escolha à especialidade que fornece texto ou imagem e retome a quinta pergunta na exportação. Em uma correção pontual, confira somente as decisões afetadas.
 
 Em criação nova, campanha, peça principal ou revisão de uma arte, leia [crítica criativa e comparação](references/critica-criativa.md). Comece pelo site, redes, materiais, acervo e falas autorizadas **deste cliente** que estiverem disponíveis; observe mensagem, prova, códigos visuais e peças recentes. Reuse achados válidos do dossiê. Amplie a pesquisa somente quando faltar evidência para uma decisão; título, link ou descrição de foto não comprovam inspeção visual. Registre a fonte e a consequência concreta para a peça, distinguindo observação, interpretação e hipótese. Pesquisa que não muda conceito, ativo ou revisão não precisa virar relatório.

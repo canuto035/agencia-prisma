@@ -42,6 +42,8 @@ Quando o gatilho da demanda corresponder, a coordenação consulta automaticamen
 
 ## Formato padrão de entrega
 
+Quando o achado disser respeito a uma peça publicada, devolva à coordenação a versão, o período, o resultado ligado ao objetivo e a próxima escolha visual a testar conforme o [retorno ao design](../design-grafico/references/decisoes-de-design.md#retorno-após-a-publicação). Isso vale para peças orgânicas e pagas quando houver dados pertinentes.
+
 Inclua, conforme o escopo do pedido: objetivo e plano de mensuração; fontes, período e definições; qualidade e lacunas dos dados; linha de base; métricas com fórmula e denominador; comparação adequada; achados sustentados; hipóteses; ações priorizadas; teste, métrica e critério para cada ação; responsável e data de leitura; limitações. Vincule conteúdos, campanhas e conversões aos identificadores existentes quando disponíveis.
 
 Considere a análise pronta quando cada conclusão pode ser rastreada a um dado e cada recomendação declara o que será testado. Não confunda alcance com pessoas únicas entre plataformas, CPA com CAC ou ROAS com lucro.

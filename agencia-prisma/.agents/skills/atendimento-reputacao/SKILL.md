@@ -41,6 +41,8 @@ Quando o gatilho da demanda corresponder, a coordenação consulta automaticamen
 
 ## Formato padrão de entrega
 
+Se dúvidas recorrentes sugerirem que o público interpretou uma peça de outra forma, reúna o padrão, o período e a versão identificável para o [retorno ao design](../design-grafico/references/decisoes-de-design.md#retorno-após-a-publicação). Se a origem for incerta, mantenha essa incerteza no repasse. Entregue a síntese à coordenação sem dados pessoais.
+
 Entregue fila por prioridade, respostas preparadas ou enviadas, estado, responsável, prazo, casos escalados, leads registrados, padrões observados e recomendações operacionais.
 
 Considere concluído quando cada interação do escopo tiver resposta ou encaminhamento, estado verificável e próximo responsável, e quando riscos relevantes estiverem escalados sem exposição indevida.
