@@ -24,7 +24,7 @@ Antes de salvar, confira o alcance: padrão da conta, campanha ou orçamento com
 
 A alocação percentual de canais Low é calculada sobre o orçamento diário médio, não sobre o gasto efetivo. Funciona por melhor esforço e pode ser excedida: **não substitui o teto financeiro aprovado**. Prioridade pode não mudar a distribuição quando o orçamento não limita a campanha. Com orçamento total de campanha, a compatibilidade indicada é apenas Demand Gen.
 
-Na data da revisão, o suporte estava no Google Ads e Search Ads 360; API e Ads Editor permaneciam anunciados para depois. Reconfirme disponibilidade e limitações na [ajuda oficial](https://support.google.com/google-ads/answer/18385152); consulte também o [anúncio de 14/10/2026](https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/).
+Atualização conferida em 09/11/2026: as [notas oficiais da API v26.1, de 28/10/2026](https://developers.google.com/google-ads/api/docs/release-notes#v26_1) já documentam prioridade por rede e alocação percentual. A [ajuda operacional](https://support.google.com/google-ads/answer/18385152) ainda anuncia o suporte à API como futuro; registre essa divergência e use a documentação da versão efetivamente acessível para operações via API. Confira elegibilidade do orçamento em `budget_network_eligibility`, configurações próprias e padrões herdados antes de alterar. Em `cap_percent_millis`, 1.000 representa 1%, não 1.000%. Não confunda ausência de configuração própria com alocação zero; confira o padrão herdado da conta. Isso não comprova acesso do conector nem disponibilidade no Ads Editor, e a alocação por canal continua sem garantir teto financeiro rígido.
 
 ## Montar e conferir
 

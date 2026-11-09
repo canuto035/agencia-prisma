@@ -48,9 +48,17 @@ Confira a descrição da ferramenta em cada sessão. Na revisão de 02/11/2026:
 
 A atualização oficial de 28/10/2026 das REST APIs passou a retornar `402` para cota de créditos esgotada, com `credit_quota_exceeded` (usuário) ou `app_credit_quota_exceeded` (aplicativo), nas operações indicadas pelo serviço. Não trate esses códigos como limite temporário de requisições nem repita a geração em loop. O conector pode expor códigos diferentes: em `create-design`, `quota_exceeded` interrompe a tentativa e `quota_cooldown` exige aguardar o período informado antes de tentar de novo. Leia código, mensagem e contrato; não diagnostique só pelo HTTP. Um `429` de limite de requisições segue a política de espera do serviço, sem ser confundido automaticamente com falta de créditos.
 
+Na atualização de 05/11/2026, `429` com `model_capacity_reached` indica capacidade do modelo. Respeite a espera informada; antes de repetir, confira se houve job aceito. Se a capacidade continuar indisponível, preserve a pendência e avance no trabalho independente. Outro modelo só entra se preservar referências, qualidade e orçamento autorizado.
+
 Registre o bloqueio, preserve o trabalho e continue texto ou revisão independentes. Não compre créditos, troque de conta ou acione outra ferramenta paga para contornar o bloqueio sem autorização correspondente. A ausência de `quota_usage` nas respostas afetadas não significa geração gratuita nem saldo disponível; registre consumo como desconhecido quando não houver evidência. Antes de repetir uma submissão cuja confirmação se perdeu, consulte o job existente quando o contrato permitir.
 
 Fonte: [changelog oficial das APIs do Canva](https://www.canva.dev/docs/apps/rest-apis/changelog/). Essas regras de API não comprovam que todas as capacidades estejam expostas no conector; prevalece o contrato atual da ferramenta usada.
+
+## Resolução da saída
+
+Desde 04/11/2026, transformações de imagem bem-sucedidas podem retornar `url` opcional para a resolução completa. Quando exposta, use essa saída para conferir e entregar o resultado; uma miniatura não comprova resolução final. Sem esse campo, siga o recurso disponível, sem inventar endereço nem gerar outra imagem só para obter o arquivo.
+
+Na exportação MP4, `quality` define a quantidade-alvo de pixels e preserva a proporção do design desde 18/09/2026. Selecionar `horizontal_4k` não converte um design vertical em paisagem. Adapte o design antes de exportar e confira as dimensões do arquivo.
 
 ## Fechar a entrega
 
